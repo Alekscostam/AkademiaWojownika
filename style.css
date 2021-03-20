@@ -98,8 +98,8 @@ body {
 .jumbotron {
     /* background-image: linear-gradient(to right rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.2)), url(img/background.png); */
     
-    background-image: linear-gradient(to right, #2c3135e6, rgba(24, 23, 23, 0.6)), url(img/Video/Hnet-image.gif);
-    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)), url(img/tlo.jpg); */
+    /* background-image: linear-gradient(to right, #2c3135e3, rgba(24, 23, 23, 0.8)), url(img/site/2.jpg); */
+    background-image: linear-gradient(to right, rgba(24, 23, 23, 0.6) , rgba(24, 23, 23, 0.9)), url(img/site/2.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
