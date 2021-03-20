@@ -46,8 +46,9 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     
         mail($to,$subject,$body,$headers);
         $message_sent = '1';
+        echo "<script type='text/javascript'>alert('$message');</script>";
         print_r($_POST);
-        header("Location: index.php?mailsend");
+        header("Location: index.php");
     }
     else{
         $message_sent =  '2';
@@ -106,7 +107,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                 <li class="nav-item">
                     <a class="nav-link"  href="#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a></li>
                 <li class="nav-item">
-                    <a class="nav-link"  href="#Dlaczego-akademia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia</span></a></li>
+                    <a class="nav-link"  href="#Dlaczego-akademia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a></li>
                 <!-- <li class="nav-item">
                     <a class="nav-link"  href="#galeria"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a></li> -->
                 <li class="nav-item">
@@ -614,7 +615,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         });
 
         function checkform(){
-            var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+            const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             var name = document.getElementById('name').value;
             
             var surname = document.getElementById('surname').value;
@@ -625,7 +626,8 @@ if(isset($_POST['email']) && $_POST['email']!=''){
             
             var subject = document.getElementById('subject').value;
 
-            if(/^[A-z ]+$/.test(name) && /^[A-z ]+$/.test(surname) && /^[A-z ]+$/.test(email) && /^[A-z ]+$/.test(message) && /^[A-z ]+$/.test(subject))
+
+            if(/^[A-z ]+$/.test(name) && /^[A-z ]+$/.test(surname) && re.test(String(email).toLowerCase())  && /^[A-z ]+$/.test(message) && /^[A-z ]+$/.test(subject))
             {
 
                 return true;
