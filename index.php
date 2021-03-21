@@ -1,12 +1,6 @@
 
 <?php
 
-// echo "<pre>";
-
-//     print_r($_POST);
-// echo"</pre>";
-
-
 $message_sent = '0';
 
 if(isset($_POST['email']) && $_POST['email']!=''){
@@ -14,7 +8,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
 
     
-        
+     
 
         $name = $_POST['name'];
         $surname = $_POST['surname'];
@@ -29,33 +23,48 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 
 
         $to="kowalski121.al@gmail.com";
-        $body = "";
 
-     
-    
-        $body .= "From: ".$name. "\r\n";
-    
-        $body .= "Email: ".$email. "\r\n";
-    
-        $body .= "Message: ".$message. "\r\n";
+        
 
-        $headers = 'From: webmaster@example.com' . "\r\n" .
-        'Reply-To: webmaster@example.com' . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+    
+
+        $headers = "Wiadomość od: ".$name ." ". $surname ." Email: ".$email;
+        
+
+
+
+        echo "<script type='text/javascript'>alert('do');</script>";
+        echo "<script type='text/javascript'>alert('$to');</script>";
+
+        echo "<script type='text/javascript'>alert('body');</script>";
+        echo "<script type='text/javascript'>alert('$message');</script>";
+
+        echo "<script type='text/javascript'>alert('heasders');</script>";
+        echo "<script type='text/javascript'>alert('$headers');</script>";
+
+        echo "<script type='text/javascript'>alert('subj');</script>";
+        echo "<script type='text/javascript'>alert('$subject');</script>";
+  
+        echo "<script type='text/javascript'>alert('email');</script>";
+        echo "<script type='text/javascript'>alert('$email');</script>";
+    
+        
    
-    
-        mail($to,$subject,$body,$headers);
+        if (mail($to,$subject,$message,$headers)) {
+            echo "Email successfully sent to $to...";
+        } else {
+            echo "Email sending failed...";
+        }
         $message_sent = '1';
-        echo "<script type='text/javascript'>alert('$message_sent');</script>";
-        print_r($_POST);
-        header("Location: index.php?mailsend");
+        // echo "<script type='text/javascript'>alert('$message_sent');</script>";
+      
+        // header("Location: index.php?mailsend");
     }
     else{
         $message_sent =  '2';
     }
     
 }
-
 
 
 
@@ -100,7 +109,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto ">
                 <li class="nav-item active">
-                    <a  class="nav-link" href="#akademia"  ><span  data-toggle="collapse" data-target="#navbarNav" class="bookmarks">AKADEMIA</span></a></li>
+                    <a  class="nav-link" href="#Akademia"  ><span  data-toggle="collapse" data-target="#navbarNav" class="bookmarks">AKADEMIA</span></a></li>
     
                 <!-- <li class="nav-item"> -->
                     <!-- <a class="nav-link"  href="#grafik"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Grafik</span></a></li> -->
@@ -162,7 +171,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
        
         
     </div>
-    <section id="akademia" ></section> 
+    <section id="Akademia" ></section> 
   
     <div id="club-back">
         <div class="container ">
