@@ -18,7 +18,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
             echo "Variable 'a' is empty.<br>";
         }
 
-        $to="kowalski121.al@gmail.com";
+        $to="kowalski.al@wp.pl";
    
 
         $headers = "Wiadomość od: ".$name ." ". $surname ." Email: ".$email;
