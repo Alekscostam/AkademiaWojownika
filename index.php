@@ -24,41 +24,17 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 
         $to="kowalski121.al@gmail.com";
 
-        
-
     
 
         $headers = "Wiadomość od: ".$name ." ". $surname ." Email: ".$email;
-        
-
-
-
-        echo "<script type='text/javascript'>alert('do');</script>";
-        echo "<script type='text/javascript'>alert('$to');</script>";
-
-        echo "<script type='text/javascript'>alert('body');</script>";
-        echo "<script type='text/javascript'>alert('$message');</script>";
-
-        echo "<script type='text/javascript'>alert('heasders');</script>";
-        echo "<script type='text/javascript'>alert('$headers');</script>";
-
-        echo "<script type='text/javascript'>alert('subj');</script>";
-        echo "<script type='text/javascript'>alert('$subject');</script>";
-  
-        echo "<script type='text/javascript'>alert('email');</script>";
-        echo "<script type='text/javascript'>alert('$email');</script>";
     
-        
    
         if (mail($to,$subject,$message,$headers)) {
-            echo "Email successfully sent to $to...";
         } else {
-            echo "Email sending failed...";
+            echo "<script type='text/javascript'>alert('cos poszlo nie tak... przepraszamy za utrudnienia');</script>";
         }
         $message_sent = '1';
-        // echo "<script type='text/javascript'>alert('$message_sent');</script>";
       
-        // header("Location: index.php?mailsend");
     }
     else{
         $message_sent =  '2';
