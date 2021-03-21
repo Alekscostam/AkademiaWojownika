@@ -7,8 +7,6 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 
     if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
 
-    
-     
 
         $name = $_POST['name'];
         $surname = $_POST['surname'];
@@ -20,11 +18,8 @@ if(isset($_POST['email']) && $_POST['email']!=''){
             echo "Variable 'a' is empty.<br>";
         }
 
-
-
         $to="kowalski121.al@gmail.com";
-
-    
+   
 
         $headers = "Wiadomość od: ".$name ." ". $surname ." Email: ".$email;
     
@@ -42,13 +37,10 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     
 }
 
-
-
 ?>
 
 
 <!DOCTYPE html>
-
 
 <html lang="en">
 
@@ -70,7 +62,6 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
     <link src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
