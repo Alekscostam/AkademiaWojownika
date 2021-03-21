@@ -28,7 +28,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 
 
 
-        $to="kowalski.al@wp.pl";
+        $to="kowalski121.al@gmail.com";
         $body = "";
 
      
@@ -46,9 +46,9 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     
         mail($to,$subject,$body,$headers);
         $message_sent = '1';
-        echo "<script type='text/javascript'>alert('$message');</script>";
+        echo "<script type='text/javascript'>alert('$message_sent');</script>";
         print_r($_POST);
-        header("Location: index.php");
+        header("Location: index.php?mailsend");
     }
     else{
         $message_sent =  '2';
