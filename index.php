@@ -26,7 +26,6 @@ if(isset($_POST['email']) && $_POST['email']!=''){
    
         if (mail($to,$subject,$message,$headers)) {
         } else {
-            echo "<script type='text/javascript'>alert('cos poszlo nie tak... przepraszamy za utrudnienia');</script>";
         }
         $message_sent = '1';
       
@@ -87,7 +86,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                 <!-- <li class="nav-item">
                     <a class="nav-link"  href="#galeria"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a></li> -->
                 <li class="nav-item">
-                    <a class="nav-link"  href="#"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a></li>
+                    <a class="nav-link"  href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a></li>
                 <li class="nav-item">
                     <a class="nav-link"  href="#Kontakt"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a></li>
             </ul>
@@ -128,7 +127,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                           </div>
                         
                         <br>
-                        <a href="#nabory" class="btn btn-primary btn-sm" >ZAPISY <br> </a>
+                        <a href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0" class="btn btn-primary btn-sm" >ZAPISY <br> </a>
                     </div>
                
                 </div>
@@ -138,7 +137,6 @@ if(isset($_POST['email']) && $_POST['email']!=''){
        
         
     </div>
-    <section id="Akademia" ></section> 
   
     <div id="club-back">
         <div class="container ">
@@ -153,7 +151,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                 </div>
                 <div class="col-lg-8">
                     
-                    <h1 class="text-dark pb-3 h2-responsive header-panel" style="font-weight: 900; font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1><p>
+                    <h1 class="text-dark pb-3 h2-responsive header-panel" id="Akademia" style="font-weight: 900; font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1><p>
                     
                     <h4 class="content-text  pb-3 h4-responsive my-py-2" > Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.
                         Treningi organizowane są na Fordonie, Osowej Górze i Wyżynach. <p></p>
@@ -237,7 +235,6 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                 </div>
                 <div class="col-lg-4 text-center col-md-6 mb-4"><br><br>
                     <img src="./img/site/6-1.jpg"  class="img-fluid my-2 border border-secondary img-start">         
-                    
                     <img src="./img/site/5.jpg" class="img-fluid my-2 border border-secondary img-start">   
                 </div>
             </div>
@@ -647,8 +644,8 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                     <h6 class="text-uppercase font-weight-bold  foot-header " style="font-size: 100%"> Social media</h6>
                     <div class="my-3"></div>
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> --> 
-                    <a class="btn btn-social" href="https://www.facebook.com/GoldenDragon.bdg"> <i class="fab fa-facebook-f "></i></a>
-                    <a class="btn btn-social" href="https://www.instagram.com/golden_dragon_gym/"><i class="fab fa-instagram "></i></a>
+                    <a class="btn btn-social" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
+                    <a class="btn btn-social" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
                     <!-- <a class="btn btn-social" href="#"><i class="fab fa-youtube  "></i></a> -->
                    
                 </div>
@@ -660,13 +657,10 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                     
                     <h7  style="font-size: 85%">
                     <ul class="list-unstyled my-4">
-                    
-                        
-                        <li class="my-2"><i class="fas fa-home "></i>&nbsp;Stowarzyszenie Szkoła Walki Golden Dragon</li>
+                        <li class="my-2"><i class="fas fa-home "></i>&nbsp;Akademia Wojowników Złoty Smok</li>
                         <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp;sp.47 ul. Czartoryskiego 18,</li>
                         <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;golden.dragon@spoko.pl</li>
                         <li class="my-2"><i class="fas fa-phone-square"></i>&nbsp;+48 796 751 818</li>
-                        
                     </ul>
                     </h7>
                 </div>
@@ -677,8 +671,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                     <img src="./img/Loga/alm.png" width="80px" class="img-fluid">
                     <img src="./img/Loga/pzb.png" width="100px" class="img-fluid">
                     <img src="./img/Loga/pzkb.png" width="80px" class="img-fluid">
-                    <img src="./img/Loga/pzmsw.png" width="80px" class="img-fluid">
-                   
+                    <img src="./img/Loga/pzmsw.png" width="80px" class="img-fluid">                  
                     <img src="./img/Loga/pzz.png" width="80px" class="img-fluid">
                    
                 </div>
