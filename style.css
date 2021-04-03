@@ -658,7 +658,7 @@ hr.light-100 {
 
     box-shadow: 0 5px 15px -5px #000;
     /* width: 17%; */
-    max-width: 510px;
+    max-width: 710px;
     min-width: 170px;
   
    
@@ -683,8 +683,6 @@ hr.light-100 {
     margin-right: 0;
 }
 
-.img-start {
-}
 
 
 /* END CARD */
@@ -713,16 +711,44 @@ hr.light-100 {
  }
 @media only screen and (max-width: 576px) {
    * { font-size: 90% }
+   
 
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+   
+    
+}
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+   
+}
 
-@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1200px) { 
+    .test-me{
+    display:none;  
+    }
+ #elementis{
+    width: 100%;
+    }
+ 
+}
+
+@media only screen and (max-width: 870px) { 
+
+
+}
 
 @media only screen and (max-width: 991px) {
+    .img-start{
+        display:none;
+       }
+
+    
+
+   
+
     .social a {
         font-size: 4em;
         padding: 2rem;

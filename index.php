@@ -142,14 +142,14 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         <div class="container ">
             <div class="row justify-content-center ">
                 
-                <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <div class="col-lg-4 col-md-6 mb-4 text-center test-me">
                     <br><br><br>
-                    <img src="./img/site/mlodsza.jpg" class="img-fluid my-4 border border-secondary img-start "><br><br>
+                    <img src="./img/site/mlodsza.jpg"  id="img-hide" class="img-fluid my-4 border border-secondary img-start "><br><br>
                     <img src="./img/site/mieszana.jpg"  class="img-fluid my-4 border border-secondary img-start"><br><br>
                     <img src="./img/site/starsza.jpg"  class="img-fluid my-4 border border-secondary img-start">
                     
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8" id="elementis">
                     
                     <h1 class="text-dark pb-3 h2-responsive header-panel" id="Akademia" style="font-weight: 900; font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1><p>
                     
@@ -190,18 +190,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                 </div>    
             </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <!-- class=" rounded-circle mb-1"  -->
-                    <img src="img/Profil/NS.JPG" class=" rounded-circle mb-1">
-                    <h3 class="person-name" style="font-size: 200%;" >Norbet Świerblewski</h3><br>
-                    <h5 style="font-size: 150%;">ZAPASY</h5><br>
-                    <h7 style="font-size: 100%;">
-                        <p class="text-dark" style="font-size: 100%;">Doświadczony trener z wieloletnim stażem, były zawodnik, zdobywca wielu medali.</p>
-                    </h7>
-                </div>
-
-            </div>             
+                     
         </div>
     </section> 
         <section id="Zajęcia"></section>
@@ -215,13 +204,13 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         <div class="container " >
             <div class="row justify-content-center ">
                 
-                <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <div class="col-lg-4 col-md-6 mb-4 text-center test-me">
                 
                     <img src="./img/site/3-1-400x284.jpg" class="img-fluid my-2 border border-secondary img-start">
                     <img src="./img/site/4.jpg" class="img-fluid my-2 border border-secondary img-start">
                     
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8" >
                     <h3 class="text-dark my-py-2 border-under-text text-center w-100 header-panel">ZAJĘCIA OGÓLNOROZWOJOWE</h3><br>
                     
                     <h6 class=" text-dark pb-3 h4-responsive my-py-2 content-text-without-border" > Jedyna taka sekcja w Bydgoszczy! Ogólnorozwojowe zajecia sportowe z elementami boksu i kick-boxingu przeznaczone dla
@@ -259,9 +248,9 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                         <b> Ju-jitsu</b> - dosłowne tłumaczenie to "sztuka łagodności", uczy jak zdobyć przewagę sprytem, a niekoniecznie siłą. Dyscyplina pokazująca jak wykorzystać swoje słabości, pomimo przewagi przeciwnika. Trenujący przyswaja wiedzę jak wykorzystywać szanse i działać logicznie w przemyślany sposób. Sport wymagający skupienia i konsekwencji.<br><br>
                     </h6> 
                 </div>
-                <div class="col-lg-4 text-center col-md-6 mb-4"><br><br>
-                    <img src="./img/site/6-1.jpg"  class="img-fluid my-2 border border-secondary img-start">         
-                    <img src="./img/site/5.jpg" class="img-fluid my-2 border border-secondary img-start">   
+                <div class="col-lg-4 text-center col-md-6 mb-4 vertiacl-img test-me"><br><br>
+                    <img src="./img/site/6-1.jpg"  class="img-fluid my-2 border border-secondary img-start vertiacl-img">         
+                    <img src="./img/site/5.jpg" class="img-fluid my-2 border border-secondary img-start vertiacl-img">   
                 </div>
             </div>
         </div>
@@ -277,7 +266,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
             <h1 class="header-panel my-2 w-100 text-light text-center" style="font-weight: 900; font-size: auto;" >DLACZEGO AKADEMIA?</h1>
         </div>
         <br>
-        <div class="  card-deck w-75 text-center justify-content-center" style="margin: auto;">
+        <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
         <div class="card col-lg-3" style="min-width:220px;">
           <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
           <div class="card-body " >
@@ -685,6 +674,9 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 
     <script>
        
+        
+
+
             var date = new Date(); 
             year = date .getFullYear();
             document.getElementById("currentYear").textContent=year;
