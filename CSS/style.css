@@ -123,25 +123,45 @@ body {
 
 
 /* END JUMBOTRON */
-/* SEKCJE */
+/* SEKCJE  AKADEMIA*/
 #Akademia{
     position: relative;
     top: -50px;
     right: 0;
     height: 0px;
 }
+.moreText{
+    display: none;
+}
+
+.read-more-btn{
+    border: 1px solid #cab80e;
+    background: none;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+
+/* END SEKCJA AKADEMIA */
+
+/* SEKCJE  DLACZEGO-AKADEMIA*/
+
 #Dlaczego-akademia{
     position: relative;
     top: -30px;
     right: 0;
     height: 0px;
 }
+/* END SEKCJA  DLACZEGO-AKADEMIA */
 /* LOGO */
 
 .text-logo {
     /* text-shadow: 0px 1px 1px #000; */
     color: #cab80e;
-    
+    cursor: pointer;
     margin: auto;
     vertical-align: middle;
     font-size: 1.3rem;
@@ -571,7 +591,7 @@ body {
     font-size: 1.5rem;
     background: #343a40;
     font-weight: 900;
-    padding: 4px;
+    padding: 9px;
     margin: 3px;
     border-radius: 50%;
     /* box-shadow: 0 5px 15px -5px #000; */
