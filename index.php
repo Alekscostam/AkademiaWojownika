@@ -37,7 +37,9 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 }
 
 ?>
-
+<style>
+<?php include 'CSS/style.css'; ?>
+</style>
 
 <!DOCTYPE html>
 
@@ -52,7 +54,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="style.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
@@ -104,7 +106,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
    
     <div class="jumbotron text-center  container-fluid ">
     
-        <div class="intro " id="">
+        <div class="intro " >
             <div class="container">
                 <div class="row d-flex flex-row justify-content-center">
                 
@@ -114,7 +116,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                               <div class="carousel-item active border-left-content">
                                 <h1 class="cytat w-100">AKADEMIA WOJOWNIKÓW RUSZYŁA! </h1>
                                 <p><h3>
-                                Zapraszamy wszystkich zainteresowanych na zajęcia juz teraz.
+                                Zapraszamy wszystkich zainteresowanych na zajęcia już teraz.
                                 </h3>
                               </div>
                               <!-- <div class="carousel-item">
@@ -133,25 +135,23 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                 </div>
             </div>
            
-        </div>
-       
-        
+        </div>      
     </div>
-  
+    <section id="Akademia"></section>
     <div id="club-back">
         <div class="container ">
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center " >
                 
-                <div class="col-lg-4 col-md-6 mb-4 text-center test-me">
-                    <br><br><br>
-                    <img src="./img/site/mlodsza.jpg"  id="img-hide" class="img-fluid my-4 border border-secondary img-start "><br><br>
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this" style="margin-top:55px;">
+                   
+                    <img src="./img/site/mlodsza.jpg"  class="img-fluid my-4 border border-secondary img-start " ><br><br>
                     <img src="./img/site/mieszana.jpg"  class="img-fluid my-4 border border-secondary img-start"><br><br>
                     <img src="./img/site/starsza.jpg"  class="img-fluid my-4 border border-secondary img-start">
                     
                 </div>
-                <div class="col-lg-8" id="elementis">
+                <div class="col-lg-8" >
                     
-                    <h1 class="text-dark pb-3 h2-responsive header-panel" id="Akademia" style="font-weight: 900; font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1><p>
+                    <h1 class="text-dark pb-3 h2-responsive header-panel"  style="font-weight: 900; font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1><p>
                     
                     <h4 class="content-text  pb-3 h4-responsive my-py-2" > Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.
                         Treningi organizowane są na Fordonie, Osowej Górze i Wyżynach. <p></p>
@@ -204,7 +204,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         <div class="container " >
             <div class="row justify-content-center ">
                 
-                <div class="col-lg-4 col-md-6 mb-4 text-center test-me">
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this">
                 
                     <img src="./img/site/3-1-400x284.jpg" class="img-fluid my-2 border border-secondary img-start">
                     <img src="./img/site/4.jpg" class="img-fluid my-2 border border-secondary img-start">
@@ -235,10 +235,8 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     <section id="Zajecia" >
         <div class="container " >
             <div class="row justify-content-center ">
-                
                 <div class="col-lg-8  ">
-                
-                   
+
                     <h4 class="text-dark my-py-2 border-under-text text-center w-100 header-panel">ZAJĘCIA Z ELEMENTAMI POSZCZEGÓLNYCH DYSCYPLIN</h4><br>
                     
                     <h6 class=" text-dark pb-3 h4-responsive my-py-2 content-text-without-border" > 
@@ -248,7 +246,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                         <b> Ju-jitsu</b> - dosłowne tłumaczenie to "sztuka łagodności", uczy jak zdobyć przewagę sprytem, a niekoniecznie siłą. Dyscyplina pokazująca jak wykorzystać swoje słabości, pomimo przewagi przeciwnika. Trenujący przyswaja wiedzę jak wykorzystywać szanse i działać logicznie w przemyślany sposób. Sport wymagający skupienia i konsekwencji.<br><br>
                     </h6> 
                 </div>
-                <div class="col-lg-4 text-center col-md-6 mb-4 vertiacl-img test-me"><br><br>
+                <div class="col-lg-4 text-center col-md-6 mb-4 vertiacl-img hide-this"><br><br>
                     <img src="./img/site/6-1.jpg"  class="img-fluid my-2 border border-secondary img-start vertiacl-img">         
                     <img src="./img/site/5.jpg" class="img-fluid my-2 border border-secondary img-start vertiacl-img">   
                 </div>
@@ -256,7 +254,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         </div>
     </section>
 
-    </section> <section id="Dlaczego-akademia"></section>
+     <section id="Dlaczego-akademia"></section>
 
 
 
