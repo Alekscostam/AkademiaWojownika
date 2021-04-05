@@ -39,6 +39,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 ?>
 <style>
 <?php include 'CSS/style.css'; ?>
+<?php include 'js/main.js'; ?>
 </style>
 
 <!DOCTYPE html>
@@ -62,7 +63,6 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
     <script src="../js/main.js"></script>
-    <script src="js/main.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -72,31 +72,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 
 <body>
 
-    <nav class="navbar navbar-light  navbar-expand-lg scrolling-navbar navbar-fixed-top ">
-        <a class="text-logo navbar-brand" value = "Refresh" onclick="history.go(0)"><span style="font-size:90%; color: #cab80e;;">AKADEMIA WOJOWNIKÓW</span></a>
-        <button class="navbar-toggler mx-auto" style="" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1.5rem;"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto ">
-                <li class="nav-item active">
-                    <a  class="nav-link" href="#Akademia"  ><span  data-toggle="collapse" data-target="#navbarNav" class="bookmarks">AKADEMIA</span></a></li>
-    
-                <!-- <li class="nav-item"> -->
-                    <!-- <a class="nav-link"  href="#grafik"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Grafik</span></a></li> -->
-                <li class="nav-item">
-                    <a class="nav-link"  href="#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a></li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="#Dlaczego-akademia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a></li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link"  href="#galeria"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a></li> -->
-                <li class="nav-item">
-                    <a class="nav-link"  href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a></li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="#Kontakt"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a></li>
-            </ul>
-        </div>
-    </nav>
+<?php include('./header.php');?>
                 <script>
                       $(function () {
             $(document).scroll(function () {
@@ -268,44 +244,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         </div>
     </section>
 
-     <section id="Dlaczego-akademia"></section>
-
-
-
-    <div class="back-card">
-        
-        <div  class="container-fluid justify-content-center" style="padding-top: 40px;">
-            <h1 class="header-panel my-2 w-100 text-light text-center" style="font-weight: 900; font-size: auto;" >DLACZEGO AKADEMIA?</h1>
-        </div>
-        <br>
-        <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
-        <div class="card col-lg-3" style="min-width:220px;">
-          <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
-          <div class="card-body " >
-            <h4 class="card-title " style="font-size: 150%;"> OBOZY</h4>
-            <h7 style="font-size: 100%; "><p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Organizujemy także dłuższe wyjazdy, np. 3 dniowy wyjazd Zielona Szkoła lub Moje Pierwsze Kolonie - 7dniowy wyjazd nad morze. To szansa dla dzieci na naukę samodzielności i poznanie grupy.</p></h7>
-            
-          </div>
-        </div>
-        <div class="card col-lg-3" style="min-width:220px;">
-          <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title" style="font-size: 150%;">WYJŚCIA INTEGRACYJNE</h4>
-            <h7 style="font-size: 100%; "><p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową.  Organizujemy spotkania, np. imprezy okolicznościowe w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem. Proponujemy udział w nocce w Sali Zabaw Złoty Smoczek pełnej atrakcji i pod okiem wykwalifikowanej kadry.</p></h7>
-           
-          </div>
-        </div>
-        <div class="card col-lg-3" style="min-width:220px;">
-          <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title" style="font-size: 150%;">ZAWODY</h4>
-            <h7 style="font-size: 100%; "><p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Akademia Wojowników jest środowiskiem idealnym do rozwoju dziecka, które składa się nie tylko z treningów, ale także pozwala na integrację z grupą i udział w szeregu dodatkowych aktywności, jak wyjazdy czy zawody sportowe.</p></h7>
-            
-          </div>
-        </div>
-      </div>
-    
-    </div>
+     
     
     <section id="treningi">
         <div class="container-fluid padding justify-content-center">
@@ -609,7 +548,44 @@ if(isset($_POST['email']) && $_POST['email']!=''){
             
         }
     </script>
+<section id="Dlaczego-akademia"></section>
 
+
+
+<div class="back-card">
+    
+    <div  class="container-fluid justify-content-center" style="padding-top: 40px;">
+        <h1 class="header-panel my-2 w-100 text-light text-center" style="font-weight: 900; font-size: auto;" >DLACZEGO AKADEMIA?</h1>
+    </div>
+    <br>
+    <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
+    <div class="card col-lg-3" style="min-width:220px;">
+      <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
+      <div class="card-body " >
+        <h4 class="card-title " style="font-size: 150%;"> OBOZY</h4>
+        <h7 style="font-size: 100%; "><p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Organizujemy także dłuższe wyjazdy, np. 3 dniowy wyjazd Zielona Szkoła lub Moje Pierwsze Kolonie - 7dniowy wyjazd nad morze. To szansa dla dzieci na naukę samodzielności i poznanie grupy.</p></h7>
+        
+      </div>
+    </div>
+    <div class="card col-lg-3" style="min-width:220px;">
+      <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title" style="font-size: 150%;">WYJŚCIA INTEGRACYJNE</h4>
+        <h7 style="font-size: 100%; "><p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową.  Organizujemy spotkania, np. imprezy okolicznościowe w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem. Proponujemy udział w nocce w Sali Zabaw Złoty Smoczek pełnej atrakcji i pod okiem wykwalifikowanej kadry.</p></h7>
+       
+      </div>
+    </div>
+    <div class="card col-lg-3" style="min-width:220px;">
+      <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title" style="font-size: 150%;">ZAWODY</h4>
+        <h7 style="font-size: 100%; "><p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Akademia Wojowników jest środowiskiem idealnym do rozwoju dziecka, które składa się nie tylko z treningów, ale także pozwala na integrację z grupą i udział w szeregu dodatkowych aktywności, jak wyjazdy czy zawody sportowe.</p></h7>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
 
 
     <!--- Two Column Section -->
@@ -641,7 +617,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> --> 
                     <a class="btn btn-social" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
                     <a class="btn btn-social" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
-                    <!-- <a class="btn btn-social" href="#"><i class="fab fa-youtube  "></i></a> -->
+                    <a class="btn btn-social" href="#"><i class="fab fa-youtube  "></i></a> 
                    
                 </div>
                
