@@ -39,7 +39,6 @@ if(isset($_POST['email']) && $_POST['email']!=''){
 ?>
 <style>
 <?php include 'CSS/style.css'; ?>
-<?php include 'js/main.js'; ?>
 </style>
 
 <!DOCTYPE html>
@@ -62,7 +61,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="./js/main.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
