@@ -21,8 +21,8 @@
                 </div>
             </div>
         </div>
-    </div>
-<footer class = "page-footer bg-dark" id="">
+</div>
+<footer class = "page-footer bg-dark" >
         
             
         
