@@ -17,7 +17,7 @@
                  <li class="nav-item"> 
                      <a class="nav-link"  href="TreningiOnline.php"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">TRENINGI ONLINE</span></a></li> 
                 <li class="nav-item">
-                    <a class="nav-link"  href=".https://akademiawojownika.herokuapp.com/#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a></li>
+                    <a class="nav-link"  href="https://akademiawojownika.herokuapp.com/#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a></li>
                 <li class="nav-item">
                     <a class="nav-link"  href="https://akademiawojownika.herokuapp.com/#Dlaczego-akademia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a></li>
                 <!-- <li class="nav-item">
