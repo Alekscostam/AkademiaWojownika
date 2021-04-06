@@ -18,14 +18,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/styleTO.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
-    <script src="../TreningiOnline/js/TreningiOnline.js"></script>
+    <script src="./js/TreningiOnline.js"></script>
     <script src="js/main.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -35,8 +35,8 @@
 </head>
 
 <body>
-<?php include('../header.php'); ?>
-        <div class="jumbotron  container-fluid ">
+<?php include('./header.php'); ?>
+        <div id="main-panel" class="container-fluid ">
     
             <div class="intro " >
                 <div id="kursy">
@@ -44,12 +44,12 @@
                    
                     <div class="row  padding w-75 " style="margin: auto;">
                         <div class="col-lg-5">
-                            <h2 id="type" style="font-weight: 900; font-size: 200%;">Trening funkcjonalny </h2>
-                            <h2 id="data" style=" font-size: 130%;">01.04.2020</h2>
+                            <h2 id="type" style="font-weight: 900; font-size: 210%;">Trening funkcjonalny </h2>
+                            <h2 id="data" style=" font-size: 140%;">01.04.2020</h2>
                             <p></p><br>
-                            <h3 id="author" style="font-size: 120%;">Michał Grabarek</h3>
+                            <h3 id="author" style="font-size: 130%;">Michał Grabarek</h3>
                             <div >
-                                <h5 style="font-size: 100%;">
+                                <h5 style="font-size: 110%;">
                                <label id="desc"> Klasyczne ćwiczenia metody Josepha Pilatesa. Trening pozwoli Ci wzmocnić mięśnie głębokie – brzucha, dna miednicy oraz grzbietu, stanowiących tzw. Centrum. Trening zwiększy Twoją świadomość ciała, uelastyczni mięśnie oraz zwróci uwagę na pracę oddechem. 
                                </label>
                             </div>
@@ -87,11 +87,11 @@
         </div>
         <div class="back-card">
         
-            <div  class="container-fluid justify-content-center" style="padding-top: 40px;">
+            <div  class="container-fluid justify-content-center" style="padding-top: 5px;">
             </div>
             <br>
             <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
-            <div class="card col-lg-3" style="min-width:220px;">
+            <div class="card col-lg-3" style="min-width:150px; max-width: 320px;">
             
             <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
             <div class="card-body " >
@@ -99,7 +99,7 @@
             
             </div>
             </div>
-            <div class="card col-lg-3" style="min-width:220px;" onclick="changeTraining()">   
+            <div class="card col-lg-3" style="min-width:150px; max-width: 320px;" onclick="changeTraining()">   
                    
                 <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -113,7 +113,7 @@
                     
                 </div>
             </div>
-            <div class="card col-lg-3" style="min-width:220px;">
+            <div class="card col-lg-3" style="min-width:150px; max-width: 320px;">
             
             <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
             <div class="card-body">
@@ -121,7 +121,7 @@
                 
             </div>
             </div>
-            <div class="card col-lg-3" style="min-width:220px;">
+            <div class="card col-lg-3" style="min-width:150px; max-width: 320px;">
             <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title" style="font-size: 150%;">Trening2</h4>
@@ -132,7 +132,7 @@
     
     </div>
   
-<?php include('../footer.php'); ?>
+<?php include('./footer.php'); ?>
 
 </body>
 

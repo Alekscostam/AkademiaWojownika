@@ -3,7 +3,7 @@ const text  = document.querySelector('.text-first');
 
 // alert("jol");
 function ShowOrHideTxt(){
-    alert("jol");
+    
     var elements = document.getElementsByClassName('moreText');
     for(var i=0; i<elements.length; i++) { 
         if(elements[i].style.display=='none' || elements[i].style.display==''){

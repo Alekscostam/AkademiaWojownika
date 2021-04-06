@@ -92,9 +92,13 @@ if(isset($_POST['email']) && $_POST['email']!=''){
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
                             <div class="carousel-inner">
                               <div class="carousel-item active border-left-content">
-                                <h1 class="cytat w-100">AKADEMIA WOJOWNIKÓW RUSZYŁA! </h1>
+                                <h1 class="cytat w-100">
+                                    <!-- AKADEMIA WOJOWNIKÓW RUSZYŁA!  -->
+                                    TŁO MA BARDZO SŁABĄ JAKOŚĆ!!!!!!!!!!!!!!!!!
+                                </h1>
                                 <p><h3>
-                                Zapraszamy wszystkich zainteresowanych na zajęcia już teraz.
+                                    TŁO MA BARDZO SŁABĄ JAKOŚĆ!!!!!!!!!!!!!!!!!
+                                <!-- Zapraszamy wszystkich zainteresowanych na zajęcia już teraz. -->
                                 </h3>
                               </div>
                               <!-- <div class="carousel-item">
