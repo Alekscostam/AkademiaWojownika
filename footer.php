@@ -3,10 +3,6 @@
 
 <html lang="en">
 
-<head>
-
-</head>
-
 <body>
 <div class="footer-sponsorzy text-center">
         <div class="container">
@@ -48,7 +44,7 @@
                     <h7  style="font-size: 85%">
                     <ul class="list-unstyled my-4">
                         <li class="my-2"><i class="fas fa-home "></i>&nbsp;Akademia Wojowników Złoty Smok</li>
-                        <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp;sp.47 ul. Czartoryskiego 18,</li>
+                        <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; sp.47 ul. Czartoryskiego 18,</li>
                         <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;golden.dragon@spoko.pl</li>
                         <li class="my-2"><i class="fas fa-phone-square"></i>&nbsp;+48 796 751 818</li>
                     </ul>
@@ -81,9 +77,6 @@
 
     <script>
        
-        
-            
-
             var date = new Date(); 
             year = date .getFullYear();
             document.getElementById("currentYear").textContent=year;

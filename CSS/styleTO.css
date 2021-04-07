@@ -148,7 +148,6 @@ body {
 
 /* END KURSY */
 
-/* END JUMBOTRON */
 
 
 /* LOGO */
@@ -211,7 +210,6 @@ body {
 .back-card{
     
     background: #f1f1f1;
-    margin-bottom: 4rem;
 }
 
 .card{
@@ -237,10 +235,6 @@ body {
 
 
 /* END NEW GROUP SECTION */
-
-.padding {
-    padding-bottom: 2rem;
-}
 
 
 
@@ -557,108 +551,6 @@ figure {
 
 /* galeria standard*/
 
-#galeria {
-    /* background: url(img/backg.jpg); */
-}
-
-.container-gallery {
-    width: 100%;
-    max-width: 120rem;
-    margin: auto;
-    padding: 0 1rem;
-    padding-bottom: 20px;
-}
-
-.image-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 1.5rem;
-    grid-template-areas: 'img-1 img-2 img-3 img-3' 'img-1 img-4 img-5 img-6' 'img-7 img-7 img-8 img-6';
-}
-
-.image-gallery a {
-    width: 100%;
-    height: 22rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.image-gallery a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    /* background-color: rgba(0, 0, 0, .8); */
-    opacity: 0;
-    transition: opacity .5s;
-}
-
-.image-gallery a:hover::before {
-    opacity: 1;
-}
-
-.img-hover-effect:hover {
-    filter: none;
-    -webkit-filter: grayscale(0%);
-    transition: .5s ease-in-out;
-}
-
-.img-hover-effect {
-    filter: gray;
-    /* IE6-9 */
-    -webkit-filter: grayscale(1) brightness(0.5);
-}
-
-.img-1 {
-    grid-area: img-1;
-    min-height: 45.5rem;
-    background-image: url("img/background.png");
-}
-
-.img-2 {
-    grid-area: img-2;
-    background-image: url("img/background.png");
-}
-
-.img-3 {
-    grid-area: img-3;
-    background-image: url("img/background.png");
-}
-
-.img-4 {
-    grid-area: img-4;
-    background-image: url("img/background.png");
-}
-
-.img-5 {
-    grid-area: img-5;
-    background-image: url("img/background.png");
-}
-
-.img-6 {
-    grid-area: img-6;
-    min-height: 45.5rem;
-    background-image: url("img/background.png");
-}
-
-.img-7 {
-    grid-area: img-7;
-    background-image: url("img/background.png");
-}
-
-.img-8 {
-    grid-area: img-8;
-    background-image: url("img/background.png");
-}
 
 
 /* end galeria */
@@ -689,47 +581,6 @@ figure {
         height: 30rem;
     }
 }
-
-
-/* Traning */
-
-.box-traning {
-    text-align: center;
-    display: inline-block;
-    /* position: relative; */
-    width: 500px;
-    height: 300px;
-    background: #fff;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.box-traning .box-type-of-traning {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    color: #fff000;
-    height: 100%;
-    background: #f00;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-.box-traning .box-type-of-traning:hover {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-
-/* End traning */
 
 
 /* Social media card */
@@ -842,27 +693,6 @@ figure {
     margin: 10px;
   
 }
-
-
-/* TEAM */
-
-
-
-/* #team .card:hover {
-    background: #cab80e;
-    border-radius: 5px;
-    color: #000;
-    box-shadow: 5px 5px 10px #9e9e9e;
-}
-
-#team .card:hover h3,
-#team .card:hover {
-    color: #000;
-} */
-
-
-/*END TEAM */
-
 
 /* TABLE */
 

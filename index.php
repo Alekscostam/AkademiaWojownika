@@ -388,19 +388,9 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     </section>
 
     <!-- PLAN TRENINGOWY -->
- 
-
-    <!-- END PLAN TRENINGOWY -->
-    <!-- START -->
-    <!-- END GALERIA -->
 
 
-
-    <!-- START NOWE NABORY -->
-    
-
-
-    <!--- Cards -->
+    <!--- FAQ -->
    
    
     <section id="FAQ"><br><br>
@@ -553,7 +543,7 @@ if(isset($_POST['email']) && $_POST['email']!=''){
     </script>
 <section id="Dlaczego-akademia"></section>
 
-
+</b>
 
 <div class="back-card">
     
@@ -586,19 +576,16 @@ if(isset($_POST['email']) && $_POST['email']!=''){
         
       </div>
     </div>
-  </div>
-
 </div>
 
-
+</div>
+   
+   
     <!--- Two Column Section -->
     <?php include('./footer.php');?>
 
     <script>
        
-        
-            
-
             var date = new Date(); 
             year = date .getFullYear();
             document.getElementById("currentYear").textContent=year;

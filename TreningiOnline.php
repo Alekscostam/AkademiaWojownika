@@ -1,11 +1,11 @@
+<!DOCTYPE html>
+
 
 
 <style>
 <?php include 'CSS/styleTO.css'; ?>
 
 </style>
-
-<!DOCTYPE html>
 
 <html lang="en">
 
@@ -58,10 +58,7 @@
                                     <li><i class="far fa-clock img-fluid "></i> <label id="time">15 min</label></li>  &nbsp;&nbsp;&nbsp;
                                     <li><i class="far fa-star img-fluid "></i> <label id="level">Trudny</label></li>  
                                 </ul>
-                            
-                        </div>
-                
-
+                         </div>
 
                         <div class="col-lg-7">
                            
