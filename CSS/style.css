@@ -31,7 +31,6 @@ body {
 /* NAVBAR */
 
 .navbar {
-  background: white;
   justify-content: center;
   width: 100%;
   top: 0;
@@ -534,7 +533,11 @@ hr.light-100 {
 @media only screen and (max-width: 768px) {
 }
 
+
 @media only screen and (max-width: 992px) {
+  .navbar {
+    background-color: #ffffff;
+}
 }
 
 @media only screen and (max-width: 1200px) {
