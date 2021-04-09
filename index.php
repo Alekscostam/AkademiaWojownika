@@ -120,7 +120,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="col-lg-8">
                     <p>
                     <h1 class="text-dark pb-3 h2-responsive header-panel" style=" font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1>
-
                     <h4 class="content-text  pb-3 h4-responsive my-py-2"> Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.
                         Treningi organizowane są na Fordonie, Osowej Górze i Wyżynach. <p></p>
                         <B>Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych. Efektywne treningi zapewniają nasi wykwalifikowani trenerzy, a także przeszkoleni trenerzy z wykształceniem pedagogicznym, którzy <b>zajęcia prowadzić będą w szkołach.</b>
@@ -159,7 +158,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <!-- class=" rounded-circle mb-1"  -->
                         <img src="img/Profil/MG.JPG" class=" rounded-circle mb-1">
                         <h3 class="person-name" style="font-size: 200%;">Michał Grabarek</h3><br>
-                        <h5 style="font-size: 150%;">BOKS I KICK-BOXING</h5><br>
+                        <h5 style="font-size: 150%;">BOKS, KICK-BOXING</h5><br>
                         <h7 style="font-size: 100%;">
                             <p class="text-dark" style="font-size: 100%;"> Były zawodnik, zdobył kilkanaście medali Pucharu i Mistrzostw Polski oraz Europy. Prowadzenia zajęć nauczył się między innymi na obozach w Tajlandii, Holandii i Francji. Ukończył kurs instruktora sportu - ogólny oraz specjalistyczny z zakresu: Muay Thai, K-1, Kick-Boxing.
                         </h7>
