@@ -29,7 +29,6 @@
                     <a class="btn btn-social" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
                     <a class="btn btn-social" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
                     <a class="btn btn-social" href="#"><i class="fab fa-youtube  "></i></a>
-
                 </div>
 
 
@@ -67,9 +66,7 @@
                         <h7>Author <i class="fab fa-instagram"></i> Aleksander Kowalski </h7>
                     </a></small>
             </p>
-
         </div>
-
     </footer>
 
     <script>
@@ -79,5 +76,4 @@
     </script>
 
 </body>
-
 </html>

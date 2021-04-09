@@ -9,10 +9,7 @@ accordingItemHeaders.forEach(accordingItemHeaders => {
 });
 
 
-function checme()
-{
-    alert("jol");
-}
+
 function checkform() {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var name = document.getElementById('name').value;

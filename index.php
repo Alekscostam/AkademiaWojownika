@@ -34,7 +34,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
 ?>
 <style>
-    <?php include 'CSS/style.css'; ?>
+    <?php include './CSS/style.css'; ?>
     <?php include './js/main.js'; ?>
 </style>
 
@@ -43,6 +43,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Akademia Wojowników</title>
@@ -51,8 +52,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
     <link href="CSS/style.css" rel="stylesheet">
-    <script src="./js/main.js"></script>
+
+    <script type="text/javascript" src="./js/main.js"></script>
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
@@ -68,7 +71,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 <body>
 
     <?php include('./header.php'); ?>
-   
+
     <!--- Image Slider -->
 
     <div class="jumbotron text-center  container-fluid ">
@@ -83,13 +86,13 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                 <div class="carousel-item active border-left-content">
                                     <h1 class="cytat w-100">
                                         <!-- AKADEMIA WOJOWNIKÓW RUSZYŁA!  -->
-                                        TŁO MA BARDZO SŁABĄ JAKOŚĆ!!!!!!!!!!!!!!!!!
+                                        Na zapisy zrobie osobną podstrone z formularzem??
                                     </h1>
                                     <p>
-                                    <h3>
-                                        TŁO MA BARDZO SŁABĄ JAKOŚĆ!!!!!!!!!!!!!!!!!
+                                    <h4>
+                                    Na zapisy zrobie osobną podstrone z formularzem??
                                         <!-- Zapraszamy wszystkich zainteresowanych na zajęcia już teraz. -->
-                                    </h3>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +100,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <br>
                         <a href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0" class="btn btn-primary btn-sm">ZAPISY <br> </a>
                     </div>
-
                 </div>
             </div>
 
@@ -117,7 +119,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 </div>
                 <div class="col-lg-8">
                     <p>
-                    <h1 class="text-dark pb-3 h2-responsive header-panel" style="font-weight: 900; font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1>
+                    <h1 class="text-dark pb-3 h2-responsive header-panel" style=" font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1>
 
                     <h4 class="content-text  pb-3 h4-responsive my-py-2"> Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.
                         Treningi organizowane są na Fordonie, Osowej Górze i Wyżynach. <p></p>
@@ -163,8 +165,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         </h7>
                     </div>
                 </div>
-
-
             </div>
         </section>
 
@@ -173,10 +173,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         </div>
         <section id="Zajęcia"></section>
         <br><br>
-        <!--- Welcome Section -->
-
-    </div>
-
     </div>
 
     <section id="Zajecia"><br>
@@ -184,10 +180,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="row justify-content-center ">
 
                 <div class="col-lg-4 col-md-6 mb-4 text-center hide-this">
-
                     <img src="./img/site/3-1-400x284.jpg" class="img-fluid my-2 border border-secondary img-start">
                     <img src="./img/site/4.jpg" class="img-fluid my-2 border border-secondary img-start">
-
                 </div>
                 <div class="col-lg-8">
                     <h3 class="text-dark my-py-2 border-under-text text-center w-100 header-panel">ZAJĘCIA OGÓLNOROZWOJOWE</h3><br>
@@ -205,7 +199,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         Dzięki zabawom i ćwiczeniom ogólnorozwojowym z elementami kickboxingu i boksu dzieci usprawniają koordynację ruchową,
                         wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach. Ponadto poprawiają kondycję i stymulują ogólny rozwój fizyczny.
                         Stosujemy najnowsze metody treningowe, a odpowiednie podejście trenerów do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów. <p></p>
-
                     </h6>
                 </div>
             </div>
@@ -232,7 +225,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
         </div>
     </section>
-
 
 
     <section id="treningi">
@@ -403,15 +395,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             endif;
             ?>
             <div class="row">
-
-                <!--Grid column-->
                 <div class="w-100 mb-md-0 mb-5">
                     <form id="contact-form" name="contact-form" action="" method="POST">
-
-                        <!--Grid row-->
                         <div class="row">
-
-                            <!--Grid column-->
                             <div class="col-md-4">
                                 <h6 style="font-weight:bold;">
                                     <div class="md-form mb-0 form-field">
@@ -431,9 +417,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                     </div>
                                 </h6>
                             </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
                             <div class="col-md-4">
                                 <h6 style="font-weight:bold;">
                                     <div class="md-form mb-0 form-field">
@@ -442,12 +425,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                     </div>
                                 </h6>
                             </div>
-                            <!--Grid column-->
-
                         </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
                         <div class="row">
                             <div class="col-md-12">
                                 <h6 style="font-weight:bold;">
@@ -458,9 +436,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                 </h6>
                             </div>
                         </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
                         <div class="row">
                             <div class="col-md-12">
                                 <h6 style="font-weight:bold;">
@@ -475,7 +450,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <h6 style="font-weight:bold;">
                             <div class="text-justify  text-center">
                                 <div class="md-form form-field text-justify  text-center">
-                                    <input class="btn  btn-send  text-center text-dark" onclick="return checme()" type="submit" value="Wyślij">
+                                    <input class="btn  btn-send  text-center text-dark" onclick="return checkform()" type="submit" value="Wyślij">
                                 </div>
                             </div>
                         </h6>
@@ -483,43 +458,11 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
                     <div class="status"></div>
                 </div>
-                <!--Grid column-->
             </div>
         </section><br>
     </section>
 
-    <script>
-        const accordingItemHeaders = document.querySelectorAll(".according-item-header");
-        accordingItemHeaders.forEach(accordingItemHeaders => {
-            accordingItemHeaders.addEventListener("click", event => {
 
-                accordingItemHeaders.classList.toggle("active");
-            });
-        });
-
-        function checkform() {
-            const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            var name = document.getElementById('name').value;
-
-            var surname = document.getElementById('surname').value;
-
-            var email = document.getElementById('email').value;
-
-            var message = document.getElementById('message').value;
-
-            var subject = document.getElementById('subject').value;
-
-
-            if (/^[A-z ]+$/.test(name) && /^[A-z ]+$/.test(surname) && re.test(String(email).toLowerCase()) && /^[A-z ]+$/.test(message) && /^[A-z ]+$/.test(subject)) {
-
-                return true;
-            } else {
-                document.getElementById('errorMessage').textContent = "Uzupełnij prawidłowo wszytskie informacje!";
-                return false;
-            }
-
-        }
-    </script>
     <section id="Dlaczego-akademia"></section>
 
     </b>
@@ -538,7 +481,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <h7 style="font-size: 100%; ">
                         <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Organizujemy także dłuższe wyjazdy, np. 3 dniowy wyjazd Zielona Szkoła lub Moje Pierwsze Kolonie - 7dniowy wyjazd nad morze. To szansa dla dzieci na naukę samodzielności i poznanie grupy.</p>
                     </h7>
-
                 </div>
             </div>
             <div class="card col-lg-3" style="min-width:220px;">
@@ -548,7 +490,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <h7 style="font-size: 100%; ">
                         <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem. Proponujemy udział w nocce w Sali Zabaw Złoty Smoczek pełnej atrakcji i pod okiem wykwalifikowanej kadry.</p>
                     </h7>
-
                 </div>
             </div>
             <div class="card col-lg-3" style="min-width:220px;">
@@ -558,7 +499,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <h7 style="font-size: 100%; ">
                         <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Akademia Wojowników jest środowiskiem idealnym do rozwoju dziecka, które składa się nie tylko z treningów, ale także pozwala na integrację z grupą i udział w szeregu dodatkowych aktywności, jak wyjazdy czy zawody sportowe.</p>
                     </h7>
-
                 </div>
             </div>
         </div>
