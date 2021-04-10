@@ -1,38 +1,4 @@
-<?php
 
-$message_sent = '0';
-
-if (isset($_POST['email']) && $_POST['email'] != '') {
-
-    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-
-
-        $name = $_POST['name'];
-        $surname = $_POST['surname'];
-        $subject = $_POST['subject'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-
-        if (empty($name)) {
-            echo "Variable 'a' is empty.<br>";
-        }
-
-        $to = "kowalski.al@wp.pl";
-
-
-        $headers = "Wiadomość od: " . $name . " " . $surname . " Email: " . $email;
-
-
-        if (mail($to, $subject, $message, $headers)) {
-        } else {
-        }
-        $message_sent = '1';
-    } else {
-        $message_sent =  '2';
-    }
-}
-
-?>
 <style>
     <?php include './CSS/style.css'; ?>
     <?php include './js/main.js'; ?>
@@ -170,62 +136,51 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         <div id="btn-div" style="text-align:center;">
             <button class="btn  read-more-btn" onclick="ShowOrHideTxt();">Czytaj dalej</button><i class="fas fa-chevron-down "></i>
         </div>
-        <section id="Zajęcia"></section>
-        <br><br>
+        
+    </div>
+    <br>
+    <section id="Dlaczego-akademia"></section>
+
+    </br>
+
+    <div class="back-card">
+
+        <div class="container-fluid justify-content-center" style="padding-top: 40px;">
+            <h1 class="header-panel my-2 w-100 text-light text-center" style="font-weight: 900; font-size: auto;">DLACZEGO AKADEMIA?</h1>
+        </div>
+        <br>
+        <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
+            <div class="card col-lg-3" style="min-width:220px;">
+                <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
+                <div class="card-body ">
+                    <h4 class="card-title " style="font-size: 150%;"> OBOZY</h4>
+                    <h7 style="font-size: 100%; ">
+                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Organizujemy także dłuższe wyjazdy, np. 3 dniowy wyjazd Zielona Szkoła lub Moje Pierwsze Kolonie - 7dniowy wyjazd nad morze. To szansa dla dzieci na naukę samodzielności i poznanie grupy.</p>
+                    </h7>
+                </div>
+            </div>
+            <div class="card col-lg-3" style="min-width:220px;">
+                <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title" style="font-size: 150%;">WYJŚCIA INTEGRACYJNE</h4>
+                    <h7 style="font-size: 100%; ">
+                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem. Proponujemy udział w nocce w Sali Zabaw Złoty Smoczek pełnej atrakcji i pod okiem wykwalifikowanej kadry.</p>
+                    </h7>
+                </div>
+            </div>
+            <div class="card col-lg-3" style="min-width:220px;">
+                <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title" style="font-size: 150%;">ZAWODY</h4>
+                    <h7 style="font-size: 100%; ">
+                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Akademia Wojowników jest środowiskiem idealnym do rozwoju dziecka, które składa się nie tylko z treningów, ale także pozwala na integrację z grupą i udział w szeregu dodatkowych aktywności, jak wyjazdy czy zawody sportowe.</p>
+                    </h7>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <section id="Zajecia"><br>
-        <div class="container ">
-            <div class="row justify-content-center ">
-
-                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this">
-                    <img src="./img/site/3-1-400x284.jpg" class="img-fluid my-2 border border-secondary img-start">
-                    <img src="./img/site/4.jpg" class="img-fluid my-2 border border-secondary img-start">
-                </div>
-                <div class="col-lg-8">
-                    <h3 class="text-dark my-py-2 border-under-text text-center w-100 header-panel">ZAJĘCIA OGÓLNOROZWOJOWE</h3><br>
-
-                    <h6 class=" text-dark pb-3 h4-responsive my-py-2 content-text-without-border"> Jedyna taka sekcja w Bydgoszczy! Ogólnorozwojowe zajecia sportowe z elementami boksu i kick-boxingu przeznaczone dla
-                        dzieci w wieku od 4 do 9 lat. Na treningach w Akademii nie zabraknie:<br><br>
-                        <ul style="margin-left:3rem;">
-                            <li>bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
-                            <li>gier i zabaw ruchowych,</li>
-                            <li>gimnastyki korekcyjnej,</li>
-                            <li>nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
-                            <li>nauki pokonywania własnych słabości,</li>
-                            <li>współpracy z rówieśnikami.</li>
-                        </ul>
-                        Dzięki zabawom i ćwiczeniom ogólnorozwojowym z elementami kickboxingu i boksu dzieci usprawniają koordynację ruchową,
-                        wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach. Ponadto poprawiają kondycję i stymulują ogólny rozwój fizyczny.
-                        Stosujemy najnowsze metody treningowe, a odpowiednie podejście trenerów do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów. <p></p>
-                    </h6>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="Zajecia">
-        <div class="container ">
-            <div class="row justify-content-center ">
-                <div class="col-lg-8  ">
-
-                    <h4 class="text-dark my-py-2 border-under-text text-center w-100 header-panel">ZAJĘCIA Z ELEMENTAMI POSZCZEGÓLNYCH DYSCYPLIN</h4><br>
-
-                    <h6 class=" text-dark pb-3 h4-responsive my-py-2 content-text-without-border">
-                        <b>Zapasy</b> - sport, którego postawą są chwyty i rzuty, rywalizacja odbywa się na macie, a zawodnicy muszą przestrzegać ściśle określonych zasad. Dyscyplina wymaga sprytu, szybkości i siły.<br><br>
-                        <b>Boks</b> - dyscyplina, w której używa się jedynie pięści. Wymaga bardzo dobrej techniki i cierpliwości. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. Uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.<br><br>
-                        <b>Kick-boxing light</b> - połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój, zwiększa zakres ruchów i pozwala na wypracowanie zwinności. Sport uczący szybkiej reakcji i przemyślanych ruchów. Zajęcia prowadzone są w formie bezkontaktowej (light contact), podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<br><br>
-                        <b> Ju-jitsu</b> - dosłowne tłumaczenie to "sztuka łagodności", uczy jak zdobyć przewagę sprytem, a niekoniecznie siłą. Dyscyplina pokazująca jak wykorzystać swoje słabości, pomimo przewagi przeciwnika. Trenujący przyswaja wiedzę jak wykorzystywać szanse i działać logicznie w przemyślany sposób. Sport wymagający skupienia i konsekwencji.<br><br>
-                    </h6>
-                </div>
-                <div class="col-lg-4 text-center col-md-6 mb-4 vertiacl-img hide-this"><br><br>
-                    <img src="./img/site/6-1.jpg" class="img-fluid my-2 border border-secondary img-start vertiacl-img">
-                    <img src="./img/site/5.jpg" class="img-fluid my-2 border border-secondary img-start vertiacl-img">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
+    <br><br>
     <section id="treningi">
         <div class="container-fluid padding justify-content-center">
             <div class="col">
@@ -361,147 +316,62 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     </div>
                 </div>
             </div>
-            <section id="Kontakt"></section>
     </section>
+    <section id="Zajęcia"></section>
+   
+    <section id="Zajecia"><br>
+        <div class="container ">
+            <div class="row justify-content-center ">
 
-    <!--- FAQ -->
-
-
-    <section id="FAQ"><br><br>
-        <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
-        <h5 class="text-center my-2 text-justify mx-auto text-dark w-50" style="font-size:110%;vertical-align: middle;">Jeśli masz pytania odnośnie treningów lub chcesz podjąć bezpośrednią współprace, zapraszmay do wypełnienia formualrza kontaktowego.</h5>
-        <br>
-        <section class="mb-4 text-dark contact-us-section">
-
-            <!--Section heading-->
-            <!-- <h4 class=" font-weight-bold text-center my-2 title-contact-us">Skontaktuj się z nami</h4> -->
-            <!--Section description-->
-            <!-- <p class="text-center  mx-auto mb-4">Twojego pytania nie ma na liście? Wyślij wiadomość!</p> -->
-
-            <?php
-            if ($message_sent == '1') :
-            ?>
-                <h4 class=" font-weight-bold text-center my-2 title-contact-us">wysłano</h4>
-            <?php
-            elseif ($message_sent == '0') :
-            ?>
-                <h4 class=" font-weight-bold text-center my-2 title-contact-us" id="errorMessage"></h4>
-            <?php
-            else :
-            ?>
-                <h4 class=" font-weight-bold text-center my-2 title-contact-us">nie wysłano wiadomości!<br> Email nieprawidłowy</h4>
-            <?php
-            endif;
-            ?>
-            <div class="row">
-                <div class="w-100 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="" method="POST">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">Imie</label>
-                                    </div>
-
-                                </h6>
-                            </div>
-                            <div class="col-md-4">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-
-                                        <input type="text" id="surname" name="surname" class="form-control">
-                                        <label for="surname" class="">Nazwisko</label>
-
-                                    </div>
-                                </h6>
-                            </div>
-                            <div class="col-md-4">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-                                        <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">Twój email</label>
-                                    </div>
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-                                        <input type="text" id="subject" name="subject" class="form-control">
-                                        <label for="subject" class="">Temat wiadomości</label>
-                                    </div>
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form form-field">
-                                        <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"></textarea>
-                                        <label for="message">Wiadomość</label>
-                                    </div>
-                                </h6>
-                            </div>
-                        </div>
-
-                        <h6 style="font-weight:bold;">
-                            <div class="text-justify  text-center">
-                                <div class="md-form form-field text-justify  text-center">
-                                    <input class="btn  btn-send  text-center text-dark" onclick="return checkform()" type="submit" value="Wyślij">
-                                </div>
-                            </div>
-                        </h6>
-                    </form>
-
-                    <div class="status"></div>
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this">
+                    <img src="./img/site/3-1-400x284.jpg" class="img-fluid my-2 border border-secondary img-start">
+                    <img src="./img/site/4.jpg" class="img-fluid my-2 border border-secondary img-start">
                 </div>
-            </div>
-        </section><br>
-    </section>
+                <div class="col-lg-8">
+                    <h3 class="text-dark my-py-2 border-under-text text-center w-100 header-panel">ZAJĘCIA OGÓLNOROZWOJOWE</h3><br>
 
-
-    <section id="Dlaczego-akademia"></section>
-
-    </b>
-
-    <div class="back-card">
-
-        <div class="container-fluid justify-content-center" style="padding-top: 40px;">
-            <h1 class="header-panel my-2 w-100 text-light text-center" style="font-weight: 900; font-size: auto;">DLACZEGO AKADEMIA?</h1>
-        </div>
-        <br>
-        <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
-            <div class="card col-lg-3" style="min-width:220px;">
-                <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
-                <div class="card-body ">
-                    <h4 class="card-title " style="font-size: 150%;"> OBOZY</h4>
-                    <h7 style="font-size: 100%; ">
-                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Organizujemy także dłuższe wyjazdy, np. 3 dniowy wyjazd Zielona Szkoła lub Moje Pierwsze Kolonie - 7dniowy wyjazd nad morze. To szansa dla dzieci na naukę samodzielności i poznanie grupy.</p>
-                    </h7>
-                </div>
-            </div>
-            <div class="card col-lg-3" style="min-width:220px;">
-                <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title" style="font-size: 150%;">WYJŚCIA INTEGRACYJNE</h4>
-                    <h7 style="font-size: 100%; ">
-                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem. Proponujemy udział w nocce w Sali Zabaw Złoty Smoczek pełnej atrakcji i pod okiem wykwalifikowanej kadry.</p>
-                    </h7>
-                </div>
-            </div>
-            <div class="card col-lg-3" style="min-width:220px;">
-                <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title" style="font-size: 150%;">ZAWODY</h4>
-                    <h7 style="font-size: 100%; ">
-                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Akademia Wojowników jest środowiskiem idealnym do rozwoju dziecka, które składa się nie tylko z treningów, ale także pozwala na integrację z grupą i udział w szeregu dodatkowych aktywności, jak wyjazdy czy zawody sportowe.</p>
-                    </h7>
+                    <h6 class=" text-dark pb-3 h4-responsive my-py-2 content-text-without-border"> Jedyna taka sekcja w Bydgoszczy! Ogólnorozwojowe zajecia sportowe z elementami boksu i kick-boxingu przeznaczone dla
+                        dzieci w wieku od 4 do 9 lat. Na treningach w Akademii nie zabraknie:<br><br>
+                        <ul style="margin-left:3rem;">
+                            <li>bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
+                            <li>gier i zabaw ruchowych,</li>
+                            <li>gimnastyki korekcyjnej,</li>
+                            <li>nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
+                            <li>nauki pokonywania własnych słabości,</li>
+                            <li>współpracy z rówieśnikami.</li>
+                        </ul>
+                        Dzięki zabawom i ćwiczeniom ogólnorozwojowym z elementami kickboxingu i boksu dzieci usprawniają koordynację ruchową,
+                        wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach. Ponadto poprawiają kondycję i stymulują ogólny rozwój fizyczny.
+                        Stosujemy najnowsze metody treningowe, a odpowiednie podejście trenerów do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów. <p></p>
+                    </h6>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section id="Zajecia">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="col-lg-8  ">
+
+                    <h4 class="text-dark my-py-2 border-under-text text-center w-100 header-panel">ZAJĘCIA Z ELEMENTAMI POSZCZEGÓLNYCH DYSCYPLIN</h4><br>
+
+                    <h6 class=" text-dark pb-3 h4-responsive my-py-2 content-text-without-border">
+                        <b>Zapasy</b> - sport, którego postawą są chwyty i rzuty, rywalizacja odbywa się na macie, a zawodnicy muszą przestrzegać ściśle określonych zasad. Dyscyplina wymaga sprytu, szybkości i siły.<br><br>
+                        <b>Boks</b> - dyscyplina, w której używa się jedynie pięści. Wymaga bardzo dobrej techniki i cierpliwości. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. Uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.<br><br>
+                        <b>Kick-boxing light</b> - połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój, zwiększa zakres ruchów i pozwala na wypracowanie zwinności. Sport uczący szybkiej reakcji i przemyślanych ruchów. Zajęcia prowadzone są w formie bezkontaktowej (light contact), podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<br><br>
+                        <b> Ju-jitsu</b> - dosłowne tłumaczenie to "sztuka łagodności", uczy jak zdobyć przewagę sprytem, a niekoniecznie siłą. Dyscyplina pokazująca jak wykorzystać swoje słabości, pomimo przewagi przeciwnika. Trenujący przyswaja wiedzę jak wykorzystywać szanse i działać logicznie w przemyślany sposób. Sport wymagający skupienia i konsekwencji.<br><br>
+                    </h6>
+                </div>
+                <div class="col-lg-4 text-center col-md-6 mb-4 vertiacl-img hide-this"><br><br>
+                    <img src="./img/site/6-1.jpg" class="img-fluid my-2 border border-secondary img-start vertiacl-img">
+                    <img src="./img/site/5.jpg" class="img-fluid my-2 border border-secondary img-start vertiacl-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
 
     <?php include('./footer.php'); ?>
 

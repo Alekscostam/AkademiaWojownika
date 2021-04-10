@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-<body>
+<body><br>
     <div class="footer-sponsors text-center">
         <div class="container">
             <div class="row  d-flex align-items-center ">

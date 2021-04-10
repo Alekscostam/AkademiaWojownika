@@ -294,6 +294,14 @@ body {
 }
 
 /* ZAJECIA */
+
+#Zajęcia{
+  position: relative;
+  top: -50px;
+  right: 0;
+  height: 0px;
+}
+
 #Zajecia {
   background-attachment: fixed;
   background-position: center;

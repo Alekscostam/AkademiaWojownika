@@ -287,7 +287,6 @@ hr.light-100 {
   text-align: center;
   /* margin: 30px; */
 
-  box-shadow: 0 5px 15px -5px #000;
   /* width: 17%; */
   max-width: 710px;
   min-width: 170px;
@@ -342,6 +341,11 @@ hr.light-100 {
   }
   .bookmarks {
     font-size: 1em!important;
+  }
+  .bookmarks:hover {
+    color: #ffe600!important;
+    text-shadow: 0px 1px 1px #000;
+    transition: 0.5s;
   }
 }
 
@@ -706,7 +710,7 @@ figure {
   margin-top: 10px;
   overflow: hidden;
 }
-.contct-us-section {
+.contact-us-section {
   margin: 1rem 0;
   /* border: 1px solid #000; 
      */

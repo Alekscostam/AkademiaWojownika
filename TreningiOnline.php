@@ -109,7 +109,7 @@
 
                 </div>
             </div>
-        </div>
+        </div><br>
     </div>
 
     <?php include('./footer.php'); ?>
