@@ -2,7 +2,7 @@
 
 <html lang="en">
 <style>
-    <?php include 'CSS/styleTO.css'; ?>
+    <?php include './CSS/styleTO.css'; ?>
 </style>
 
 <head>
@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="CSS/styleTO.css" rel="stylesheet">
+    <link href="./CSS/styleTO.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
@@ -33,7 +33,7 @@
 <body>
     <?php include('./header.php'); ?>
     <div id="main-panel" class="container-fluid ">
-        <div class="intro ">
+        <div class="intro " style=" padding-top: 130px;">
             <div id="course">
                 <div class="row  padding w-75 " style="margin: auto;">
                     <div class="col-lg-5">
@@ -71,7 +71,7 @@
         <div class="container-fluid justify-content-center" style="padding-top: 5px;">
         </div>
         <br>
-        <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
+        <div class="card-deck  text-center justify-content-center" style="margin:auto;">
             <div class="card col-lg-3" style="min-width:150px; max-width: 320px;">
 
                 <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">

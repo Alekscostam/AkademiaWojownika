@@ -42,7 +42,7 @@
 
     <div class="jumbotron text-center  container-fluid ">
 
-        <div class="intro ">
+        <div class="intro " style=" padding-top: 150px;">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-center">
 

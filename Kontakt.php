@@ -68,9 +68,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 <body>
     <?php include('./header.php'); ?>
    
-    <section id="FAQ" ><br><br><br><br><br>
+    <section id="FAQ" style=" padding-top: 100px;">
         <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
-        <h5 class="text-center my-2 text-justify mx-auto text-dark w-50" style="font-size:110%;vertical-align: middle;">Jeśli masz pytania odnośnie treningów lub chcesz podjąć bezpośrednią współprace, zapraszmay do wypełnienia formualrza kontaktowego.</h5>
+        <h5 class="text-center my-2 text-justify mx-auto text-dark " style="font-size:110%;vertical-align: middle;">Jeśli masz pytania odnośnie treningów lub chcesz podjąć bezpośrednią współprace, zapraszmay do wypełnienia formualarza kontaktowego.</h5>
         <br>
         <section class="mb-4 text-dark contact-us-section">
 
