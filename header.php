@@ -8,6 +8,7 @@
 <link src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" rel="stylesheet">
 <style><?php include './CSS/main.css'; ?></style>
 <style>
+  
 .navbar-fixed-top.scrolled {
   transition: 0.6s;
   background-color: #fff !important;
@@ -16,7 +17,12 @@
   /* padding: 5px 10px; */
 }
 /* NAVBAR */
-
+#hr-navbar {
+  height: 3px;
+    border: 0;
+    box-shadow: inset 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  
+}
 .navbar {
   justify-content: center;
   width: 100%;
@@ -25,7 +31,7 @@
   z-index: 100000;
   position: fixed;
   padding: 5px 10px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 .bookmarks {
@@ -33,7 +39,7 @@
   letter-spacing: 1.2px;
   padding-left: 1.1rem;
   font-weight: 600;
-  padding-top: 0.3rem;
+  padding-top: 0.2rem;
   color: #cab80e;
   text-transform: uppercase;
   justify-content: center;
@@ -76,6 +82,7 @@
 }
 
 
+
 </style>
 </head>
 
@@ -94,31 +101,31 @@
     <nav class="navbar navbar-light  navbar-expand-lg scrolling-navbar navbar-fixed-top ">
        
    
-        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/"><span style="font-size:90%; font-weight:600 ;color: #cab80e;">AKADEMIA WOJOWNIKÓW</span></a>
-        <button class="navbar-toggler mx-auto" type="button" style="margin:15px" data-toggle="collapse"  data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-            <span  class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1.4rem; "></span>
+        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%; font-weight:600 ;color: #cab80e;" >AKADEMIA WOJOWNIKÓW</span></a>
+        <button class="navbar-toggler mx-auto" type="button" style="margin:15px" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span  class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1rem; "></span>
         </button>
-   
+
+        
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto " style="color: #cab80e;">
-                <li class="nav-item active">
+        <hr id="hr-navbar"></hr>
+            <ul class="navbar-nav ml-auto "  style="color: #cab80e; ">
+               
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse"  data-target="#navbarNav"  class="bookmarks">AKADEMIA</span></a>
-                </li>
-                <li class="nav-item">
+               
+               
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Dlaczego-akademia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a>
-                </li>
-                <li class="nav-item">
+                
+               
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a>
-                </li>
-                <li class="nav-item" >
+                
                     <a class="nav-link" href="TreningiOnline.php"><span data-toggle="collapse" data-target="#navbarNav"  class="bookmarks">TRENINGI ONLINE</span></a>
-                </li>
-                <li class="nav-item">
+                
+               
                     <a class="nav-link" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a>
-                </li>
-                <li class="nav-item">
+                
                     <a class="nav-link" href="Kontakt.php"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a>
-                </li>
+                
             </ul>
         </div>
     </nav>
