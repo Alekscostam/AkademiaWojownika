@@ -249,7 +249,7 @@ figure {
 
 @media (min-width: 1200px) {
   .text-logo {
-    margin-left: 50px;
+    margin-left: 45px;
   }
 }
 
@@ -293,12 +293,18 @@ figure {
     font-size: 2em;
     padding: 0.7rem;
   }
+  .text-logo {
+    font-size: 1.5em!important;
+  }
 }
 @media only screen and (max-width: 768px) {
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
+  }.text-logo {
+    font-size: 1.5em;
   }
+  
 }
 @media only screen and (max-width: 262px) {
   * {
@@ -345,5 +351,9 @@ figure {
     width: 100%;
     color: #ffe600 !important;
   }
+  .text-logo {
+    font-size: 1.4em;
+  }
+  
 }
 /* END MEDIA */
