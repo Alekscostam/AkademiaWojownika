@@ -94,15 +94,15 @@ hr.light-100 {
                         </ul>
                     </h7>
                 </div>
-                <div class="col-md-4 mx-auto mb-4 text-center">
+                <div class="col-md-3 mx-auto mb-4 text-center">
                     <h6 class="text-uppercase   foot-header" style="font-size: 100%">Nasi Partnerzy</h6>
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height:2px;"> -->
                     <div class="my-3"></div>
-                    <img src="./img/Loga/alm.png" width="80px" class="img-fluid">
-                    <img src="./img/Loga/pzb.png" width="100px" class="img-fluid">
-                    <img src="./img/Loga/pzkb.png" width="80px" class="img-fluid">
-                    <img src="./img/Loga/pzmsw.png" width="80px" class="img-fluid">
-                    <img src="./img/Loga/pzz.png" width="80px" class="img-fluid">
+                    <img src="./img/Loga/alm.png" width="65px" class="img-fluid">
+                    <img src="./img/Loga/pzb.png" width="65px" class="img-fluid">
+                    <img src="./img/Loga/pzkb.png" width="65px" class="img-fluid">
+                    <img src="./img/Loga/pzmsw.png" width="65px" class="img-fluid">
+                    <img src="./img/Loga/pzz.png" width="65px" class="img-fluid">
 
                 </div>
             </div>
