@@ -117,10 +117,9 @@ body {
 .btn-social {
   display: inline-block;
   list-style: none;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   margin: 2px;
-  font-size: 1.6rem;
   background: #343a40;
   font-weight: 900;
 

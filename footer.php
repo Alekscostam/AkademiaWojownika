@@ -51,8 +51,8 @@ hr.light-100 {
   /* border-bottom: 0.1rem solid #cfcfcf; */
 }
 </style>
-<body><br></b>
-    <div class="footer-sponsors text-center">
+<body></b>
+    <!-- <div class="footer-sponsors text-center">
         <div class="container">
             <div class="row  d-flex align-items-center ">
                 <div class="col  text-center">
@@ -65,27 +65,28 @@ hr.light-100 {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <footer class="page-footer bg-dark">
         <div class="container text-center text-md-left mt-2">
             <div class="row">
 
 
-                <div class="col-md-2 mx-auto mb-4 text-center">
-                    <h6 class="text-uppercase  foot-header text-center" style="font-size: 100%"> Social media</h6>
-                    <div class="my-4"></div>
+                <div class="col-md-2 mx-auto mb-4 ">
+                    <h6 class="text-uppercase  foot-header " style="font-size: 110%"> Social media</h6>
+                    <div class="my-4" >
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> -->
-                    <a class="btn-social" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
-                    <a class="btn-social" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
-                    <a class="btn-social" href="#"><i class="fab fa-youtube  "></i></a>
+                    <a class="btn-social" style="font-size: 170%" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
+                    <a class="btn-social"  style="font-size: 170%" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
+                    <a class="btn-social" style="font-size: 170%" href="https://www.youtube.com/channel/UCL2hjnVwd_JOIQWuiKLoewg"><i class="fab fa-youtube  "></i></a>
+                    </div>
                 </div>
 
 
-                <div class="col-md-4 mx-auto mb-4">
-                    <h6 class="text-uppercase  foot-header" style="font-size: 100%"> kontakt</h6>
+                <div class="col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase  foot-header" style="font-size: 110%"> kontakt</h6>
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width:310px; height:2px;"> -->
 
-                    <h7 style="font-size: 85%">
+                    <h7 style="font-size: 90%">
                         <ul class="list-unstyled my-4">
                             <li class="my-2"><i class="fas fa-home "></i>&nbsp;Akademia Wojowników Złoty Smok</li>
                             <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; sp.47 ul. Czartoryskiego 18,</li>
@@ -94,15 +95,30 @@ hr.light-100 {
                         </ul>
                     </h7>
                 </div>
-                <div class="col-md-3 mx-auto mb-4 text-center">
-                    <h6 class="text-uppercase   foot-header" style="font-size: 100%">Nasi Partnerzy</h6>
+                <div class="col-md-4 mx-auto mb-4 ">
+                    <h6 class="text-uppercase   foot-header" style="font-size: 110%">Współpraca</h6>
+                    
+                    <h7 style="font-size: 90%">
+                    <ul class="list-unstyled my-4">
+                            <li class="my-1"><span style="color: #fff;">Zostań trenerem</span></li>
+                            <div class="text-footer"  >
+                            Jeśli posiadasz doświadczenie z pracą z dziećmi jest pedagogiem, trenerem lub masz ukończony kurs, zachęcamy do współpracy. 
+                            </div><div class="my-3"></div>
+                            <li  class="my-1"><span style="color: #fff;">Przedszkola</span></li>
+                            <span class="my-2" style="max-width:10px">
+                            Zapraszamy wszystkie zainteresowane przedszkola do współpracy. 
+                            </span>
+                            </ul>
+                    </h7>
+                      
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height:2px;"> -->
-                    <div class="my-3"></div>
-                    <img src="./img/Loga/alm.png" width="65px" class="img-fluid">
+                    <div class="my-2"></div>
+                     
+                    <!-- <img src="./img/Loga/alm.png" width="65px" class="img-fluid">
                     <img src="./img/Loga/pzb.png" width="65px" class="img-fluid">
                     <img src="./img/Loga/pzkb.png" width="65px" class="img-fluid">
                     <img src="./img/Loga/pzmsw.png" width="65px" class="img-fluid">
-                    <img src="./img/Loga/pzz.png" width="65px" class="img-fluid">
+                    <img src="./img/Loga/pzz.png" width="65px" class="img-fluid"> -->
 
                 </div>
             </div>

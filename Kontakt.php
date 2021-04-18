@@ -70,9 +70,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
    
     <section id="FAQ" style=" padding-top: 100px;">
         <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
-        <h5 class="text-center my-2 text-justify mx-auto text-dark " style="font-size:110%;vertical-align: middle;">Jeśli masz pytania odnośnie treningów lub chcesz podjąć bezpośrednią współprace, zapraszmay do wypełnienia formualarza kontaktowego.</h5>
-        <br>
-        <section class="mb-4 text-dark contact-us-section">
+        
+        <section class="text-dark contact-us-section">
 
             <!--Section heading-->
             <!-- <h4 class=" font-weight-bold text-center my-2 title-contact-us">Skontaktuj się z nami</h4> -->
@@ -140,7 +139,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                             <div class="col-md-12">
                                 <h6 style="font-weight:bold;">
                                     <div class="md-form form-field">
-                                        <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"></textarea>
+                                        <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
                                         <label for="message">Wiadomość</label>
                                     </div>
                                 </h6>
