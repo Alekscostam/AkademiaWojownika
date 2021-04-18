@@ -59,6 +59,9 @@ body {
   right: 0;
   height: 0px;
 }
+#club-back{
+  margin-top: -20px;
+}
 
 /* END AKADEMIA SECTION */
 
@@ -154,10 +157,14 @@ body {
 
 .card-body h7 {
   font-size: 13px;
+  text-justify: inter-word; text-align: justify;
 }
 
 .card-body h6 {
   font-size: 11px;
+}
+.card img {
+ 
 }
 /* END CARDS DESIGN */
 

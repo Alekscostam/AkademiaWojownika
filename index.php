@@ -82,71 +82,49 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <section id="Akademia"></section>
     <div id="club-back">
         <div class="container ">
+        <br>
+        
             <div class="row justify-content-center ">
+           
+            <h4 class="text-dark  " style="font-size: 150%; text-justify: inter-word; text-align: justify;"> Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.</h4><br>
 
-                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:55px;">
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:15px;">
 
-                    <img src="./img/site/mlodsza.jpg" class="img-fluid my-4 border border-secondary img-start "><br><br>
-                    <img src="./img/site/mieszana.jpg" class="img-fluid my-4 border border-secondary img-start "><br><br>
-                    <img src="./img/site/starsza.jpg" class="img-fluid my-4 border border-secondary img-start moreText">
+                    <img src="./img/site/mlodsza.jpg" class="img-fluid my-1 border border-secondary img-start ">
+                    <img src="./img/site/mieszana.jpg" class="img-fluid my-1 border border-secondary img-start ">
+                    <img src="./img/site/starsza.jpg" class="img-fluid my-1 border border-secondary img-start ">
 
                 </div>
                 <div class="col-lg-8">
                     <p>
-                    <h1 class="text-dark pb-3 h2-responsive header-panel" style=" font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1>
-                    <h4 class="content-text  pb-3 h4-responsive my-py-2"> Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.
-                        Treningi organizowane są na Fordonie, Osowej Górze i Wyżynach. <p></p>
-                        <B>Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych. Efektywne treningi zapewniają nasi wykwalifikowani trenerzy, a także przeszkoleni trenerzy z wykształceniem pedagogicznym, którzy <b>zajęcia prowadzić będą w szkołach.</b>
-                        <p></p>
-                        <B>Akademia Wojowników</B> to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie wolnego czasu, a także budowanie sprawności fizycznej i pewności siebie u dzieci.
-                        <p></p>
+                    <!-- <h1 class="text-dark pb-3 h2-responsive header-panel" style=" font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1>s -->
+                    
+                    <h4 class="content-text  pb-3 h4-responsive "> 
+                    <div class="my-2">  <B>Akademia Wojowników</B>  powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami . Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.</div>
+                    <div class="my-2"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
+                      Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
 
-                        <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne, dzięki specjalnej formule bezkontaktowej, która pozwala podopiecznym na trening "bez siniaków" przy zachowaniu szeregu korzyści z ćwiczeń.
-                        Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.
-                        Zwłaszcza w dobie koronawirusa i spadku aktywności wśród dzieci, naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.<p></p>
-                        Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów. Dodatkowym atutem są niewielkie grupy, dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój i wskazują nad czym należy jeszcze popracować.
-                        <span class="moreText">
-                            <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy. Udział rodzica w treningu pozwala na lepszą kontrolę nad poprawnością wykonywanych ćwiczeń oraz zwiększa motywację u dzieci, które są wtedy bardziej skupione na wykonywanych zadaniach. Dodatkowo Wojownicy biorą udział w zawodach, gdzie uczą się zdrowej rywalizacji i jest to szansa na sprawdzenie siebie oraz swoich umiejętności.
-                            <p></p>Ponadto szeregi naszej kadry zasilają specjaliści, z którymi nawiązaliśmy współpracę:
-                            <b>
-                                <ul style="margin-left:3rem;">
-                                    <p>
-                                        <li> psycholog dziecięcy,</li>
-
-                                        <li> dietetyk,</li>
-
-                                        <li> fizjoterapeuta.</li>
-                                </ul>
-                                </p>
-                        </span>
-                        </p>
+                        <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz  formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy. W obecnej  sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji. 
+                        
+                   
+                            <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
+                            <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy. Udział rodzica w treningu pozwala na lepszą kontrolę nad poprawnością wykonywanych ćwiczeń oraz zwiększa motywację u dzieci, które są wtedy bardziej skupione na wykonywanych zadaniach.
+                           <p></p>
+                      
+                        
 
                     </h4>
                 </div>
             </div>
         </div>
-        <section id="team" class="moreText">
-            <div class="card-deck  container-fluid justify-content-center ">
-                <div class="card">
-                    <div class="card-body">
-                        <!-- class=" rounded-circle mb-1"  -->
-                        <img src="img/Profil/MG.JPG" class=" rounded-circle mb-1">
-                        <h3 class="person-name" style="font-size: 200%;">Michał Grabarek</h3><br>
-                        <h5 style="font-size: 150%;">BOKS, KICK-BOXING</h5><br>
-                        <h7 style="font-size: 100%;">
-                            <p class="text-dark" style="font-size: 100%;"> Były zawodnik, zdobył kilkanaście medali Pucharu i Mistrzostw Polski oraz Europy. Prowadzenia zajęć nauczył się między innymi na obozach w Tajlandii, Holandii i Francji. Ukończył kurs instruktora sportu - ogólny oraz specjalistyczny z zakresu: Muay Thai, K-1, Kick-Boxing.
-                        </h7>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
-        <div id="btn-div" style="text-align:center;">
-            <button class="btn  read-more-btn" onclick="ShowOrHideTxt();">Czytaj dalej</button><i class="fas fa-chevron-down "></i>
-        </div>
+       
         
     </div>
     <br>
+
+   
     <section id="Dlaczego-akademia"></section>
 
     </br>
