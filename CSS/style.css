@@ -186,23 +186,19 @@
 /* BACK-CARD */
 
 .back-card {
-  background: -webkit-linear-gradient(top, #343a40 60%, #fff 40%);
-  background: -moz-linear-gradient(top, #343a40 60%, #fff 40%);
-  background: -o-linear-gradient(top, #343a40 60%, #fff 40%);
-  background: -ms-linear-gradient(top, #343a40 60%, #fff 40%);
-  background: linear-gradient(top, #343a40 60%, #fff 40%);
 }
 
 /* END BACK-CARD */
 /* CARD */
 .card{
   
-  box-shadow: 0 5px 15px -5px #000;
+  /* box-shadow: 0 5px 15px -5px #000; */
 }
 
 /* ZAJECIA */
 
 #Zajęcia{
+
   position: relative;
   top: -50px;
   right: 0;
@@ -210,6 +206,7 @@
 }
 
 #Zajecia {
+  border: 1px solid #cacaca;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -285,6 +282,7 @@
 .content-text {
   text-align: justify;
   text-justify: inter-word;
+
 
   font-size: 100%;
   /* letter-spacing: 2px; */
@@ -364,6 +362,9 @@
 }
 .author{
 color: #1a1919;
+
+text-align: justify;
+  text-justify: inter-word;
 line-height: 1.5;
 }
 .desc{
