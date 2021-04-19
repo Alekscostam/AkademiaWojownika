@@ -7,42 +7,7 @@
 
 
 /* START course */
-#club-back {
-  background: #f1f1f1;
-  color: #292b2c;
-  text-align: left;
-}
 
-#club-back h3 {
-  text-justify: inter-word; text-align: justify;
-  color: #45606d;
-
-}
-#club-back h5 {
-  text-justify: inter-word; text-align: justify;
-  color: #5e686d;
-
-  font-weight: 400;
-}
-#club-back i {
-  color: #5e686d;
-  text-align: left;
-  line-height: 20pt;
-  font-weight: 400;
-}
-#club-back ul {
-  display: table-row;
-  font-weight: 600;
-  font-size: 120%;
-  color: #292b2c;
-  list-style-type: none;
-}
-#club-back ul li {
-  margin: auto;
-  display: table-cell;
-  list-style-type: none;
-  vertical-align: middle;
-}
 
 /* END COURSE */
 

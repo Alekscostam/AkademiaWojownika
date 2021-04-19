@@ -350,8 +350,31 @@
   -moz-transition: all 0.3s ease-in;
 }
 
+.type{
+  color:#cab80e;
+
+}
+.author{
+color: #1a1919;
+}
+.desc{
+color: #474f57;
+font-weight: 450;
+}
+
+#trener{
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)
+    
+  ),
+  url(../img/back.png);
+  border: 1px solid #cacaca;
+}
+/* Z MICHALA */
 
 
+/* END  Z michala*/
 
 /* FFCC00 */
 
