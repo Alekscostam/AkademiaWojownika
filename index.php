@@ -176,7 +176,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <img src="img/Profil/MG.JPG" class="img-fluid my-1 border border-secondary  ">
                 </div>
                 <div class="col-lg-4">
-                <h2 class="type"  style="font-weight: 900; font-size: 120%; ">Ukończone kursy:</h2>
+                <h2 class="type"  style="font-weight: 900; font-size: 130%; ">Ukończone kursy:</h2>
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                         <p></p>
                 
@@ -188,7 +188,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         </ul>
                 </div>
                 <div class="col-lg-5">
-                <h2 class="type"  style="font-weight: 900; font-size: 120%; ">Organizator zawodów i gal zawodowych:</h2>
+                <h2 class="type"  style="font-weight: 900; font-size: 130%; ">Organizator zawodów i gal zawodowych:</h2>
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                         <p></p>
                 

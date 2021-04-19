@@ -242,8 +242,8 @@
 }
 #treningi2 {
   background-image: linear-gradient(
-      rgba(206, 205, 205, 0.4),
-      rgba(206, 205, 205, 0.4)
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
     ),
     url(../img/back.png);
   color: #343a40 !important;
@@ -351,7 +351,7 @@
 }
 
 .type{
-  color:#cab80e;
+  color:#dac400;
 
 }
 .time{
