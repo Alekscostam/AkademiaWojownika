@@ -33,11 +33,11 @@
 <body>
     <?php include('./header.php'); ?>
     <div id="main-panel" class="container-fluid ">
-        <div class="intro " style=" padding-top: 150px;">
+        <div class="intro " style=" padding-top: 120px;">
             
         </div>
     </div>
-    <div id="club-back" style=" padding-top: 50px;">
+    <div id="club-back" style=" ">
         <div class="container ">
             
         
@@ -59,17 +59,18 @@
                         </div>
                         <br>
                         <ul>
-                            <li><i class="far fa-clock img-fluid "></i> <label id="time">15 min</label></li> &nbsp;&nbsp;&nbsp;
-                            <li><i class="far fa-star img-fluid "></i> <label id="level">Trudny</label></li>
+                            <li><i class="fab fa-facebook-f img-fluid "></i> <label id="time">cos tam</label></li> &nbsp;&nbsp;&nbsp;
+                            <li><i class="fab fa-facebook-f img-fluid "></i> <label id="time">cos tam</label></li> &nbsp;&nbsp;&nbsp;
+                            <li><i class="fab fa-instagram img-fluid "></i> <label id="level">cos tam</label></li>&nbsp;&nbsp;&nbsp; Zapraszam na treningi indywidualne
                         </ul>
                 </div>
             </div>
         </div>
-        
-
+    
         
     </div>
-   
+   <div style="padding-top: 100px;background: #f1f1f1;" >
+   </div>
 
     <?php include('./footer.php'); ?>
 

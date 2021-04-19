@@ -34,9 +34,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
 ?>
 <style>
-    <?php include './CSS/style.css'; ?>
-    <?php include './js/main.js'; ?>
-    
+    <?php include './CSS/style.css'; ?><?php include './js/main.js'; ?>
 </style>
 
 <!DOCTYPE html>
@@ -77,94 +75,68 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <div class="jumbotron text-center  container-fluid ">
 
-        
+    <div style=" padding-top: 330px;">
+            <div class="container">
+                <div class="row d-flex flex-row justify-content-center">
+
+                    <div class="col-18">
+                    
+                        <!-- <a href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0" class="btn btn-primary ">ZAPISY <br> </a> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
+
     <section id="Akademia"></section>
     <div id="club-back">
         <div class="container ">
-        <br>
-        
-            <div class="row justify-content-center ">
-           
-            <h4 class="text-dark  " style="font-size: 150%; text-justify: inter-word; text-align: justify;"> Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.</h4><br>
+            
+            <div class="col">
 
-                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:15px;">
+            </div>
+            <div class="row justify-content-center ">
+
+
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:88px;">
 
                     <img src="./img/site/mlodsza.jpg" class="img-fluid my-1 border border-secondary img-start ">
-                    <img src="./img/site/mieszana.jpg" class="img-fluid my-1 border border-secondary img-start ">
+                    <img src="./img/site/mieszana.jpg" class="img-fluid my-2 border border-secondary img-start ">
                     <img src="./img/site/starsza.jpg" class="img-fluid my-1 border border-secondary img-start ">
 
                 </div>
                 <div class="col-lg-8">
-                    <p>
-                    <!-- <h1 class="text-dark pb-3 h2-responsive header-panel" style=" font-size: 250%;">AKADEMIA WOJOWNIKÓW </h1>s -->
-                    
-                    <h4 class="content-text  pb-3 h4-responsive "> 
-                    <div class="my-2">  <B>Akademia Wojowników</B>  powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami . Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.</div>
-                    <div class="my-2"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
-                      Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
+                <h4 class="text-dark w-100 text-justify  my-2" style="font-size: 140%; "> Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.</h4><br>
 
-                        <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz  formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy. W obecnej  sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji. 
-                        
-                   
-                            <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
-                            <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy. Udział rodzica w treningu pozwala na lepszą kontrolę nad poprawnością wykonywanych ćwiczeń oraz zwiększa motywację u dzieci, które są wtedy bardziej skupione na wykonywanych zadaniach.
-                           <p></p>
-                      
-                        
+
+                    <h4 class="content-text  pb-3 h4-responsive ">
+                        <div class=""> <B>Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami . Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.</div>
+                        <div class="my-2"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
+                        Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
+
+                        <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy. W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
+
+
+                        <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
+                        <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy. Udział rodzica w treningu pozwala na lepszą kontrolę nad poprawnością wykonywanych ćwiczeń oraz zwiększa motywację u dzieci, które są wtedy bardziej skupione na wykonywanych zadaniach.
+                        <p></p>
+
+
 
                     </h4>
                 </div>
             </div>
         </div>
-        
 
-       
-        
+
+
+
     </div>
     <br>
 
-   
-    <section id="Dlaczego-akademia"></section>
 
-    </br>
-
-    <div class="back-card">
-
-        <div class="container-fluid justify-content-center" style="padding-top: 40px;">
-            <h1 class="header-panel my-2 w-100 text-light text-center" style="font-weight: 900; font-size: auto;">DLACZEGO AKADEMIA?</h1>
-        </div>
-        <br>
-        <div class="  card-deck  text-center justify-content-center" style="margin:auto;">
-            <div class="card col-lg-3" style="min-width:220px;">
-                <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
-                <div class="card-body ">
-                    <h4 class="card-title " style="font-size: 150%;"> OBOZY</h4>
-                    <h7 style="font-size: 100%; ">
-                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Organizujemy także dłuższe wyjazdy, np. 3 dniowy wyjazd Zielona Szkoła lub Moje Pierwsze Kolonie - 7dniowy wyjazd nad morze. To szansa dla dzieci na naukę samodzielności i poznanie grupy.</p>
-                    </h7>
-                </div>
-            </div>
-            <div class="card col-lg-3" style="min-width:220px;">
-                <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title" style="font-size: 150%;">WYJŚCIA INTEGRACYJNE</h4>
-                    <h7 style="font-size: 100%; ">
-                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem. Proponujemy udział w nocce w Sali Zabaw Złoty Smoczek pełnej atrakcji i pod okiem wykwalifikowanej kadry.</p>
-                    </h7>
-                </div>
-            </div>
-            <div class="card col-lg-3" style="min-width:220px;">
-                <img class="card-img-top" src="./img/site/5.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title" style="font-size: 150%;">ZAWODY</h4>
-                    <h7 style="font-size: 100%; ">
-                        <p style="color: rgb(70, 70, 70); font-weight: 500;" style="font-size: 80%;">Akademia Wojowników jest środowiskiem idealnym do rozwoju dziecka, które składa się nie tylko z treningów, ale także pozwala na integrację z grupą i udział w szeregu dodatkowych aktywności, jak wyjazdy czy zawody sportowe.</p>
-                    </h7>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <br><br>
     <section id="treningi">
@@ -175,17 +147,17 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
             <br><br>
             <div class="row text-center padding w-75 " style="margin: auto;">
+
                 <div class="col-lg-4">
-                    <i class="fas fa-hand-rock   img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
+                    <i class="fas fa-street-view img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Samoobrona </h2>
+                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Treningi dla każdego </h2>
                     <p></p>
                     <div>
                         <h5 class="header-content">
-                            Niezwykle ważny aspekt treningów, to zdobycie wiedzy jak się obronić i wykorzystać spryt oraz zwinność do obrony przed nawet silniejszym i wiekszym napastnikiem
+                            Trenują zarówno chłopcy, jak i dziewczynki, dzieci w różnym wieku i o odmiennej sprawności fizycznej, trenerzy zwracają uwagę na możliwości dzieci i dążą do optymalnego rozwoju każdego podopiecznego, natomiast dzieci dostrzegają, że nie wszyscy radzą sobie tak samo i należy sobie pomagać </h5>
                     </div>
                 </div>
-
 
 
                 <div class="col-lg-4">
@@ -215,50 +187,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         </div>
 
     </section>
+    
+
     <section id="treningi2">
-        <div class="container-fluid padding justify-content-center">
-            <div class="col">
-            </div>
-            <br><br>
-            <div class="row text-center padding w-75 " style="margin: auto;">
-
-                <div class="col-lg-4">
-                    <i class="fa fa-exclamation img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
-                    <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Dyscyplina</h2>
-                    <p></p>
-                    <div>
-                        <h5 class="header-content">
-                            Sporty walki wymagają skupienia i powtarzania sekwencji aż "do znudzenia", nasi doświadczeni trenerzy potrafią zdobyć zaufanie trenujących i sprawić, aby dzieci chętnie słuchały poleceń oraz mimo powtórzeń zaangażowały się w trening.
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <i class="fas fa-street-view img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
-                    <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Treningi dla każdego </h2>
-                    <p></p>
-                    <div>
-                        <h5 class="header-content">
-                            Trenują zarówno chłopcy, jak i dziewczynki, dzieci w różnym wieku i o odmiennej sprawności fizycznej, trenerzy zwracają uwagę na możliwości dzieci i dążą do optymalnego rozwoju każdego podopiecznego, natomiast dzieci dostrzegają, że nie wszyscy radzą sobie tak samo i należy sobie pomagać </h5>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <i class="fas fa-arrow-up img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
-                    <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Zauważalny progres</h2>
-                    <p></p>
-                    <div>
-                        <h5 class="header-content">
-                            Na początku wykonujemy test sprawnościowy i co dwa miesiące je powtarzamy, co motywuje uczestników i pozwala na obserwowanie postępów oraz pozwala zauważyć na co należy zwrócić szczególną uwagę u poszczególnych podopiecznych </h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="treningi">
         <div class="container-fluid padding justify-content-center">
             <div class="col">
             </div>
@@ -304,7 +235,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
     </section>
     <section id="Zajęcia"></section>
-   
+
     <section id="Zajecia"><br>
         <div class="container ">
             <div class="row justify-content-center ">
@@ -358,7 +289,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <section id="FAQ" style=" padding-top: 100px;">
         <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
-        
+
         <section class="text-dark contact-us-section">
 
             <!--Section heading-->

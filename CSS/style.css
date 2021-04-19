@@ -99,7 +99,7 @@
 
     ),
     url(../img/LogaGDAW/Background\ —\ kopia.jpg);
-  height: 80vh;
+  height: 75vh;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -164,7 +164,8 @@
 
 .btn-primary {
   border: 1px solid #cab80e;
-  background: none;
+  background: #cab80e;
+  opacity: 0.9;
   font-size: 0.8rem;
   padding: 1rem 2rem;
   color: #fff;
@@ -173,9 +174,9 @@
 }
 
 .btn-primary:hover {
-  background: #cab80e;
+  background: #ffe712;
   color: #fff;
-  border: 2px solid #cab80e;
+  border: 2px solid #ffe712;
   font-weight: bold;
 }
 

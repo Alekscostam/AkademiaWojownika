@@ -114,7 +114,7 @@
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse"  data-target="#navbarNav"  class="bookmarks">AKADEMIA</span></a>
                
                
-                    <a class="nav-link" href="Trener.php"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dlaczego akademia?</span></a>
+                    <a class="nav-link" href="Trener.php"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Trener</span></a>
                 
                
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a>

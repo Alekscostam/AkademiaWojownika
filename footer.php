@@ -106,7 +106,7 @@ hr.light-100 {
                             </div><div class="my-3"></div>
                             <li  class="my-1"><span style="color: #fff;">Przedszkola</span></li>
                             <span class="my-2" style="max-width:10px">
-                            Zapraszamy wszystkie zainteresowane przedszkola do współpracy. 
+                            Zapraszamy zainteresowane przedszkola do współpracy. 
                             </span>
                             </ul>
                     </h7>
