@@ -180,11 +180,11 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                         <p></p>
                 
-                        <ul style="font-size: 100%;" class="desc list-unstyled">
-                            <li><i class="fas fa-circle img-fluid "></i> <label id="time"> Muay Thai,</label></li> 
-                            <li><i class="fas fa-circle img-fluid "></i> <label id="time"> K-1,</label></li> 
-                            <li><i class="fas fa-circle img-fluid "></i> <label id="level"> Kick-Boxing,</label></li>
-                            <li><i class="fas fa-circle img-fluid "></i> <label id="level"> Boks.</label></li>
+                        <ul style="font-size: 100%;" class=" list-unstyled">
+                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Muay Thai,</label></li> 
+                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> K-1,</label></li> 
+                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Kick-Boxing,</label></li>
+                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Boks.</label></li>
                         </ul>
                 </div>
                 <div class="col-lg-5">
@@ -192,11 +192,11 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                         <p></p>
                 
-                        <ul style="font-size: 100%;" class="desc list-unstyled">
-                            <li><i class="fas fa-circle img-fluid " ></i> <label id="time"> Gala Envio Fight Night,</label></li> 
-                            <li><i class="fas fa-circle img-fluid "></i> <label id="time"> Akademicki Mistrzostwa Polski MMA,</label></li> 
-                            <li><i class="fas fa-circle img-fluid "></i> <label id="level"> Młodzieżowe Mistrzostwa Polski MMA,</label></li>
-                            <li><i class="fas fa-circle img-fluid "></i> <label id="level"> Bydgoski Wieczór Sportów Waki MMA K-1.</label></li>
+                        <ul  class=" list-unstyled">
+                            <li><i class="fas fa-circle img-fluid desc-i" ></i> <label class="time"> Gala Envio Fight Night,</label></li> 
+                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Akademicki Mistrzostwa Polski MMA,</label></li> 
+                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Młodzieżowe Mistrzostwa Polski MMA,</label></li>
+                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Bydgoski Wieczór Sportów Waki MMA K-1.</label></li>
                         </ul>
                 </div>
             </div>

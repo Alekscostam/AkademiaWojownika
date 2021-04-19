@@ -354,10 +354,19 @@
   color:#cab80e;
 
 }
+.time{
+  font-size: 100%;
+  color: #474f57;
+}
+.desc-i{
+  font-size: 70%;
+  color: #474f57;
+}
 .author{
 color: #1a1919;
 }
 .desc{
+  line-height: 1.5;
 color: #474f57;
 font-weight: 450;
 }
