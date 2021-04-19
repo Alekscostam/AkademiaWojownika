@@ -75,12 +75,12 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <div class="jumbotron text-center  container-fluid ">
 
-    <div style=" padding-top: 330px;">
+        <div style=" padding-top: 330px;">
             <div class="container">
                 <div class="row d-flex flex-row justify-content-center">
 
                     <div class="col-18">
-                    
+
                         <!-- <a href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0" class="btn btn-primary ">ZAPISY <br> </a> -->
                     </div>
                 </div>
@@ -92,37 +92,42 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <section id="Akademia"></section>
     <div id="club-back">
         <div class="container ">
-            
+
             <div class="col">
 
             </div>
             <div class="row justify-content-center ">
 
 
-                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:88px;">
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:100px;">
 
                     <img src="./img/site/mlodsza.jpg" class="img-fluid my-1 border border-secondary img-start ">
-                    <img src="./img/site/mieszana.jpg" class="img-fluid my-3 border border-secondary img-start ">
-                    <img src="./img/site/starsza.jpg" class="img-fluid my-1 border border-secondary img-start ">
+                    <img src="./img/site/mieszana.jpg" class="img-fluid my-4 border border-secondary img-start moreText">
+                    <img src="./img/site/starsza.jpg" class="img-fluid my-1 border border-secondary img-start moreText">
 
                 </div>
                 <div class="col-lg-8">
-                <h4 class="text-dark w-100 text-justify  my-2" style="font-size: 140%; "> Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.</h4><br>
+                    <h1 class="text-dark pb-3 h2-responsive header-panel text-center" style="font-weight: 900; font-size: 170%;">
+                        SPORT &nbsp; ZABAWA &nbsp; INTEGRACJA
+                    </h1>
+                <br>
+                    <div class="content-text   h4-responsive ">
 
-
-                    <h4 class="content-text   h4-responsive ">
-         
-                       <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami . Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
-                        <div class="my-4"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
+                        <div  style="font-size: 120%;"> 
+                        Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
+                        </div>
+                        <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami . Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
+                        <div class="my-3"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
                         Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
+                        <span class="moreText">
+                            <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.<p></p>
+                            W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
 
-                        <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.<p></p>
-                         W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
 
-
-                        <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
-                        <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy. Udział rodzica w treningu pozwala na lepszą kontrolę nad poprawnością wykonywanych ćwiczeń oraz zwiększa motywację u dzieci, które są wtedy bardziej skupione na wykonywanych zadaniach.
-                    </h4>
+                            <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
+                            <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy. Udział rodzica w treningu pozwala na lepszą kontrolę nad poprawnością wykonywanych ćwiczeń oraz zwiększa motywację u dzieci, które są wtedy bardziej skupione na wykonywanych zadaniach.
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,10 +136,13 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
 
     </div>
+    <div id="btn-div" style="text-align:center;">
+        <button class="btn  read-more-btn" onclick="ShowOrHideTxt();">Czytaj dalej</button><i class="fas fa-chevron-down "></i>
+    </div>
     <br>
 
 
-    
+
 
     <br><br>
     <section id="treningi">
@@ -185,7 +193,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         </div>
 
     </section>
-    
+
 
     <section id="treningi2">
         <div class="container-fluid padding justify-content-center">
