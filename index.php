@@ -97,7 +97,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="row justify-content-center ">
 
 
-                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:70px;">
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:68px;">
                     <div class="image-akademia-left-one img-fluid  border border-secondary ">
                     </div>
                     <img class="image-akademia-left-two img-fluid  border border-secondary moreText"><br>
@@ -105,13 +105,13 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
                 </div>
                 <div class="col-lg-8">
-                    <h1 class="text-dark pb-3 h2-responsive header-panel text-center" style="font-weight: 900; font-size: 170%;">
-                        SPORT &nbsp; ZABAWA &nbsp; INTEGRACJA
+                    <h1 class="text-dark pb-3 h2-responsive header-panel " style="font-weight: 900; font-size: 130%;">
+                    SPORT&nbsp; ZABAWA&nbsp;  INTEGRACJA
                     </h1>
                     <br>
                     <div class="content-text   h4-responsive ">
 
-                        <div style="font-size: 120%;">
+                        <div style="font-size: 105%; text-left">
                             Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
                         </div>
                         <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami . Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
