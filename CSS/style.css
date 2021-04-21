@@ -25,7 +25,10 @@
 
 /* CONTACT US */
 #Kontakt {
-  margin: 2rem auto;
+  position: relative;
+  top: -50px;
+  right: 0;
+  height: 0px;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
 }
 .text-footer{
@@ -297,7 +300,9 @@
     ),
     url(../img/back.png);
   color: #343a40 !important;
+  border-bottom: 1px solid rgb(214, 214, 214);
   background-attachment: 50px;
+  
 }
 #treningi2 h1 {
   font-weight: 900;
@@ -427,6 +432,12 @@ font-weight: 450;
 
 #trener{
   background: white;
+}
+#Trener{
+  position: relative;
+  top: -60px;
+  right: 0;
+  height: 0px;
 }
 /* Z MICHALA */
 

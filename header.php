@@ -108,18 +108,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <hr id="hr-navbar"></hr>
             <ul class="navbar-nav ml-auto "  style="color: #cab80e; ">
-               
-                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse"  data-target="#navbarNav"  class="bookmarks">AKADEMIA</span></a>
+               <!-- https://akademiawojownika.herokuapp.com/ -->
+                    <a class="nav-link" href="#Akademia"><span data-toggle="collapse"  data-target="#navbarNav"  class="bookmarks">AKADEMIA</span></a>
                      
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a>
-                    
-                    <a class="nav-link" href="Trener.php"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Trener</span></a>
+                    <!-- https://akademiawojownika.herokuapp.com/ -->
+                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Trener"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Trener</span></a>
 
-                    <a class="nav-link" href="Trener.php"><span data-toggle="collapse" data-target="#navbarNav"  class="bookmarks">TRENINGI personalne</span></a>
+                    <!-- <a class="nav-link" href="Trener.php"><span data-toggle="collapse" data-target="#navbarNav"  class="bookmarks">TRENINGI personalne</span></a> -->
                
                     <a class="nav-link" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a>
                 
-                    <a class="nav-link" href="Kontakt.php"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a>
+                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Kontakt"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a>
                 
             </ul>
         </div>

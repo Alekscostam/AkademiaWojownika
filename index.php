@@ -213,11 +213,12 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
         
         </div>
-        <br><br>
+        <br>
     </div>
 <br>
-
-    <div id="trener" style=" ">
+<section id="Trener">
+</section>
+    <div >
         <div class="container ">
 
 
@@ -378,6 +379,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 </div>
             </div>
     </section>
+
+<section id="Kontakt"></section>
+
     <section id="FAQ" style=" padding-top: 40px;">
         <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
 
