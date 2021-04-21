@@ -120,7 +120,7 @@
 .image-akademia-left-one{
   background-image:url(../img/site/2.jpg); ;
   width: 100%;
-  height: 492px;
+  height: 393px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,9 +128,10 @@
 
 .image-akademia-left-two{
   background-image:url(../img/site/mieszana.jpg); ;
+  border: 0;
   width: 100%;
   margin-top: 25px;
-  height: 325px;
+  height: 415px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,6 +207,9 @@
 /* BACK-CARD */
 
 .back-card {
+  background: -webkit-linear-gradient(top, #fff 50%, #343a40 50%);
+  background: -moz-linear-gradient(top, #fff 50%, #343a40 50%);
+  background: -o-linear-gradient(top, #fff 50%, #343a40 50%);
 }
 
 /* END BACK-CARD */

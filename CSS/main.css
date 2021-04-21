@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -20,7 +20,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
+.top-text{
+ font-size: 220%;
+  font-family: 'Black Han Sans', sans-serif;
+}
 .intro {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -146,14 +149,18 @@ body {
   color: #000;
   text-align: center;
   max-width: 710px;
-  min-width: 170px;
 }
 
 .card-body h5 {
+
   font-size: 14px;
   font-weight: bold;
 }
-
+.card-text{
+font-weight: 400;
+font-size: 115%;
+ text-align: justify;
+}
 .card-body h7 {
   font-size: 13px;
   text-justify: inter-word; text-align: justify;
@@ -256,6 +263,7 @@ figure {
   .text-logo {
     margin-left: 45px;
   }
+  
 }
 
 
@@ -272,6 +280,16 @@ figure {
     display: none;
   }
   #elementis {
+    width: 100%;
+  }
+  .card{
+    min-width: 400px;
+  }
+
+
+
+
+  .rightside{
     width: 100%;
   }
 }
@@ -301,6 +319,9 @@ figure {
   .text-logo {
     font-size: 1.2em!important;
   }
+  .card{
+    min-width: 200px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .social a {
@@ -309,7 +330,7 @@ figure {
   }.text-logo {
     font-size: 1.5em;
   }
-
+  
   
 }
 @media only screen and (min-width: 768px) {

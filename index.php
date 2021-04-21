@@ -97,18 +97,18 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="row justify-content-center ">
 
 
-                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:68px;">
-                    <div class="image-akademia-left-one img-fluid  border border-secondary ">
+                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:65px;">
+                    <div class="image-akademia-left-one img-fluid   ">
                     </div>
-                    <img class="image-akademia-left-two img-fluid  border border-secondary moreText"><br>
+                    <img class="image-akademia-left-two img-fluid  moreText" ><br>
                     </img>
 
                 </div>
                 <div class="col-lg-8">
-                    <h1 class="text-dark pb-3 h2-responsive header-panel " style="font-weight: 900; font-size: 130%;">
+                    <h1 class="text-dark pb-3 h2-responsive top-text"  >
                     SPORT&nbsp; ZABAWA&nbsp;  INTEGRACJA
                     </h1>
-                    <br>
+                  
                     <div class="content-text   h4-responsive ">
 
                         <div style="font-size: 105%; text-left">
@@ -118,9 +118,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <div class="my-3"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
                        
                             Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
-
-                            <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. <p></p>
                             <span class="moreText">
+                            <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. <p></p>
+                            
                             Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.<p></p>
                             W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
 
@@ -143,15 +143,15 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <section id="Zajecia no-gutters">
         <div class="row no-gutters">
-            <div class="col-md-5 hide-this">
-                <div class="leftside no-gutters"></div>
+            <div class="col-lg-5 hide-this">
+                <div class="leftside no-gutters hide-this"></div>
             </div>
-            <div class="col-md-7 no-gutters">
+            <div class="col-xl-7 no-gutters">
 
                 <div class="rightside no-gutters">
                     <div class="no-gutters rightside-margin"><br><br>
                         <h3 class=" my-py-2  text-dark w-100 type" style="font-size: 180%; font-weight:700; ">Zajęcia prowadzone w akademii</h3><br>
-                        <h6 class=" text-dark pb-2 h4-responsive my-py-2 desc">
+                        <h6 class=" text-dark pb-2 h4-responsive my-py-2 desc" style="font-size: 105%; ">
                             <b>Zajęcia ogólnorozwojowe</b> z elementami boksu i kickboxingu prowadzimy w trzech grupach wiekowych 4-6lat , 7-9 lat i + 9 lat.<p></p>
                             <b>Boks olimpijski</b> - dyscyplina, w której używa się jedynie pięści. Wymaga bardzo dobrej techniki i cierpliwości. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. Uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.<p></p>
                             <b>Kick-boxing light </b> -połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój, zwiększa zakres ruchów i pozwala na wypracowanie zwinności. Sport uczący szybkiej reakcji i przemyślanych ruchów. Zajęcia prowadzone są w formie bezkontaktowej (light contact), podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
@@ -180,8 +180,42 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
            
         </div>
-        <br>
+        
     </section>
+
+    <div class="back-card">
+
+        <div class="container-fluid justify-content-center" style="">
+        </div>
+        <br>
+        <div class="  card-deck   justify-content-center" style="margin:auto;">
+            <div class="card col-lg-3">
+                <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
+                <div class="card-body ">
+                    <h4 class="card-title " style="font-size: 150%;">ZABAWA</h4>
+                   
+                        <div style="color: rgb(70, 70, 70);  "  class="card-text">
+                        Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.     
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="card col-lg-3" >
+                <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title" style="font-size: 150%;">INTEGRACJA</h4>
+                   
+                        <div style="color: rgb(70, 70, 70);"  class="card-text">
+                        Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe(min. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
+                        </div>
+                   
+                </div>
+            </div>
+        
+        </div>
+        <br><br>
+    </div>
+<br>
 
     <div id="trener" style=" ">
         <div class="container ">
