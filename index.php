@@ -153,7 +153,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="rightside no-gutters">
                     <div class="no-gutters rightside-margin"><br>
                         <h6 class=" text-dark pb-2 h4-responsive my-py-2 desc" style="font-size: 100%; ">
-                            <b>Zajęcia ogólnorozwojowe</b> z elementami boksu i kickboxingu prowadzimy w trzech grupach wiekowych 4-6lat , 7-9 lat i + 9 lat.<p></p>
+                            <b>Zajęcia ogólnorozwojowe</b> z elementami boksu i kickboxingu prowadzimy w trzech grupach wiekowych 4-6lat, 7-9 lat i + 9 lat.<p></p>
                             
                             Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów. <p></p>
                             Na treningach w Akademii nie zabraknie:<p></p>

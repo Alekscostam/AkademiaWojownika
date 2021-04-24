@@ -287,12 +287,12 @@ figure {
   .card{
     min-width: 400px;
   }
-
-
-
-
   .rightside{
     width: 100%;
+  }
+  .rightside-margin{
+    margin-left: 15px;;
+    margin-right: 15px;
   }
 }
 
