@@ -111,8 +111,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                   
                     <div class="content-text   h4-responsive ">
 
-                        <div style="font-size: 105%; text-left">
-                            Założycielem Akademii jest trener <B>Michał Grabarek</B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
+                        <div style="font-size: 105%;">
+                            Założycielem Akademii jest trener <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
                         </div>
                         <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami . Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
                         <div class="my-3"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
@@ -128,17 +128,19 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                             <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy. Udział rodzica w treningu pozwala na lepszą kontrolę nad poprawnością wykonywanych ćwiczeń oraz zwiększa motywację u dzieci, które są wtedy bardziej skupione na wykonywanych zadaniach.
                         </span>
                     </div>
+                    
                 </div>
-            </div>
+                
+            </div> 
         </div>
 
-
+       
     </div>
-    <div id="btn-div" style="text-align:center;">
-        <button class="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
+    
+    <div id="btn-div" style="text-align:center;  ">
+        <button  class="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
     </div>
-   
-
+        <p></p>
     <section id="Zajęcia"></section>
 
     <section id="Zajecia no-gutters">
@@ -150,20 +152,16 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
                 <div class="rightside no-gutters">
                     <div class="no-gutters rightside-margin"><br><br>
-                        <h3 class=" my-py-2  text-dark w-100 type" style="font-size: 180%; font-weight:700; ">Zajęcia prowadzone w akademii</h3><br>
-                        <h6 class=" text-dark pb-2 h4-responsive my-py-2 desc" style="font-size: 105%; ">
+                        <h6 class=" text-dark pb-2 h4-responsive my-py-2 desc" style="font-size: 102%; ">
                             <b>Zajęcia ogólnorozwojowe</b> z elementami boksu i kickboxingu prowadzimy w trzech grupach wiekowych 4-6lat , 7-9 lat i + 9 lat.<p></p>
-                            <b>Boks olimpijski</b> - dyscyplina, w której używa się jedynie pięści. Wymaga bardzo dobrej techniki i cierpliwości. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. Uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.<p></p>
-                            <b>Kick-boxing light </b> -połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój, zwiększa zakres ruchów i pozwala na wypracowanie zwinności. Sport uczący szybkiej reakcji i przemyślanych ruchów. Zajęcia prowadzone są w formie bezkontaktowej (light contact), podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
-
+                            
                             Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów. <p></p>
                             Na treningach w Akademii nie zabraknie:<p></p>
                             <ul style="margin-left:2rem;">
                                 <li>bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
                                 <li>treningów formie light-contaktu, </li>
                                 <li>ćwiczeń ogólnorozwojowych całego ciała,</li>
-                                <li>ćwiczeń rozciągających,</li>
-                                <li>ćwiczeń koordynacyjnych, </li>
+                                <li>ćwiczeń rozciągających i koordynacyjnych,</li>
                                 <li>praca na refleksem i pamięciom, </li>
                                 <li>gier i zabaw ruchowych,</li>
                                 <li>gimnastyki korekcyjnej,</li>
@@ -171,7 +169,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                 <li>nauki pokonywania własnych słabości,</li>
                                 <li>testów sprawnościowych,</li>
                                 <li>współpracy z rówieśnikami.</li>
-                            </ul>
+                            </ul><p></p>
+                            <b>Boks olimpijski</b> - dyscyplina, w której używa się jedynie pięści. Wymaga bardzo dobrej techniki i cierpliwości. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. Uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.<p></p>
+                            <b>Kick-boxing light </b> -połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój, zwiększa zakres ruchów i pozwala na wypracowanie zwinności. Sport uczący szybkiej reakcji i przemyślanych ruchów. Zajęcia prowadzone są w formie bezkontaktowej (light contact), podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
+
                         </h6>
 
 
@@ -185,14 +186,14 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <div class="back-card">
 
-        <div class="container-fluid justify-content-center" style="">
+        <div class="container-fluid justify-content-center">
         </div>
         <br>
         <div class="  card-deck   justify-content-center" style="margin:auto;">
-            <div class="card col-lg-3">
+            <div class="card col-lg-3 ">
                 <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
                 <div class="card-body ">
-                    <h4 class="card-title " style="font-size: 150%;">ZABAWA</h4>
+                    <h4 class="card-title " style="font-size: 145%;">ZABAWA</h4>
                    
                         <div style="color: rgb(70, 70, 70);  "  class="card-text">
                         Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.     
@@ -200,10 +201,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     
                 </div>
             </div>
-            <div class="card col-lg-3" >
+            <div class="card col-lg-3"  >
                 <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title" style="font-size: 150%;">INTEGRACJA</h4>
+                <div class="card-body" >
+                    <h4 class="card-title" style="font-size: 145%;">INTEGRACJA</h4>
                    
                         <div style="color: rgb(70, 70, 70);"  class="card-text">
                         Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe(min. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
@@ -229,14 +230,11 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <h2 class="type" style="font-weight: 900; font-size: 150%; ">TRENER MICHAŁ GRABAREK </h2>
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                     <p></p>
-                    <h3 class="author" style="font-size: 110%; ">Moje doświadczenie i lata praktyki pozwoliły mi na wypracowanie skutecznej oraz efektywnej metodyki prowadzenia zajęć dla dzieci.</h3>
-                    <br>
+                    <h3 class="author" style="font-size: 115%; ">Moje doświadczenie i lata praktyki pozwoliły mi na wypracowanie skutecznej oraz efektywnej metodyki prowadzenia zajęć dla dzieci.</h3>
+                    <p></p>
                     <div>
-                        <h5 style="font-size: 105%;">
-                            <label class="desc"> Przez 12 lat trenował karate SHOTOKAN , zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski.W 2003 roku zaczął trenować nowy styl Muay Thai , dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Na zaproszenie naszego klubu przyjechali do Bydgoszczy: legenda muaythai Ramon Dekkers, mistrz K-1 Remy Bonyaski oraz pierwszy Polak UFC Tomasz Drwal i zawodowy bokser Rafał Jackiewicz.
-                            </label>
-                        </h5>
-                        <br>
+                        
+
 
                     </div>
                 </div>
@@ -250,33 +248,18 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
                 <div class="row justify-content-center ">
 
-                    <div class="col-lg-3 col-md-6 mb-4 text-center " style="margin-top:0px;">
-                        <img src="img/Profil/MG.JPG" class="img-fluid my-1 border border-secondary  ">
+                    <div class="col-lg-3 col-md-6 mb-4  " style=" margin:auto">
+                        <img src="img/Profil/MG.JPG" class="img-fluid  border border-secondary  ">
                     </div>
-                    <div class="col-lg-4">
-                        <h2 class="type" style="font-weight: 900; font-size: 130%; ">Ukończone kursy:</h2>
+                    <div class="col-lg-9" style=" margin-top:-5px">
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                        <p></p>
-
-                        <ul style="font-size: 100%;" class=" list-unstyled">
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Muay Thai,</label></li>
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> K-1,</label></li>
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Kick-Boxing,</label></li>
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Boks.</label></li>
-                        </ul>
+                        <h5 style="font-size: 111%;" class="desc">
+                            <label class="desc">
+                            Przez 12 lat trenował karate SHOTOKAN, zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski. W 2003 roku zaczął trenować nowy styl Muay Thai, dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Na zaproszenie naszego klubu przyjechali do Bydgoszczy: legenda muaythai Ramon Dekkers, mistrz K-1 Remy Bonyaski oraz pierwszy Polak UFC Tomasz Drwal i zawodowy bokser Rafał Jackiewicz.Posiada państwową licencję instruktora kick-boxingu wydaną przez Polski Związek Kick-boxingu oraz licencje instruktora boksu.
+                            </label>
+                        </h5>
                     </div>
-                    <div class="col-lg-5">
-                        <h2 class="type" style="font-weight: 900; font-size: 130%; ">Organizator zawodów i gal zawodowych:</h2>
-                        <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                        <p></p>
-
-                        <ul class=" list-unstyled">
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Gala Envio Fight Night,</label></li>
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Akademicki Mistrzostwa Polski MMA,</label></li>
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Młodzieżowe Mistrzostwa Polski MMA,</label></li>
-                            <li><i class="fas fa-circle img-fluid desc-i"></i> <label class="time"> Bydgoski Wieczór Sportów Waki MMA K-1.</label></li>
-                        </ul>
-                    </div>
+                   
                 </div>
             </div>
 
@@ -304,7 +287,17 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     </div>
                 </div>
 
-
+                <div class="col-lg-4">
+                    <i class="fas fa-child img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
+                    <p></p>
+                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Pewność siebie </h2>
+                    <p></p>
+                    <div>
+                        <h5 class="header-content">
+                            Dzieci uczą się pokonywania własnych słabości i współpracy z rówieśnikami, a każdy sukces i motywacja ze strony trenera i grupy skutkuje zwiększeniem pewności siebie
+                        </h5>
+                    </div>
+                </div>
                 <div class="col-lg-4">
                     <i class="fas fa-lightbulb img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
@@ -317,17 +310,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <i class="fas fa-child img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
-                    <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Pewność siebie </h2>
-                    <p></p>
-                    <div>
-                        <h5 class="header-content">
-                            Dzieci uczą się pokonywania własnych słabości i współpracy z rówieśnikami, a każdy sukces i motywacja ze strony trenera i grupy skutkuje zwiększeniem pewności siebie
-                        </h5>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -352,20 +335,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     </div>
                 </div>
 
-                <div class="col-lg-4 ">
-                    <i class="fa fa-balance-scale img-fluid " style="font-size: 400%; color: #cab80e;"></i>
-                    <p></p>
-                    <p></p><br>
-                    <h2 class="header-info " style="font-weight: 900; margin: auto;  font-size: 170%;">Kontrola emocji i cierpliwość</h2>
-                    <p></p>
-                    <div>
-                        <h5 class="header-content">
-                            Wbrew stereotypom sztuki walki nie uczą brutalności, przeciwnie - trenujący zdobywa zdolność kontrolowania emocji i pożytkowania tych negatywnych, a wciąż powtarzane ćwiczenia i sekwencje uświadomią dzieciom, że trening czyni mistrza, a na efekty działań należy czekać, nie tracąc przy tym zapału do osiągnięcia zamierzonego celu.
-                        </h5>
-                    </div>
-                </div>
-
-
                 <div class="col-lg-4">
                     <i class="fas fa-users img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
@@ -377,12 +346,24 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                             Rywalizacja z rówieśnikami motywuje do osiągania sukcesów i trenowania, dzieci chętniej się rozwijają, aby doścignąć resztę grupy, forma zabawy stwarza odpowiednie środowisko do rozwoju tego aspektu.
                     </div>
                 </div>
+                <div class="col-lg-4 ">
+                    <i class="fa fa-balance-scale img-fluid " style="font-size: 400%; color: #cab80e;"></i>
+                    <p></p>
+                    <p></p>
+                    <h2 class="header-info " style="font-weight: 900;   font-size: 170%;">Kontrola emocji i cierpliwość</h2>
+                    <p></p>
+                    <div>
+                        <h5 class="header-content">
+                            Wbrew stereotypom sztuki walki nie uczą brutalności, przeciwnie - trenujący zdobywa zdolność kontrolowania emocji i pożytkowania tych negatywnych, a wciąż powtarzane ćwiczenia i sekwencje uświadomią dzieciom, że trening czyni mistrza, a na efekty działań należy czekać, nie tracąc przy tym zapału do osiągnięcia zamierzonego celu.
+                        </h5>
+                    </div>
+                </div>
             </div>
     </section>
 
 <section id="Kontakt"></section>
 
-    <section id="FAQ" style=" padding-top: 40px;">
+    <section id="FAQ" style=" ">
         <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
 
         <section class="text-dark contact-us-section">

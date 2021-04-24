@@ -71,7 +71,7 @@ hr.light-100 {
             <div class="row">
 
 
-                <div class="col-md-2 mx-auto mb-4 ">
+                <div class="col-md-3 mx-auto mb-4 ">
                     <h6 class="text-uppercase  foot-header " style="font-size: 110%"> Social media</h6>
                     <div class="my-4" >
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> -->
@@ -82,7 +82,7 @@ hr.light-100 {
                 </div>
 
 
-                <div class="col-md-3 mx-auto mb-4">
+                <div class="col-md-4 mx-auto mb-4">
                     <h6 class="text-uppercase  foot-header" style="font-size: 110%"> kontakt</h6>
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width:310px; height:2px;"> -->
 
@@ -96,29 +96,10 @@ hr.light-100 {
                     </h7>
                 </div>
                 <div class="col-md-4 mx-auto mb-4 ">
-                    <h6 class="text-uppercase   foot-header" style="font-size: 110%">Współpraca</h6>
                     
-                    <h7 style="font-size: 90%">
-                    <ul class="list-unstyled my-4">
-                            <li class="my-1"><span style="color: #fff;">Zostań trenerem</span></li>
-                            <div class="text-footer"  >
-                            Jeśli posiadasz doświadczenie z pracą z dziećmi jest pedagogiem, trenerem lub masz ukończony kurs, zachęcamy do współpracy. 
-                            </div><div class="my-3"></div>
-                            <li  class="my-1"><span style="color: #fff;">Przedszkola</span></li>
-                            <span class="my-2" style="max-width:10px">
-                            Zapraszamy zainteresowane przedszkola do współpracy. 
-                            </span>
-                            </ul>
-                    </h7>
-                      
-                    <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height:2px;"> -->
-                    <div class="my-2"></div>
                      
-                    <!-- <img src="./img/Loga/alm.png" width="65px" class="img-fluid">
-                    <img src="./img/Loga/pzb.png" width="65px" class="img-fluid">
-                    <img src="./img/Loga/pzkb.png" width="65px" class="img-fluid">
-                    <img src="./img/Loga/pzmsw.png" width="65px" class="img-fluid">
-                    <img src="./img/Loga/pzz.png" width="65px" class="img-fluid"> -->
+                    <img src="./img/Loga/logo4.png" width="200px" class="img-fluid">
+                    
 
                 </div>
             </div>

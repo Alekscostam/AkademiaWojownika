@@ -7,7 +7,7 @@
 #FAQ {
   /* background-image: url(./img/back.png);
      */
-  background: rgb(245, 245, 245);
+  background: rgb(255, 255, 255);
 }
 .according {
   width: 100%;
@@ -19,6 +19,9 @@
   margin: 0 auto;
   font-family: "Lemon", cursive;
   font-size: 100%;
+}
+.btn-div{
+ 
 }
 
 /* END FAQ */
@@ -424,9 +427,10 @@ color: #1a1919;
 line-height: 1.5;
 }
 .desc{
+  letter-spacing: 1.1;
   font-size: 85%;
   line-height: 1.5;
-color: #474f57;
+color: #3a4046;
 font-weight: 450;
 }
 
