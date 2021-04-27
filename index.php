@@ -91,21 +91,19 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <section id="Akademia"></section>
     <div id="club-back">
-        <div class="container ">
+        <div class="container-fluid">
 
     
             <div class="row justify-content-center ">
 
 
-                <div class="col-lg-4 col-md-6 mb-4 text-center hide-this " style="margin-top:65px;">
-                    <div class="image-akademia-left-one img-fluid   ">
+                <div class="col-lg-2 text-center hide-this " style="margin-top:55px;">
+                    <div class="image-akademia-left-one img-fluid  img-thumbnail ">
                     </div>
-                    <img class="image-akademia-left-two img-fluid  moreText" ><br>
-                    </img>
-
+                    
                 </div>
-                <div class="col-lg-8">
-                    <h1 class="text-dark pb-3 h2-responsive top-text"  >
+                <div class="col-lg-6">
+                    <h1 class="text-dark pb-4 h2-responsive top-text"  >
                     SPORT&nbsp; ZABAWA&nbsp;  INTEGRACJA
                     </h1>
                   
@@ -120,7 +118,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                             Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
                             <span class="moreText">
                             <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. <p></p>
-                            
+                           
+
                             Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.<p></p>
                             W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
 
