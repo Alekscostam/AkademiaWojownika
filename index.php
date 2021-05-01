@@ -211,12 +211,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="col-lg-12 ">
                     <h2 class="type" style="font-weight: 900; font-size: 150%; ">TRENER MICHAŁ GRABAREK </h2>
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                    <p></p>
-                    <h3 class="author" style="font-size: 115%; ">Moje doświadczenie i lata praktyki pozwoliły mi na wypracowanie skutecznej oraz efektywnej metodyki prowadzenia zajęć dla dzieci.</h3>
-                    <p></p>
+            <p></p>
                     <div>
-                        
-
 
                     </div>
                 </div>
@@ -230,14 +226,16 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
                 <div class="row justify-content-center ">
 
-                    <div class="col-lg-3 col-md-6 mb-4  " style=" margin:auto">
+                    <div class="col-lg-3 col-md-6  " style=" margin:auto">
                         <img src="img/Profil/MG.JPG" class="img-fluid  border border-secondary  ">
                     </div>
                     <div class="col-lg-9" style=" margin-top:-5px">
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
+                        <h3 class="author" style="font-size: 115%; ">Moje doświadczenie i lata praktyki pozwoliły mi na wypracowanie skutecznej oraz efektywnej metodyki prowadzenia zajęć dla dzieci.</h3>
+<br>
                         <h5 style="font-size: 111%;" class="desc">
                             <label class="desc">
-                            Przez 12 lat trenował karate SHOTOKAN, zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski. W 2003 roku zaczął trenować nowy styl Muay Thai, dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Na zaproszenie naszego klubu przyjechali do Bydgoszczy: legenda muaythai Ramon Dekkers, mistrz K-1 Remy Bonyaski oraz pierwszy Polak UFC Tomasz Drwal i zawodowy bokser Rafał Jackiewicz.Posiada państwową licencję instruktora kick-boxingu wydaną przez Polski Związek Kick-boxingu oraz licencje instruktora boksu.
+                            Przez 12 lat trenował karate SHOTOKAN, zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski. W 2003 roku zaczął trenować nowy styl Muay Thai, dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Posiada państwową licencję instruktora kick-boxingu wydaną przez Polski Związek Kick-boxingu oraz licencje instruktora boksu.
                             </label>
                         </h5>
                     </div>
