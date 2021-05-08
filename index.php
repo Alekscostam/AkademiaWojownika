@@ -93,45 +93,51 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <div id="club-back">
         <div class="container-fluid">
 
-    
+
             <div class="row justify-content-center ">
 
-
-                <div class="col-lg-2 text-center hide-this " style="margin-top:70px;">
-                    <div class="image-akademia-left-one img-fluid  img-thumbnail ">
+               
+                <div class="col-lg-7 text-dark">
+                <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
+                    SPORT&nbsp; ZABAWA&nbsp; INTEGRACJA
+                </h1>
+                <div class="text-spacing">
+                    <div style="font-size: 105%; " >
+                        Założycielem Akademii jest trener <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
                     </div>
-                    
-                </div>
-                <div class="col-lg-5">
-                    <h1 class="text-dark pb-4 h2-responsive top-text"  >
-                    SPORT&nbsp; ZABAWA&nbsp;  INTEGRACJA
-                    </h1>
-                  
-                    <div class="content-text   h4-responsive ">
+                    <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
+                    <div class="my-3"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
 
-                        <div style="font-size: 105%;">
-                            Założycielem Akademii jest trener <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
-                        </div>
-                        <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci.
-                        <div class="my-3"> Opracowany przez trenera Michała Grabarka <B>system motywacji i nagradzania</B>, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
-                       
-                            <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy.
-                            <span class="moreText"> </span>
-                    </div>
+                    Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
+                   
+                    <video class="video-styler" controls>
+                        <source src="./Video/AkademiaWojowników.mp4" type="video/mp4">
+                    </video>
+                  <br>   <br>
+                    <span class="moreText">
+                        <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. <p></p>
+
+
+                        Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.<p></p>
+                        W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
+
+                        <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
                     
+                    <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy.
+                    </span>
+                    </div>
                 </div>
-                
-            </div> 
+            </div>
         </div>
 
     </div>
-    
-    <!-- <div id="btn-div" style="text-align:center;  ">
-        <button  class="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
-    </div> -->
+
+    <div id="btn-div" style="text-align:center;  ">
+        <button class="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
+    </div>
     <p></p>
     <section id="Zajęcia"></section>
-    
+
     <section id="Zajecia no-gutters">
         <div class="row no-gutters">
             <div class="col-lg-5 hide-this">
@@ -143,19 +149,28 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <div class="no-gutters rightside-margin"><br>
                         <h6 class=" text-dark pb-2 h4-responsive my-py-2 desc" style="font-size: 100%; ">
                             <b>Zajęcia ogólnorozwojowe</b> z elementami boksu i kickboxingu prowadzimy w trzech grupach wiekowych 4-6lat, 7-9 lat i + 9 lat. Sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej oraz formule light-contact.<p></p>
-                            
-                Na treningach w Akademii nie zabraknie:<p></p>
-                            <ul style="margin-left:2rem; font-size: 90%;">
+
+                            Na treningach w Akademii nie zabraknie:<p></p>
+                            <ul style="margin-left:2rem; font-size: 92%;">
                                 <li>bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
+                                <li>treningów formie light-contaktu, </li>
+                                <li>ćwiczeń ogólnorozwojowych całego ciała,</li>
+                                <li>ćwiczeń rozciągających i koordynacyjnych,</li>
+                                <li>praca na refleksem i pamięciom, </li>
+                                <li>gier i zabaw ruchowych,</li>
+                                <li>gimnastyki korekcyjnej,</li>
                                 <li>ćwiczeń ogólnorozwojowych, rozciągających i koordynacyjnych,</li>
                                 <li>pracy nad refleksem i pamięciom, </li>
                                 <li>gier i zabaw ruchowych z elementami gimnastyki korekcyjnej,</li>
                                 <li>nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
                                 <li>nauki pokonywania własnych słabości,</li>
+                                <li>testów sprawnościowych,</li>
                                 <li>współpracy z rówieśnikami.</li>
-                            </ul><p></p>
-                            <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. <p></p>
-                            <b>Kick-boxing light </b> - połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej, podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
+                            </ul>
+                            <p></p>
+                            <p></p>
+                            <b>Boks olimpijski</b> - dyscyplina, w której używa się jedynie pięści. Wymaga bardzo dobrej techniki i cierpliwości. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. Uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji. <p></p>
+                            <b>Kick-boxing light </b> - połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój, zwiększa zakres ruchów i pozwala na wypracowanie zwinności. Sport uczący szybkiej reakcji i przemyślanych ruchów. Zajęcia prowadzone są w formie bezkontaktowej (light contact), podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
 
                         </h6>
 
@@ -163,9 +178,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     </div>
                 </div>
             </div>
-           
+
         </div>
-        
+
     </section>
 
     <div class="back-card">
@@ -178,30 +193,30 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
                 <div class="card-body ">
                     <h4 class="card-title " style="font-size: 145%;">ZABAWA</h4>
-                        <div style="color: rgb(70, 70, 70);  "  class="card-text">
-                        Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.     
-                        </div>
+                    <div style="color: rgb(70, 70, 70);  " class="card-text">
+                        Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.
+                    </div>
                 </div>
             </div>
-            <div class="card col-lg-3"  >
+            <div class="card col-lg-3">
                 <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
-                <div class="card-body" >
+                <div class="card-body">
                     <h4 class="card-title" style="font-size: 145%;">INTEGRACJA</h4>
-                   
-                        <div style="color: rgb(70, 70, 70);"  class="card-text">
+
+                    <div style="color: rgb(70, 70, 70);" class="card-text">
                         Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe(min. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
-                        </div>
-                   
+                    </div>
+
                 </div>
             </div>
-        
+
         </div>
         <br>
     </div>
-<br>
-<section id="Trener">
-</section>
-    <div >
+    <br>
+    <section id="Trener">
+    </section>
+    <div>
         <div class="container ">
 
 
@@ -211,7 +226,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="col-lg-12 ">
                     <h2 class="type" style="font-weight: 900; font-size: 150%; ">TRENER MICHAŁ GRABAREK </h2>
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-            <p></p>
+                    <p></p>
                     <div>
 
                     </div>
@@ -232,14 +247,14 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <div class="col-lg-9" style=" margin-top:-5px">
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                         <h3 class="author" style="font-size: 115%; ">Moje doświadczenie i lata praktyki pozwoliły mi na wypracowanie skutecznej oraz efektywnej metodyki prowadzenia zajęć dla dzieci.</h3>
-<br>
+                        <br>
                         <h5 style="font-size: 111%;" class="desc">
                             <label class="desc">
-                            Przez 12 lat trenował karate SHOTOKAN, zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski. W 2003 roku zaczął trenować nowy styl Muay Thai, dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Posiada państwową licencję instruktora kick-boxingu wydaną przez Polski Związek Kick-boxingu oraz licencje instruktora boksu.
+                                Przez 12 lat trenował karate SHOTOKAN, zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski. W 2003 roku zaczął trenować nowy styl Muay Thai, dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Posiada państwową licencję instruktora kick-boxingu wydaną przez Polski Związek Kick-boxingu oraz licencje instruktora boksu.
                             </label>
                         </h5>
                     </div>
-                   
+
                 </div>
             </div>
 
@@ -290,7 +305,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
 
@@ -341,7 +356,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
     </section>
 
-<section id="Kontakt"></section>
+    <section id="Kontakt"></section>
 
     <section id="FAQ" style=" ">
         <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>

@@ -226,9 +226,13 @@
   right: 0;
   height: 0px;
 }
-
+.video-styler{
+  width: 100%    !important;
+  
+}
 #Zajecia {
-
+border-left: none;
+border-right: none;
   border-top: 1px solid #cacaca;
   border-bottom: 1px solid #cacaca;
   background: white;
@@ -246,7 +250,9 @@
 .leftside, .rightside{
   width: 100%;
   height: 100%;
-  border: rgb(197, 197, 197) 1px solid;
+  border-top: rgb(197, 197, 197) 1px solid;
+  
+  border-bottom: rgb(197, 197, 197) 1px solid;
 }
 .leftside{
   background-attachment: fixed;
@@ -324,7 +330,9 @@
   color: #efefef !important;
 }
 
-
+.text-spacing{
+  letter-spacing: 0.5px;
+}
 .padding {
   padding-bottom: 2rem;
 }
@@ -334,8 +342,6 @@
 
 
 .content-text {
-  text-align: justify;
-  text-justify: inter-word;
 
 
   font-size: 100%;
@@ -345,7 +351,6 @@
   color: rgb(78, 78, 78);
   padding-left: 10px;
   line-height: 1.5;
-  border-left: 5px solid rgb(231, 208, 0);
   margin: 0 auto;
 }
 

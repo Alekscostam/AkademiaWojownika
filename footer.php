@@ -77,7 +77,7 @@ hr.light-100 {
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> -->
                     <a class="btn-social" style="font-size: 170%" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
                     <a class="btn-social"  style="font-size: 170%" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
-                    <a class="btn-social" style="font-size: 170%" href="https://www.youtube.com/channel/UCL2hjnVwd_JOIQWuiKLoewg"><i class="fab fa-youtube  "></i></a>
+                    <a class="btn-social" style="font-size: 170%" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ"><i class="fab fa-youtube  "></i></a>
                     </div>
                 </div>
 
