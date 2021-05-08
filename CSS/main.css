@@ -167,6 +167,22 @@ font-size: 105%;
   font-size: 13px;
   text-justify: inter-word; text-align: justify;
 }
+.card-title{
+  font-family: 'Black Han Sans', sans-serif;
+  color: rgb(70, 69, 69);
+}
+.centering-text{ 
+  font-family: 'Black Han Sans', sans-serif;
+  position: relative;
+  float: left;
+  top: 50%;
+  letter-spacing: 1px;;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  font-weight: 600;
+ 
+}
 
 .card-body h6 {
   font-size: 11px;
@@ -294,6 +310,10 @@ figure {
     margin-left: 15px;;
     margin-right: 15px;
   }
+  
+  .leftside{
+    width: 100%;;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -335,12 +355,9 @@ figure {
   
   
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   
-  .leftside, .rightside{
-    /* height: 10vh; */
-
-  }
+  
   
   
 }
@@ -362,6 +379,13 @@ figure {
 @media only screen and (max-width: 991px) {
   .img-start {
     display: none;
+  }.rightside{
+    /* height: 10vh; */
+    margin-top: -33px;;
+
+  }
+  .leftside{
+    margin-top: 10px;
   }
   .navbar-nav {
     margin-top: -12px !important;

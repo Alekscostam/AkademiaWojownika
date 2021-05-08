@@ -99,10 +99,13 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                
                 <div class="col-lg-7 text-dark">
                 <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
-                    SPORT&nbsp; ZABAWA&nbsp; INTEGRACJA
+                <a href="https://akademiawojownika.herokuapp.com/#sport" style="text-decoration: none; color:#3d3a3b;">SPORT</a>&nbsp; 
+                <a href="https://akademiawojownika.herokuapp.com/#zabawa" style="text-decoration: none; color:#3d3a3b;">ZABAWA</a>&nbsp; 
+                <a href="https://akademiawojownika.herokuapp.com/#integracja" style="text-decoration: none; color:#3d3a3b;">INTEGRACJA</a>
                 </h1>
                 <div class="text-spacing">
-                    <div style="font-size: 105%; " >
+                <!-- text-align: justify; -->
+                    <div style="font-size: 110%; " class="text-center ">
                         Założycielem Akademii jest trener <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
                     </div>
                     <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
@@ -140,10 +143,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <section id="Zajecia no-gutters">
         <div class="row no-gutters">
-            <div class="col-lg-5 hide-this">
-                <div class="leftside no-gutters hide-this"></div>
+            <div class="col-lg-5">
+                <div class="leftside no-gutters "><span id="sport" class="centering-text">SPORT</span></div>
             </div>
-            <div class="col-xl-7 no-gutters">
+            <div class="col-lg-7 no-gutters">
 
                 <div class="rightside no-gutters">
                     <div class="no-gutters rightside-margin"><br>
@@ -168,6 +171,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                 <li>współpracy z rówieśnikami.</li>
                             </ul>
                             <p></p>
+                            Stosujemy najnowsze metody treningowe, a odpowiednie podejście  do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów.
                             <p></p>
                             <b>Boks olimpijski</b> - dyscyplina, w której używa się jedynie pięści. Wymaga bardzo dobrej techniki i cierpliwości. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. Uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji. <p></p>
                             <b>Kick-boxing light </b> - połączenie boksu i kopnieć, dyscyplina wpływająca na wszechstronny rozwój, zwiększa zakres ruchów i pozwala na wypracowanie zwinności. Sport uczący szybkiej reakcji i przemyślanych ruchów. Zajęcia prowadzone są w formie bezkontaktowej (light contact), podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
@@ -192,7 +196,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="card col-lg-3 ">
                 <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
                 <div class="card-body ">
-                    <h4 class="card-title " style="font-size: 145%;">ZABAWA</h4>
+                    <h4 class="card-title " id="zabawa"  style="font-size: 145%;">ZABAWA</h4>
                     <div style="color: rgb(70, 70, 70);  " class="card-text">
                         Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.
                     </div>
@@ -201,7 +205,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="card col-lg-3">
                 <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h4 class="card-title" style="font-size: 145%;">INTEGRACJA</h4>
+                    <h4 class="card-title" id="integracja"  style="font-size: 145%;">INTEGRACJA</h4>
 
                     <div style="color: rgb(70, 70, 70);" class="card-text">
                         Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe(min. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.

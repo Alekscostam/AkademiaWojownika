@@ -105,7 +105,7 @@
 
     ),
     url(../img/LogaGDAW/Background\ —\ kopia.jpg);
-  height: 75vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -231,10 +231,7 @@
   
 }
 #Zajecia {
-border-left: none;
-border-right: none;
-  border-top: 1px solid #cacaca;
-  border-bottom: 1px solid #cacaca;
+
   background: white;
   background-attachment: fixed;
   background-position: center;
@@ -251,10 +248,12 @@ border-right: none;
   width: 100%;
   height: 100%;
   border-top: rgb(197, 197, 197) 1px solid;
-  
+  padding-right:0;
+  padding-left:0;
   border-bottom: rgb(197, 197, 197) 1px solid;
 }
 .leftside{
+ 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -264,6 +263,7 @@ border-right: none;
     border-right: 5px solid rgb(231, 208, 0);
 }
 .rightside{
+ 
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.4),
     rgba(255, 255, 255, 0.4)
@@ -274,6 +274,7 @@ border-right: none;
   height: 100%;
 }
 .rightside-margin{
+
   margin-left: 50px;
   margin-right: 100px;
 }
