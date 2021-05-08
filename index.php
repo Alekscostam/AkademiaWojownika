@@ -105,7 +105,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 </h1>
                 <div class="text-spacing">
                 <!-- text-align: justify; -->
-                    <div style="font-size: 110%; " class="text-center ">
+                    <div style="font-size: 110%; text-align: justify; " class=" ">
                         Założycielem Akademii jest trener <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
                     </div>
                     <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
