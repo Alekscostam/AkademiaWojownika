@@ -113,8 +113,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
                     Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
                    
-                    <video class="video-styler" controls>
-                        <source src="./Video/AkademiaWojowników.mp4" type="video/mp4">
+                    <video class="video-styler" controls poster="./img/miniatura.png">
+                        <source preload="auto" autoplay loop muted="muted" src="./Video/AkademiaWojowników.mp4" type="video/mp4">
                     </video>
                   <br>   <br>
                     <span class="moreText">
