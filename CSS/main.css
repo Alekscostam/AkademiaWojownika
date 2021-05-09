@@ -272,6 +272,15 @@ figure {
   transform: translateZ(0);
   will-change: transform;
 }
+.left-line{
+  border-left: 5px solid rgb(231, 208, 0);
+
+ 
+  padding-left: 10px;
+  line-height: 1.5;
+  margin: 0 auto;
+  
+}
 
 /*--- Bootstrap Padding Fix --*/
 
@@ -314,6 +323,7 @@ figure {
   .leftside{
     width: 100%;;
   }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -380,12 +390,20 @@ figure {
   .img-start {
     display: none;
   }.rightside{
+    
     /* height: 10vh; */
     margin-top: -33px;;
 
   }
+  .author{
+    text-align: center!important;
+  }
+  .back-card{
+    margin-top: -20px;;
+  }
   .leftside{
     margin-top: 10px;
+
   }
   .navbar-nav {
     margin-top: -12px !important;
