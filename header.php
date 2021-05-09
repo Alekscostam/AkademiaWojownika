@@ -100,12 +100,12 @@
    </script>
     <nav class="navbar navbar-light  navbar-expand-lg scrolling-navbar navbar-fixed-top ">
    
-        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%; font-weight:600 ;color: #cab80e;" >AKADEMIA WOJOWNIKÓW</span></a>
+        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%;  ;color: #cab80e; " >AKADEMIA WOJOWNIKÓW</span></a>
         <button class="navbar-toggler mx-auto" type="button" style="margin:15px" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
             <span  class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1.2rem; "></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav" style="">
         <hr id="hr-navbar"></hr>
             <ul class="navbar-nav ml-auto "  style="color: #cab80e; ">
                <!-- https://akademiawojownika.herokuapp.com/ -->
