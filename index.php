@@ -99,9 +99,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
                 <div class="col-lg-7 text-dark">
                     <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
-                        <a href="https://akademiawojownika.herokuapp.com/#sport" style="text-decoration: none; color:#3d3a3b;">SPORT</a>&nbsp;
-                        <a href="https://akademiawojownika.herokuapp.com/#zabawa" style="text-decoration: none; color:#3d3a3b;">ZABAWA</a>&nbsp;
-                        <a href="https://akademiawojownika.herokuapp.com/#integracja" style="text-decoration: none; color:#3d3a3b;">INTEGRACJA</a>&nbsp;
+                        <a class="sport" style="color:red;">SPORT</a>&nbsp;
+                        <a class="zabawa"style="color:black;">ZABAWA</a>&nbsp;
+                        <a class="integracja"style="color:rgb(255, 200, 0);">INTEGRACJA</a>&nbsp;
                     </h1>
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
@@ -148,7 +148,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <section id="Zajecia no-gutters">
         <div class="row no-gutters">
             <div class="col-lg-5">
-                <div class="leftside no-gutters "><span id="sport" class="centering-text">SPORT</span></div>
+                <div class="leftside no-gutters "><span class="centering-text ">SPORT</span></div>
             </div>
             <div class="col-lg-7 no-gutters">
 
@@ -198,7 +198,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="card col-lg-3 ">
                 <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
                 <div class="card-body ">
-                    <h4 class="card-title " id="zabawa" style="font-size: 145%;">ZABAWA</h4>
+                    <h4 class="card-title " style="font-size: 145%;"><span class="" >ZABAWA</span></h4>
                     <div style="color: rgb(70, 70, 70);  " class="card-text">
                         Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.
                     </div>
@@ -207,7 +207,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="card col-lg-3">
                 <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h4 class="card-title" id="integracja" style="font-size: 145%;">INTEGRACJA</h4>
+                    <h4 class="card-title " style="font-size: 145%;"><span class="">INTEGRACJA</span></h4>
 
                     <div style="color: rgb(70, 70, 70);" class="card-text">
                         Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe(min. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
@@ -281,7 +281,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <p></p>
                     <div>
                         <h5 class="header-content">
-                            Trenują zarówno chłopcy, jak i dziewczynki, dzieci w różnym wieku i o odmiennej sprawności fizycznej, trenerzy zwracają uwagę na możliwości dzieci i dążą do optymalnego rozwoju każdego podopiecznego, natomiast dzieci dostrzegają, że nie wszyscy radzą sobie tak samo i należy sobie pomagać.</h5>
+                            Trenują zarówno chłopcy, jak i dziewczynki, dzieci w różnym wieku i o odmiennej sprawności fizycznej, trenerzy zwracają uwagę na możliwości dzieci i dążą do optymalnego rozwoju każdego podopiecznego, natomiast dzieci dostrzegają, że nie wszyscy radzą sobie tak samo i należy sobie pomagać.
+                        </h5>
                     </div>
                 </div>
                 <div class="col-lg-4 ">
@@ -292,7 +293,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <p></p>
                     <div>
                         <h5 class="header-content">
-                            Dzieci zdobywają zdolność kontrolowania emocji i pożytkowania tych negatywnych, a wciąż powtarzane ćwiczenia i sekwencje uświadomiają im, że trening czyni mistrza, a na efekty działań należy czekać, nie tracąc przy tym zapału do osiągnięcia zamierzonego celu.</h5>
+                            Dzieci zdobywają zdolność kontrolowania emocji i pożytkowania tych negatywnych, a wciąż powtarzane ćwiczenia i sekwencje uświadomiają im, że trening czyni mistrza, a na efekty działań należy czekać, nie tracąc przy tym zapału do osiągnięcia zamierzonego celu.
+                        </h5>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -302,13 +304,13 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <p></p>
                     <div>
                         <h5 class="header-content">
-                            Sztuki walki wymagają szybkiego i analitycznego myślenia, należy zapamiętać sekwencje układów, a w dalszym etapie przewidywać ruchy przeciwników, sporty walki umożliwiają wszechstronny rozwój dziecka, to dowód na to, iż podopieczni trenują nie tylko ciało.</h5>
+                            Sztuki walki wymagają szybkiego i analitycznego myślenia, należy zapamiętać sekwencje układów, a w dalszym etapie przewidywać ruchy przeciwników, sporty walki umożliwiają wszechstronny rozwój dziecka, to dowód na to, iż podopieczni trenują nie tylko ciało.
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <section id="treningi2">
         <div class="container-fluid padding justify-content-center">
@@ -350,101 +352,130 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 </div>
             </div>
     </section>
+    <section id="DołączDoNas"></section>
+    <br>
 
-    <section id="Kontakt"></section>
+    
+    <div class="container">
+        <div class="row text-dark">
+            <div class="col-lg-6">
+                <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" > Dołącz do nas!</h2>
+                <br>
 
-    <section id="FAQ" style=" ">
-        <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
+                <h5 class="header-content left-line" style="font-size: 120%;">
+                    Dołącz do Akademii Wojowników i bądź częścią naszego Teamu! Oferta kierowana jest do nauczycieli wf-u, pedagogów i osób pracujących z dziećmi. Przeszkolimy Cię w zakresie naszej metodyki prowadzenia zajęć.
+                    Razem zadbamy o zdrowie, kondycję i dobre samopoczucie naszych podopiecznych.
+                </h5>
+                <br><br>
+                <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;"> Przedszkola</h2>
+                <br>
+                <h5 class="header-content left-line" style="font-size: 120%;">
+                    Zapraszamy przedszkola do współpracy w zakresie prowadzenia zajęć sportowych.
+                    Treningi ogólnorozwojowe z elementami boksu i Kickbixingu oraz zajęć sportowych, sprawny przedszkolak.
+                </h5>
 
-        <section class="text-dark contact-us-section">
-
-            <!--Section heading-->
-            <!-- <h4 class=" font-weight-bold text-center my-2 title-contact-us">Skontaktuj się z nami</h4> -->
-            <!--Section description-->
-            <!-- <p class="text-center  mx-auto mb-4">Twojego pytania nie ma na liście? Wyślij wiadomość!</p> -->
-
-            <?php
-            if ($message_sent == '1') :
-            ?>
-                <h4 class=" font-weight-bold text-center my-2 title-contact-us">wysłano</h4>
-            <?php
-            elseif ($message_sent == '0') :
-            ?>
-                <h4 class=" font-weight-bold text-center my-2 title-contact-us" id="errorMessage"></h4>
-            <?php
-            else :
-            ?>
-                <h4 class=" font-weight-bold text-center my-2 title-contact-us">nie wysłano wiadomości!<br> Email nieprawidłowy</h4>
-            <?php
-            endif;
-            ?>
-            <div class="row">
-                <div class="w-100 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="" method="POST">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">Imie</label>
-                                    </div>
-
-                                </h6>
-                            </div>
-                            <div class="col-md-4">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-
-                                        <input type="text" id="surname" name="surname" class="form-control">
-                                        <label for="surname" class="">Nazwisko</label>
-
-                                    </div>
-                                </h6>
-                            </div>
-                            <div class="col-md-4">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-                                        <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">Twój email</label>
-                                    </div>
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form mb-0 form-field">
-                                        <input type="text" id="subject" name="subject" class="form-control">
-                                        <label for="subject" class="">Temat wiadomości</label>
-                                    </div>
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h6 style="font-weight:bold;">
-                                    <div class="md-form form-field">
-                                        <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
-                                        <label for="message">Wiadomość</label>
-                                    </div>
-                                </h6>
-                            </div>
-                        </div>
-
-                        <h6 style="font-weight:bold;">
-                            <div class="text-justify  text-center">
-                                <div class="md-form form-field text-justify  text-center">
-                                    <input class="btn-send  text-center text-dark" onclick="return checkform()" type="submit" value="Wyślij">
-                                </div>
-                            </div>
-                        </h6>
-                    </form>
-
-                    <div class="status"></div>
-                </div>
             </div>
-        </section><br>
-    </section>
+            <section id="Kontakt"></section>
+            <div class="col-lg-6">
+
+                <section id="FAQ" style=" ">
+                    <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
+
+                    <section class="text-dark contact-us-section">
+
+                        <!--Section heading-->
+                        <!-- <h4 class=" font-weight-bold text-center my-2 title-contact-us">Skontaktuj się z nami</h4> -->
+                        <!--Section description-->
+                        <!-- <p class="text-center  mx-auto mb-4">Twojego pytania nie ma na liście? Wyślij wiadomość!</p> -->
+
+                        <?php
+                        if ($message_sent == '1') :
+                        ?>
+                            <h4 class=" font-weight-bold text-center my-2 title-contact-us">wysłano</h4>
+                        <?php
+                        elseif ($message_sent == '0') :
+                        ?>
+                            <h4 class=" font-weight-bold text-center my-2 title-contact-us" id="errorMessage"></h4>
+                        <?php
+                        else :
+                        ?>
+                            <h4 class=" font-weight-bold text-center my-2 title-contact-us">nie wysłano wiadomości!<br> Email nieprawidłowy</h4>
+                        <?php
+                        endif;
+                        ?>
+                        <div class="row">
+                            <div class="w-100 mb-md-0 mb-5">
+                                <form id="contact-form" name="contact-form" action="" method="POST">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h6 style="font-weight:bold;">
+                                                <div class="md-form mb-0 form-field">
+                                                    <input type="text" id="name" name="name" class="form-control">
+                                                    <label for="name" class="">Imie</label>
+                                                </div>
+
+                                            </h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6 style="font-weight:bold;">
+                                                <div class="md-form mb-0 form-field">
+
+                                                    <input type="text" id="surname" name="surname" class="form-control">
+                                                    <label for="surname" class="">Nazwisko</label>
+
+                                                </div>
+                                            </h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6 style="font-weight:bold;">
+                                                <div class="md-form mb-0 form-field">
+                                                    <input type="text" id="email" name="email" class="form-control">
+                                                    <label for="email" class="">Twój email</label>
+                                                </div>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h6 style="font-weight:bold;">
+                                                <div class="md-form mb-0 form-field">
+                                                    <input type="text" id="subject" name="subject" class="form-control">
+                                                    <label for="subject" class="">Temat wiadomości</label>
+                                                </div>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h6 style="font-weight:bold;">
+                                                <div class="md-form form-field">
+                                                    <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
+                                                    <label for="message">Wiadomość</label>
+                                                </div>
+                                            </h6>
+                                        </div>
+                                    </div>
+
+                                    <h6 style="font-weight:bold;">
+                                        <div class="text-justify  text-center">
+                                            <div class="md-form form-field text-justify  text-center">
+                                                <input class="btn-send  text-center text-dark" onclick="return checkform()" type="submit" value="Wyślij">
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </form>
+
+                                <div class="status"></div>
+                            </div>
+                        </div>
+                    </section><br>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+
+
 
 
 

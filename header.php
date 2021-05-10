@@ -109,13 +109,14 @@
         <hr id="hr-navbar"></hr>
             <ul class="navbar-nav ml-auto "  style="color: #cab80e; ">
                <!-- https://akademiawojownika.herokuapp.com/ -->
-                    <a class="nav-link" href="#Akademia"><span data-toggle="collapse"  data-target="#navbarNav"  class="bookmarks">AKADEMIA</span></a>
+                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse"  data-target="#navbarNav"  class="bookmarks">AKADEMIA</span></a>
                      
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a>
                     <!-- https://akademiawojownika.herokuapp.com/ -->
                     <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Trener"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Trener</span></a>
+                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#DołączDoNas"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dołącz do nas</span></a>
 
-                    <a class="nav-link" href="#"><span data-toggle="collapse" data-target="#navbarNav"  class="bookmarks">Przedszkola</span></a>
+                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#DołączDoNas"><span data-toggle="collapse" data-target="#navbarNav"  class="bookmarks">Przedszkola</span></a>
                
                     <a class="nav-link" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a>
                 

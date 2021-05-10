@@ -66,7 +66,35 @@ body {
 #club-back{
   margin-top: -20px;
 }
+.sport{
 
+  text-decoration: none; 
+  color:red;
+  outline:none;
+  border-bottom: none;
+
+}
+.zabawa{
+  text-decoration: none; 
+  /* color:#005b9c; */
+  color:black;
+  outline:none;border-bottom: none;
+
+
+}
+.integracja{
+
+  text-decoration: none; 
+  color:rgb(255, 200, 0);
+  outline:none;border-bottom: none;
+
+}
+#DołączDoNas{
+  position: relative;
+  top: -50px;
+  right: 0;
+  height: 0px;
+}
 
 /* END AKADEMIA SECTION */
 
@@ -223,7 +251,11 @@ font-size: 105%;
 
 /* CONTACT */
 #Kontakt {
-  margin: 2rem auto;
+  position: relative;
+  top: -90px;
+  right: 0;
+  height: 0px;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
 }
 /* END CONTACT */
 
@@ -331,6 +363,13 @@ figure {
   * {
     font-size: 100%;
   }
+  #Kontakt {
+    position: relative;
+    top: 190px;
+    right: 0;
+    height: 0px;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
+  }
   .bookmarks {
     font-size: 1em !important;
   }
@@ -356,6 +395,19 @@ figure {
     min-width: 200px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+
+  #Kontakt {
+    position: relative;
+    top: 290px;
+    right: 0;
+    height: 0px;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   .social a {
     font-size: 2.5em;

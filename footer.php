@@ -72,7 +72,7 @@ hr.light-100 {
 
 
                 <div class="col-md-3 mx-auto mb-4 ">
-                    <h6 class="text-uppercase  foot-header " style="font-size: 110%"> Social media</h6>
+                    <h6 class="text-uppercase  foot-header " style="font-size: 110%"> Media społecznościowe </h6>
                     <div class="my-4" >
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> -->
                     <a class="btn-social" style="font-size: 170%" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
@@ -83,7 +83,7 @@ hr.light-100 {
 
 
                 <div class="col-md-4 mx-auto mb-4">
-                    <h6 class="text-uppercase  foot-header" style="font-size: 110%"> kontakt</h6>
+                    <h6 class="text-uppercase  foot-header" style="font-size: 110%"> Kontakt</h6>
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width:310px; height:2px;"> -->
 
                     <h7 style="font-size: 90%">
