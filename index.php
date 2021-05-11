@@ -378,7 +378,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             <div class="col-lg-6">
 
                 <section id="FAQ" style=" ">
-                    <h1 class="header-panel w-100 text-justify text-center ">Skontaktuj się z nami</h1><br>
+                    <h2 class="header-info text-dark w-100 text-justify text-center " style="font-weight: 900; font-size: 170%;">Skontaktuj się z nami</h2><br>
 
                     <section class="text-dark contact-us-section">
 
