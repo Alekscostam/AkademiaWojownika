@@ -120,7 +120,7 @@
                
                     <a class="nav-link" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a>
                 
-                    <a class="nav-link" href="#Kontakt"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a>
+                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Kontakt"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a>
                 
             </ul>
         </div>
