@@ -100,8 +100,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="col-lg-7 text-dark">
                     <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
                         <a class="sport" style="color:red;">SPORT</a>&nbsp;
-                        <a class="zabawa"style="color:black;">ZABAWA</a>&nbsp;
-                        <a class="integracja"style="color:rgb(255, 200, 0);">INTEGRACJA</a>&nbsp;
+                        <a class="zabawa" style="color:black;">ZABAWA</a>&nbsp;
+                        <a class="integracja" style="color:rgb(255, 200, 0);">INTEGRACJA</a>&nbsp;
                     </h1>
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
@@ -163,11 +163,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                 <li>treningów formie light-contaktu, </li>
                                 <li>ćwiczeń ogólnorozwojowych całego ciała,</li>
                                 <li>ćwiczeń rozciągających i koordynacyjnych,</li>
-                                <li>praca na refleksem i pamięciom, </li>
+                                <li>pracy na refleksem i pamięcią,</li>
                                 <li>gier i zabaw ruchowych,</li>
                                 <li>gimnastyki korekcyjnej,</li>
                                 <li>ćwiczeń ogólnorozwojowych, rozciągających i koordynacyjnych,</li>
-                                <li>pracy nad refleksem i pamięciom, </li>
                                 <li>gier i zabaw ruchowych z elementami gimnastyki korekcyjnej,</li>
                                 <li>nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
                                 <li>nauki pokonywania własnych słabości,</li>
@@ -194,11 +193,11 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <div class="back-card">
 
 
-        <div class="  card-deck   justify-content-center" style="margin:auto;">
+        <div class="card-deck  justify-content-center" style="margin:auto;">
             <div class="card col-lg-3 ">
                 <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
                 <div class="card-body ">
-                    <h4 class="card-title " style="font-size: 145%;"><span class="" >ZABAWA</span></h4>
+                    <h4 class="card-title" style="font-size: 145%;"><span class="">ZABAWA</span></h4>
                     <div style="color: rgb(70, 70, 70);  " class="card-text">
                         Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.
                     </div>
@@ -210,7 +209,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <h4 class="card-title " style="font-size: 145%;"><span class="">INTEGRACJA</span></h4>
 
                     <div style="color: rgb(70, 70, 70);" class="card-text">
-                        Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe(min. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
+                        Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe (m.in. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
                     </div>
 
                 </div>
@@ -281,7 +280,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <p></p>
                     <div>
                         <h5 class="header-content">
-                            Trenują zarówno chłopcy, jak i dziewczynki, dzieci w różnym wieku i o odmiennej sprawności fizycznej, trenerzy zwracają uwagę na możliwości dzieci i dążą do optymalnego rozwoju każdego podopiecznego, natomiast dzieci dostrzegają, że nie wszyscy radzą sobie tak samo i należy sobie pomagać.
+                            Trenują zarówno chłopcy, jak i dziewczynki, dzieci w różnym wieku i o odmiennej sprawności fizycznej. Trenerzy zwracają uwagę na możliwości dzieci i dążą do optymalnego rozwoju każdego podopiecznego, natomiast dzieci dostrzegają, że nie wszyscy radzą sobie tak samo i należy sobie pomagać.
                         </h5>
                     </div>
                 </div>
@@ -304,7 +303,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <p></p>
                     <div>
                         <h5 class="header-content">
-                            Sztuki walki wymagają szybkiego i analitycznego myślenia, należy zapamiętać sekwencje układów, a w dalszym etapie przewidywać ruchy przeciwników, sporty walki umożliwiają wszechstronny rozwój dziecka, to dowód na to, iż podopieczni trenują nie tylko ciało.
+                            Sztuki walki wymagają szybkiego i analitycznego myślenia, należy zapamiętać sekwencje układów, a w dalszym etapie przewidywać ruchy przeciwników. Sporty walki umożliwiają wszechstronny rozwój dziecka, to dowód na to, iż podopieczni trenują nie tylko ciało
                         </h5>
                     </div>
                 </div>
@@ -355,11 +354,11 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <section id="DołączDoNas"></section>
     <br>
 
-    
+
     <div class="container">
         <div class="row text-dark">
             <div class="col-lg-6">
-                <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" > Dołącz do nas!</h2>
+                <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;"> Dołącz do nas!</h2>
                 <br>
 
                 <h5 class="header-content left-line" style="font-size: 120%;">
@@ -473,7 +472,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
         </div>
     </div>
-    
+
 
 
 
