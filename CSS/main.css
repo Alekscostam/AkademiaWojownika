@@ -386,7 +386,7 @@ figure {
 @media only screen and (max-width: 400px) {
   #Kontakt {
     position: relative;
-    top: 290px;
+    top: 320px;
     right: 0;
     height: 0px;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
