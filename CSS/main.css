@@ -450,7 +450,7 @@ figure {
   .navbar {
     background-color: #ffffff;
     border-bottom: 1px solid #d8e5eb;
-    height: fit-content;
+   height: min-content;
   }
   .bookmarks {
     text-align: center;

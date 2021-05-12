@@ -32,12 +32,10 @@
   transition: 1s;
   z-index: 100000;
   position: fixed;
-  padding: 12px 10px;
+  padding: 7px 7px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
 }
-.navbar a{
-  color: red;
-}
+
 .bookmarks {
   font-size: 0.9rem;
   letter-spacing: 1.2px;
@@ -113,7 +111,7 @@ header ul li a{
   letter-spacing: 2px;
 }
 header.sticky{
-  padding: 31px 100px;
+  padding: 25px 100px;
   background: #fff;
 }
 
@@ -140,9 +138,9 @@ header.sticky ul li a{
    <header>
     <nav class="navbar navbar-light  navbar-expand-lg scrolling-navbar navbar-fixed-top ">
    
-        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%; color: #cab80e;" >AKADEMIA WOJOWNIKÓW</span></a>
+        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:80%; color: #cab80e;" >AKADEMIA WOJOWNIKÓW</span></a>
         <button class="navbar-toggler mx-auto" type="button" style="margin:15px" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-            <span  class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1.2rem; "></span>
+            <span  class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1rem; "></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -150,13 +148,13 @@ header.sticky ul li a{
             <ul class="navbar-nav ml-auto " >
     
 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link  bookmarks"  href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">&nbsp;&nbsp;AKADEMIA&nbsp;&nbsp;</span></a> </li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link  bookmarks"  href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">AKADEMIA&nbsp;</span></a> </li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks " href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;&nbsp;ZAJĘCIA&nbsp;&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;&nbsp;Trener&nbsp;&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;&nbsp;Dołącz do nas&nbsp;&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;&nbsp;Przedszkola&nbsp;&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0">&nbsp;&nbsp;ZAPISY&nbsp;&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Kontakt">&nbsp;&nbsp;Kontakt&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Kontakt">&nbsp;&nbsp;Kontakt&nbsp;</a></li> 
                 
             </ul>
         </div>
