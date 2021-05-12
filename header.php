@@ -14,6 +14,8 @@
   background-color: #fff !important;
   transition: background-color 200ms linear;
   opacity: 1;
+
+  color: white!important;
   /* padding: 5px 10px; */
 }
 /* NAVBAR */
@@ -30,17 +32,19 @@
   transition: 1s;
   z-index: 100000;
   position: fixed;
-  padding: 5px 10px;
+  padding: 12px 10px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
 }
-
+.navbar a{
+  color: red;
+}
 .bookmarks {
   font-size: 0.9rem;
   letter-spacing: 1.2px;
   padding-left: 1.1rem;
   font-weight: 600;
   padding-top: 0.2rem;
-  color: #cab80e;
+  color: #cab80e!important;
   text-transform: uppercase;
   justify-content: center;
   display: inline-block;
@@ -66,7 +70,6 @@
   content: "";
   height: 2px;
   max-width: 200px;
-  background: #cab80e;
   width: 1.5s;
 }
 
@@ -80,8 +83,43 @@
   text-shadow: 0px 1px 1px #000;
   transition: 0.5s;
 }
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  z-index: 100000;;
+}
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+header ul li{
+  position: relative;
+  list-style: none;
+}
 
+header ul li a{
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+}
+header.sticky{
+  padding: 31px 100px;
+  background: #fff;
+}
+
+header.sticky ul li a{
+  color: #292b2c!important;
+}
 
 </style>
 </head>
@@ -90,41 +128,35 @@
 <body>
 <script>
        
-       $(function() {
-           $(document).scroll(function() {
-               var $nav = $(".navbar-fixed-top");
-               $nav.toggleClass('scrolled', $(this).scrollTop() > 1);
-           });
-       });
+    window.addEventListener("scroll",function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky",window.scrollY>0)
+    })
 
    </script>
+   <header>
     <nav class="navbar navbar-light  navbar-expand-lg scrolling-navbar navbar-fixed-top ">
    
-        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%;  ;color: #cab80e; " >AKADEMIA WOJOWNIKÓW</span></a>
+        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%; color: #cab80e;" >AKADEMIA WOJOWNIKÓW</span></a>
         <button class="navbar-toggler mx-auto" type="button" style="margin:15px" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
             <span  class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1.2rem; "></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="navbarNav" style="">
+        <div class="collapse navbar-collapse" id="navbarNav">
         <hr id="hr-navbar"></hr>
-            <ul class="navbar-nav ml-auto "  style="color: #cab80e; ">
-               <!-- https://akademiawojownika.herokuapp.com/ -->
-                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse"  data-target="#navbarNav"  class="bookmarks">AKADEMIA</span></a>
-                     
-                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Zajęcia"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAJĘCIA</span></a>
-                    <!-- https://akademiawojownika.herokuapp.com/ -->
-                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Trener"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Trener</span></a>
-                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#DołączDoNas"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Dołącz do nas</span></a>
-
-                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#DołączDoNas"><span data-toggle="collapse" data-target="#navbarNav"  class="bookmarks">Przedszkola</span></a>
-               
-                    <a class="nav-link" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">ZAPISY</span></a>
-                
-                    <a class="nav-link" href="https://akademiawojownika.herokuapp.com/#Kontakt"><span data-toggle="collapse" data-target="#navbarNav" class="bookmarks">Kontakt</span></a>
+            <ul class="navbar-nav ml-auto " >
+                 <li>  <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Akademia">&nbsp;AKADEMIA&nbsp;</a></li> 
+                 <li> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;ZAJĘCIA&nbsp;</a></li> 
+                 <li> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;Trener&nbsp;</a></li> 
+                 <li> <a class="nav-link bookmarks"  href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;Dołącz do nas&nbsp;</a></li> 
+                 <li> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;Przedszkola&nbsp;</a></li> 
+                 <li>  <a class="nav-link bookmarks" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0">&nbsp;ZAPISY&nbsp;</a></li> 
+                 <li>  <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Kontakt">&nbsp;Kontakt&nbsp;</a></li> 
                 
             </ul>
         </div>
     </nav>
+    </header>
 </body>
 
 </html>

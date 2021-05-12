@@ -68,9 +68,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 </head>
 
 <body>
-
+<header>
     <?php include('./header.php'); ?>
-
+</header>
     <!--- Image Slider -->
 
     <div class="jumbotron text-center  container-fluid ">
@@ -106,13 +106,30 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
                         <div class="left-line">
-                            <div style="font-size: 110%; text-align: justify; " class=" ">
-                                Założycielem Akademii jest trener <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
+                            <div style="font-size: 110%; text-align: justify; " >
+                                Założycielem Akademii jest trener 
+                                <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> 
+                                z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
                             </div>
-                            <B> Akademia Wojowników</B> powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie<B> wolnego czasu</B>, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
-                            <div class="my-3"> Obecnie dzieci szybko się<B> nudzą</B> i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec <b>cel</b> w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania, zachęca dzieci do większego skupienia i wysiłku na treningach.</div>
+                            <B> Akademia Wojowników</B>
+                            powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka,
+                            uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie
+                            <B> wolnego czasu</B>,
+                            a także budowanie sprawności fizycznej i pewności siebie u dzieci.
+                            Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.
+                            <div class="my-3"> Obecnie dzieci szybko się
+                                <B> nudzą</B>
+                                i niełatwo je zainteresować na dłuższy czas, ciężko im także dostrzec
+                                <b>cel</b>
+                                w systematycznych treningach. Opracowany przez trenera Michała Grabarka system motywacji i nagradzania,
+                                zachęca dzieci do większego skupienia i wysiłku na treningach.
+                            </div>
 
-                            Jeżeli Twoje dziecko jest <B>nadpobudliwe</B> i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji, kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób <p></p>
+                            Jeżeli Twoje dziecko jest 
+                            <B>nadpobudliwe</B>
+                            i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji,
+                            kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób.
+                            <p></p>
                         </div>
                         <video class="video-styler" controls poster="./img/miniatura.png">
                             <source preload="auto" autoplay loop muted="muted" src="./Video/AkademiaWojowników.mp4" type="video/mp4">
@@ -121,15 +138,23 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <div class="left-line">
 
                             <span class="moreText ">
-                                <B>Obalamy mity</B> - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. <p></p>
+                                <B>Obalamy mity</B> 
+                                - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). 
+                                Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. 
+                                <p></p>
 
 
-                                Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.<p></p>
-                                W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
+                                Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, 
+                                zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.
+                                <p></p>
+                                W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, 
+                                w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
 
-                                <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
+                                <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. 
+                                Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
 
-                                <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem, ale także szansą na obserwowanie postępów swojej pociechy.
+                                <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem,
+                                 ale także szansą na obserwowanie postępów swojej pociechy.
                             </span>
                         </div>
                     </div>
@@ -176,12 +201,12 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                             <p></p>
                             Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów.
                             <p></p>
-                            <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji. Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł <p></p>
-                            <b>Kick-boxing light </b> - połączenie boksu i kopnięć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej, podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
+                            <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji. 
+                            Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. <p></p>
+                            <b>Kick-boxing light </b> - połączenie boksu i kopnięć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej, 
+                            podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
 
                         </h6>
-
-
                     </div>
                 </div>
             </div>
@@ -191,15 +216,16 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     </section>
 
     <div class="back-card">
-
-
         <div class="card-deck  justify-content-center" style="margin:auto;">
             <div class="card col-lg-3 ">
                 <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
                 <div class="card-body ">
                     <h4 class="card-title" style="font-size: 145%;"><span class="">ZABAWA</span></h4>
                     <div style="color: rgb(70, 70, 70);  " class="card-text">
-                        Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.
+                        Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. 
+                        U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. 
+                        Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, 
+                        wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.
                     </div>
                 </div>
             </div>
@@ -209,12 +235,14 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <h4 class="card-title " style="font-size: 145%;"><span class="">INTEGRACJA</span></h4>
 
                     <div style="color: rgb(70, 70, 70);" class="card-text">
-                        Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. Organizujemy spotkania, np. imprezy okolicznościowe (m.in. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
+                        Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. 
+                        Organizujemy spotkania, np. imprezy okolicznościowe (m.in. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami 
+                        - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, 
+                        zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
                     </div>
 
                 </div>
             </div>
-
         </div>
         <br>
     </div>
@@ -227,17 +255,12 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
             <div class="row justify-content-center no-gutters">
 
-
                 <div class="col-lg-12 ">
                     <h2 class="author" style="font-weight: 900; font-size: 150%; ">TRENER MICHAŁ GRABAREK </h2>
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                     <p></p>
-                    <div>
-
-                    </div>
                 </div>
             </div>
-
 
         </div>
         <div id="club-back">
@@ -362,7 +385,8 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <br>
 
                 <h5 class="header-content left-line" style="font-size: 120%;">
-                    Dołącz do Akademii Wojowników i bądź częścią naszego Teamu! Oferta kierowana jest do nauczycieli wf-u, pedagogów i osób pracujących z dziećmi. Przeszkolimy Cię w zakresie naszej metodyki prowadzenia zajęć.
+                    Dołącz do Akademii Wojowników i bądź częścią naszego Teamu! Oferta kierowana jest do nauczycieli wf-u, pedagogów i osób pracujących z dziećmi.
+                    Przeszkolimy Cię w zakresie naszej metodyki prowadzenia zajęć.
                     Razem zadbamy o zdrowie, kondycję i dobre samopoczucie naszych podopiecznych.
                 </h5>
                 <br><br>
