@@ -111,7 +111,7 @@ header ul li a{
   letter-spacing: 2px;
 }
 header.sticky{
-  padding: 25px 100px;
+  padding: 26px 100px;
   background: #fff;
 }
 

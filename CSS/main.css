@@ -62,7 +62,7 @@ body {
 /*  AKADEMIA SECTION  */
 #Akademia {
   position: relative;
-  top: -100px;
+  top: -90px;
   right: 0;
   height: 0px;
 }
@@ -90,7 +90,7 @@ body {
 }
 #DołączDoNas {
   position: relative;
-  top: -70px;
+  top: -60px;
   right: 0;
   height: 0px;
 }
@@ -249,7 +249,7 @@ body {
 /* CONTACT */
 #Kontakt {
   position: relative;
-  top: -110px;
+  top: -100px;
   right: 0;
   height: 0px;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
