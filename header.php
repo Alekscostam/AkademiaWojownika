@@ -150,13 +150,13 @@ header.sticky ul li a{
             <ul class="navbar-nav ml-auto " >
     
 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link  bookmarks"  href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">&nbsp;AKADEMIA&nbsp;</span></a> </li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks " href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;ZAJĘCIA&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;Trener&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;Dołącz do nas&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;Przedszkola&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0">&nbsp;ZAPISY&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Kontakt">&nbsp;Kontakt&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link  bookmarks"  href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">&nbsp;&nbsp;AKADEMIA&nbsp;&nbsp;</span></a> </li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks " href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;&nbsp;ZAJĘCIA&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;&nbsp;Trener&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;&nbsp;Dołącz do nas&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;&nbsp;Przedszkola&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0">&nbsp;&nbsp;ZAPISY&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Kontakt">&nbsp;&nbsp;Kontakt&nbsp;&nbsp;</a></li> 
                 
             </ul>
         </div>
