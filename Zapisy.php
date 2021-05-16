@@ -68,73 +68,75 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 </head>
 
 <body>
-<header>
-    <?php include('./header.php'); ?>
-</header>
+    <header>
+        <?php include('./header.php'); ?>
+    </header>
     <!--- Image Slider -->
 
-   
 
-    
-        
 
-   
-    <section id="treningi">
-        <div class="container-fluid padding justify-content-center"><br><br><br><br>
+
+
+
+
+    <section id="treningi" style="padding-top: 150px;;">
+        <div class="container-fluid padding justify-content-center">
             <div class="col">
 
-            <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Zapisy do akademii wojowników</h2>
+                <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Zapisy do akademii wojowników</h2>
 
             </div>
             <br><br>
             <div class="row text-center padding w-75 " style="margin: auto;">
 
                 <div class="col-lg-12">
-                <a href="#" style="font-size:100%;  padding: 0.8rem 2rem;  color: #f4f4f4;  text-transform: uppercase; border: 1px; border-style: solid; border-color: #ffe600;" class="btn">Zapisy</a>
-               
+                    <a href="#" style="font-size:100%;  padding: 0.8rem 2rem;  color: #f4f4f4;  text-transform: uppercase; border: 1px; border-style: solid; border-color: #ffe600;" class="btn">Zapisy</a>
+
                     <p></p><br><br>
                     <div>
                         <h5 class="header-content">
-                            Tutaj będzie isntrukcja dla uzytkownika, dotycząca systemu służącego do zapisów 
+                            Tutaj będzie isntrukcja dla uzytkownika, dotycząca systemu służącego do zapisów
                         </h5>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
+    <br><br><br>
+    <div id="club-back">
+        <div class="container ">
 
-    <section id="treningi2">
-        <div class="container-fluid padding justify-content-center">
-            <div class="col">
-            </div>
-            <br>
-            <div class="row text-center padding w-75 " style="margin: auto;">
-                <div class="col-lg-6">
-                    <i class="fas fa-star img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
-                    <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Treningi personalne dla dzieci</h2>
-                    <p></p>
-                    <div>
-                        <h5 class="header-content">
-                            Dzieci zyskują wiedzę dotyczącą swojej siły, a trenerzy kładą nacisk na przekazanie jak z tej siły korzystać, aby nikomu nie zrobić krzywdy.</h5>
-                    </div>
-                </div>
 
-                <div class="col-lg-6">
-                    <i class="fas fa-users img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
+            <div class="row justify-content-center ">
+
+                <div class="col-lg-6 col-md-6  " style=" margin:auto">
+                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
+                    <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" >Treningi personalne dla dzieci</h2>
                     <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Something here</h2>
-                    <p></p>
-                    <div>
-                        <h5 class="header-content">
-                            Wyjazdy i dodatkowe atrakcje w postaci nocek czy obozów wpływają pozytywnie na zacieśnienie więzi między grupą i pozwalają połączyć rozwój dzieci z zabawą. </h5>
-                    </div>
+                    <h5 style="font-size: 111%;" class="text-center text-dark">
+                        <label class="desc" style="text-align: center!important;">
+                            Informacja o treningach personalnych
+                        </label>
+                    </h5>
                 </div>
-                
+                <div class="col-lg-6 col-md-6  " style=" margin:auto">
+                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
+                    <h2 class="header-info text-dark " style="font-weight: 900; font-size: 170%;">YouTube akademii</h2>
+                    <p></p>
+                    <h5 style="font-size: 111%;" class="text-center text-dark">
+                    
+                    <a class="btn-social" style="font-size: 170%" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ"><i class="fab fa-youtube  "></i></a>
+                        <label class="desc" style="text-align: center!important;">
+                            Tu będzie YOOUTUBE
+                        </label>
+                    </h5>
+                </div>
             </div>
-    </section>
-   
+        </div>
+    </div>
+    
+    <br><br><br>
 
 
 
