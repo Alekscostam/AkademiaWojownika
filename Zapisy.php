@@ -79,20 +79,20 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
 
 
-    <section id="treningi" style="padding-top: 150px;;">
+    <section id="treningi" style="padding-top: 112px;;">
         <div class="container-fluid padding justify-content-center">
             <div class="col">
 
                 <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Zapisy do akademii wojowników</h2>
 
             </div>
-            <br><br>
+            <br>
             <div class="row text-center padding w-75 " style="margin: auto;">
 
                 <div class="col-lg-12">
                     <a href="#" style="font-size:100%;  padding: 0.8rem 2rem;  color: #f4f4f4;  text-transform: uppercase; border: 1px; border-style: solid; border-color: #ffe600;" class="btn">Zapisy</a>
 
-                    <p></p><br><br>
+                    <br><br><p></p>
                     <div>
                         <h5 class="header-content">
                             Tutaj będzie isntrukcja dla uzytkownika, dotycząca systemu służącego do zapisów
@@ -103,40 +103,56 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
         </div>
     </section>
-    <br><br><br>
+    <br>
     <div id="club-back">
-        <div class="container ">
+        <div class="container-fluid ">
 
 
             <div class="row justify-content-center ">
 
-                <div class="col-lg-6 col-md-6  " style=" margin:auto">
+                <div class="col-lg-3 col-md-4  " style=" margin:auto">
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                    <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" >Treningi personalne dla dzieci</h2>
+                    <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" >Treningi personalne</h2><hr style="background:#ffe600;">
                     <p></p>
                     <h5 style="font-size: 111%;" class="text-center text-dark">
                         <label class="desc" style="text-align: center!important;">
                             Informacja o treningach personalnych
                         </label>
                     </h5>
+                    <hr style="background:#ffe600;">
                 </div>
-                <div class="col-lg-6 col-md-6  " style=" margin:auto">
+                <div class="col-lg-4 col-md-4  " style=" margin:auto">
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                    <h2 class="header-info text-dark " style="font-weight: 900; font-size: 170%;">YouTube akademii</h2>
+                    <h2 class="header-info text-dark " style="font-weight: 900; font-size: 170%;">Dołącz do nas!</h2><hr  style="background:#ffe600;">
                     <p></p>
                     <h5 style="font-size: 111%;" class="text-center text-dark">
                     
-                    <a class="btn-social" style="font-size: 170%" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ"><i class="fab fa-youtube  "></i></a>
-                        <label class="desc" style="text-align: center!important;">
-                            Tu będzie YOOUTUBE
+                        <label class="desc " style="text-align: center!important;">
+                        Dołącz do Akademii Wojowników i bądź częścią naszego Teamu! Oferta kierowana jest do nauczycieli wf-u, pedagogów i osób pracujących z dziećmi.
+                    Przeszkolimy Cię w zakresie naszej metodyki prowadzenia zajęć.
+                    Razem zadbamy o zdrowie, kondycję i dobre samopoczucie naszych podopiecznych.
                         </label>
                     </h5>
+                    <hr style="background:#ffe600;">
                 </div>
+                <div class="col-lg-3 col-md-4  " style=" margin:auto">
+                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
+                    <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" >Przedszkola</h2><hr style="background:#ffe600;">
+                    <p></p>
+                    <h5 style="font-size: 111%;" class="text-center text-dark">
+                        <label class="desc" style="text-align: center!important;">
+                        Zapraszamy przedszkola do współpracy w zakresie prowadzenia zajęć sportowych.
+                    Treningi ogólnorozwojowe z elementami boksu i Kickbixingu oraz zajęć sportowych, sprawny przedszkolak.
+                        </label>
+                    </h5>
+                    <hr style="background:#ffe600;">
+                </div>
+                
             </div>
         </div>
     </div>
     
-    <br><br><br>
+    
 
 
 

@@ -73,11 +73,11 @@ hr.light-100 {
 
                 <div class="col-md-3 mx-auto mb-4 ">
                     <h6 class="text-uppercase  foot-header " style="font-size: 110%"> Media społecznościowe </h6>
-                    <div class="my-4" >
+                    <div class="my-4 " >
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> -->
-                    <a class="btn-social" style="font-size: 170%" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-f "></i></a>
-                    <a class="btn-social"  style="font-size: 170%" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
-                    <a class="btn-social" style="font-size: 170%" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ"><i class="fab fa-youtube  "></i></a>
+                    <a class="btn-social" style="font-size: 190%" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-square"></i></a>
+                    <a class="btn-social"  style="font-size: 190%" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
+                    <a class="btn-social" style="font-size: 190%" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ"><i class="fab fa-youtube  "></i></a>
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@ hr.light-100 {
                     <h7 style="font-size: 90%">
                         <ul class="list-unstyled my-4">
                             <li class="my-2"><i class="fas fa-home "></i>&nbsp;Akademia Wojowników Złoty Smok</li>
-                            <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; Fabryka Formy Bydgoszcz Drukarnia,</li>
+                            <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; Fabryka Formy Bydgoszcz Drukarnia</li>
                             <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;Akademiawojownikow@o2.pl</li>
                             <li class="my-2"><i class="fas fa-phone-square"></i>&nbsp;+48 796 751 818</li>
                         </ul>

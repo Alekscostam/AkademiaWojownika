@@ -380,26 +380,12 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     <div class="container">
         <div class="row text-dark">
-            <div class="col-lg-6">
-                <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;"> Dołącz do nas!</h2>
-                <br>
+            <!-- <div class="col-lg-6">
+               
 
-                <h5 class="header-content left-line" style="font-size: 120%;">
-                    Dołącz do Akademii Wojowników i bądź częścią naszego Teamu! Oferta kierowana jest do nauczycieli wf-u, pedagogów i osób pracujących z dziećmi.
-                    Przeszkolimy Cię w zakresie naszej metodyki prowadzenia zajęć.
-                    Razem zadbamy o zdrowie, kondycję i dobre samopoczucie naszych podopiecznych.
-                </h5>
-                <br><br>
-                <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;"> Przedszkola</h2>
-                <br>
-                <h5 class="header-content left-line" style="font-size: 120%;">
-                    Zapraszamy przedszkola do współpracy w zakresie prowadzenia zajęć sportowych.
-                    Treningi ogólnorozwojowe z elementami boksu i Kickbixingu oraz zajęć sportowych, sprawny przedszkolak.
-                </h5>
-
-            </div>
+            </div> -->
             <section id="Kontakt"></section>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
 
                 <section id="FAQ" style=" ">
                     <h2 class="header-info text-dark w-100 text-justify text-center " style="font-weight: 900; font-size: 170%;">Skontaktuj się z nami</h2><br>
@@ -496,11 +482,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <?php include('./footer.php'); ?>
 

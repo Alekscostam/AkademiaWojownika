@@ -151,9 +151,9 @@ header.sticky ul li a{
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">&nbsp;&nbsp;AKADEMIA&nbsp;&nbsp;</span></a> </li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks " href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;&nbsp;ZAJĘCIA&nbsp;&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;&nbsp;Trener&nbsp;&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;&nbsp;Dołącz do nas&nbsp;&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#DołączDoNas">&nbsp;&nbsp;Przedszkola&nbsp;&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="Zapisy.php">&nbsp;&nbsp;ZAPISY&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="Zapisy.php">&nbsp;&nbsp;Dołącz do nas&nbsp;&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ">&nbsp;&nbsp;YouTube&nbsp;&nbsp;</a></li> 
+                 <!-- <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="Zapisy.php">&nbsp;&nbsp;ZAPISY&nbsp;&nbsp;</a></li>  -->
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">  <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Kontakt">&nbsp;&nbsp;Kontakt&nbsp;</a></li> 
                 
             </ul>
