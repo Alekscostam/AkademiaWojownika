@@ -82,20 +82,20 @@ hr.light-100 {
                 </div>
 
 
-                <div class="col-md-4 mx-auto mb-4">
+                <div class="col-md-6 mx-auto mb-4">
                     <h6 class="text-uppercase  foot-header" style="font-size: 110%"> Kontakt</h6>
                     <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width:310px; height:2px;"> -->
 
                     <h7 style="font-size: 90%">
                         <ul class="list-unstyled my-4">
                             <li class="my-2"><i class="fas fa-home "></i>&nbsp;Akademia Wojowników Złoty Smok</li>
-                            <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; Fabryka Formy Bydgoszcz Drukarnia</li>
+                            <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; Bydgoskie Centrum Finansowe "Drukarnia" poziom -1 ul. Jagielonska 1</li>
                             <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;Akademiawojownikow@o2.pl</li>
                             <li class="my-2"><i class="fas fa-phone-square"></i>&nbsp;+48 796 751 818</li>
                         </ul>
                     </h7>
                 </div>
-                <div class="col-md-4 mx-auto mb-4 ">
+                <div class="col-md-2 mx-auto mb-4 ">
                     
                      
                     <img src="./img/Loga/logo4.png" width="200px" class="img-fluid">
