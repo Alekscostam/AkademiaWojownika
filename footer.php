@@ -97,10 +97,8 @@ hr.light-100 {
                 </div>
                 <div class="col-md-3 mx-auto mb-4 ">
                     
-                     
                     <img src="./img/Loga/logo4.png" width="200px" class="img-fluid">
                     
-
                 </div>
             </div>
         </div>

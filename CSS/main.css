@@ -241,7 +241,7 @@ body {
 /* CONTACT */
 #Kontakt {
   position: relative;
-  top: -100px;
+  top: -50px;
   right: 0;
   height: 0px;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
@@ -345,13 +345,7 @@ figure {
   * {
     font-size: 100%;
   }
-  #Kontakt {
-    position: relative;
-    top: 190px;
-    right: 0;
-    height: 0px;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
-  }
+  
   .bookmarks {
     font-size: 1em !important;
    
@@ -382,13 +376,7 @@ figure {
 }
 
 @media only screen and (max-width: 400px) {
-  #Kontakt {
-    position: relative;
-    top: 320px;
-    right: 0;
-    height: 0px;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
-  }
+ 
 }
 
 @media only screen and (max-width: 768px) {

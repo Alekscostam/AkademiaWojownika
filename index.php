@@ -374,17 +374,14 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 </div>
             </div>
     </section>
-    <section id="DołączDoNas"></section>
+    <section id="Kontakt"></section>
     <br>
 
 
+   
     <div class="container">
         <div class="row text-dark">
-            <!-- <div class="col-lg-6">
-               
-
-            </div> -->
-            <section id="Kontakt"></section>
+          
             <div class="col-lg-12">
 
                 <section id="FAQ" style=" ">

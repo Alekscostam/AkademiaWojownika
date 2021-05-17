@@ -1,38 +1,4 @@
-<?php
 
-$message_sent = '0';
-
-if (isset($_POST['email']) && $_POST['email'] != '') {
-
-    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-
-
-        $name = $_POST['name'];
-        $surname = $_POST['surname'];
-        $subject = $_POST['subject'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-
-        if (empty($name)) {
-            echo "Variable 'a' is empty.<br>";
-        }
-
-        $to = "kowalski.al@wp.pl";
-
-
-        $headers = "Wiadomość od: " . $name . " " . $surname . " Email: " . $email;
-
-
-        if (mail($to, $subject, $message, $headers)) {
-        } else {
-        }
-        $message_sent = '1';
-    } else {
-        $message_sent =  '2';
-    }
-}
-
-?>
 <style>
     <?php include './CSS/style.css'; ?><?php include './js/main.js'; ?>
 </style>
@@ -75,15 +41,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
 
 
-
-
-
-
-    <section id="treningi" style="padding-top: 112px;;">
+    <section id="treningi" style="padding-top: 107px;;">
         <div class="container-fluid padding justify-content-center">
             <div class="col">
-
-                <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Zapisy do akademii wojowników</h2>
+                <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Zapisz swoje dziecko do akademii wojowników</h2>
 
             </div>
             <br>
@@ -92,13 +53,18 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="col-lg-12">
                     <a href="#" style="font-size:100%;  padding: 0.8rem 2rem;  color: #f4f4f4;  text-transform: uppercase; border: 1px; border-style: solid; border-color: #ffe600;" class="btn">Zapisy</a>
 
-                    <br><br><p></p>
+                    <br><br>
                     <div>
                         <h5 class="header-content">
                             Tutaj będzie isntrukcja dla uzytkownika, dotycząca systemu służącego do zapisów
                         </h5>
                     </div>
                 </div>
+
+            </div>
+            <div class="col">
+
+                <h2 class="header-info" style="font-weight: 900; font-size: 110%;"><i class="fas fa-map-marker"></i>&nbsp;<b>Bydgoskie Centrum Finansowe "Drukarnia" poziom -1 ul. Jagielonska 1</b></h2>
 
             </div>
         </div>
