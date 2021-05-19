@@ -104,10 +104,10 @@ hr.light-100 {
         </div>
         <div class="footer-copyright text-center py-1 bg-dark ">
             <p><small> &copy; <span id="currentYear"></span>
-                    Akademia wojowników,</h7> All Rights Reserved </small>
-                <small>|
+                    Akademia&nbsp;wojowników, </h7>&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;</small>
+                <small><br>
                     <a href="https://www.instagram.com/aleksanderr_kowalski/" id="AK">
-                        <h7 >Author <i class="fab fa-instagram"></i> Aleksander Kowalski </h7>
+                        <h7>Author&nbsp;<i class="fab fa-instagram"></i>&nbsp;Aleksander&nbsp;Kowalski&nbsp;</h7>
                     </a></small>
             </p>
         </div>
