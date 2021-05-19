@@ -2,7 +2,7 @@
 
 $message_sent = '0';
 
-if (isset($_POST['email']) && $_POST['email'] != '') {
+if (isset($_POST['submit'])) {
 
     if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
 
@@ -13,20 +13,28 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         $email = $_POST['email'];
         $message = $_POST['message'];
 
-        if (empty($name)) {
-            echo "Variable 'a' is empty.<br>";
-        }
 
-        $to = "kowalski.al@wp.pl";
+        $to = "kowalski121.al@gmail.com";
+        $from = "kowalski121.al@gmail.com";
 
 
-        $headers = "Wiadomość od: " . $name . " " . $surname . " Email: " . $email;
 
+        $headers = "Wiadomość od:   $name   $surname .\n" .
+            "Email:  $email.";
 
-        if (mail($to, $subject, $message, $headers)) {
+        $secretKey = "6LdpmNsaAAAAACh7-O3ML742LM26QSDUAtteNca0";
+        $responseKey = $_POST['g-recaptcha-response'];
+        $UserIP = $_SERVER['REMOTE_ADDR'];
+        $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
+        $response = file_get_contents($url);
+        $response = json_decode($response);
+
+        if ($response->success) {
+            $message_sent == '1';
+            mail($to, $subject, $message, $headers);
         } else {
+            $message_sent =  '2';
         }
-        $message_sent = '1';
     } else {
         $message_sent =  '2';
     }
@@ -53,7 +61,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <link href="CSS/style.css" rel="stylesheet">
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="./js/main.js"></script>
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
@@ -68,9 +76,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 </head>
 
 <body>
-<header>
-    <?php include('./header.php'); ?>
-</header>
+    <header>
+        <?php include('./header.php'); ?>
+    </header>
     <!--- Image Slider -->
 
     <div class="jumbotron text-center  container-fluid ">
@@ -93,9 +101,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <div id="club-back">
         <div class="container-fluid">
 
-
             <div class="row justify-content-center ">
-
 
                 <div class="col-lg-7 text-dark">
                     <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
@@ -106,9 +112,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
                         <div class="left-line">
-                            <div style="font-size: 110%; text-align: justify; " >
-                                Założycielem Akademii jest trener 
-                                <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> 
+                            <div style="font-size: 110%; text-align: justify; ">
+                                Założycielem Akademii jest trener
+                                <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B>
                                 z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
                             </div>
                             <B> Akademia Wojowników</B>
@@ -125,7 +131,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                 zachęca dzieci do większego skupienia i wysiłku na treningach.
                             </div>
 
-                            Jeżeli Twoje dziecko jest 
+                            Jeżeli Twoje dziecko jest
                             <B>nadpobudliwe</B>
                             i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji,
                             kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób.
@@ -138,23 +144,19 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <div class="left-line">
 
                             <span class="moreText ">
-                                <B>Obalamy mity</B> 
-                                - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat). 
-                                Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń. 
+                                <B>Obalamy mity</B>
+                                - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
+                                Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń.
                                 <p></p>
-
-
-                                Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości, 
+                                Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości,
                                 zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.
                                 <p></p>
-                                W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca, 
+                                W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca,
                                 w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
-
-                                <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika. 
+                                <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika.
                                 Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
-
                                 <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem,
-                                 ale także szansą na obserwowanie postępów swojej pociechy.
+                                ale także szansą na obserwowanie postępów swojej pociechy.
                             </span>
                         </div>
                     </div>
@@ -201,9 +203,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                             <p></p>
                             Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów.
                             <p></p>
-                            <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji. 
+                            <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.
                             Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. <p></p>
-                            <b>Kick-boxing light </b> - połączenie boksu i kopnięć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej, 
+                            <b>Kick-boxing light </b> - połączenie boksu i kopnięć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej,
                             podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
 
                         </h6>
@@ -222,9 +224,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="card-body ">
                     <h4 class="card-title" style="font-size: 145%;"><span class="">ZABAWA</span></h4>
                     <div style="color: rgb(70, 70, 70);  " class="card-text">
-                        Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy. 
-                        U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami. 
-                        Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową, 
+                        Bardzo ważne jest odpowiednie zbalansowanie treningu i zabawy.
+                        U nas poprzez ćwiczenia w formie zabawy nauczy się pokonywania własnych słabości i umiejętności współpracy z rówieśnikami.
+                        Dzięki ćwiczeniom ogólnorozwojowym połączonym z zabawami i elementami kickboxingu oraz boksu dzieci usprawniają koordynację ruchową,
                         wzmacniają wszystkie partie mięśni, zwiększają zakres ruchów, nabywają odporności tak ważnej w obecnych czasach.
                     </div>
                 </div>
@@ -235,9 +237,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                     <h4 class="card-title " style="font-size: 145%;"><span class="">INTEGRACJA</span></h4>
 
                     <div style="color: rgb(70, 70, 70);" class="card-text">
-                        Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową. 
-                        Organizujemy spotkania, np. imprezy okolicznościowe (m.in. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami 
-                        - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem, 
+                        Duży nacisk kładziemy na integrację i wspólne spędzanie czasu poza salą treningową.
+                        Organizujemy spotkania, np. imprezy okolicznościowe (m.in. mikołajki, bal karnawałowy) w sali zabaw Złoty Smoczek czy spotkania integracyjne z rodzicami
+                        - spływy kajakowe, rodzinne pikniki czy kuligi. Szansą na naukę samodzielności może być pierwsza nocka poza domem,
                         zielona szkoła czy kolonie sportowe organizowane przez nasz klub.
                     </div>
 
@@ -251,24 +253,17 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     </section>
     <div>
         <div class="container ">
-
-
             <div class="row justify-content-center no-gutters">
-
                 <div class="col-lg-12 ">
                     <h2 class="author" style="font-weight: 900; font-size: 150%; ">TRENER MICHAŁ GRABAREK </h2>
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                     <p></p>
                 </div>
             </div>
-
         </div>
         <div id="club-back">
             <div class="container ">
-
-
                 <div class="row justify-content-center ">
-
                     <div class="col-lg-3 col-md-6  " style=" margin:auto">
                         <img src="img/Profil/MG.JPG" class="img-fluid  border border-secondary  ">
                     </div>
@@ -291,11 +286,9 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         <div class="container-fluid padding justify-content-center">
             <div class="col">
                 <h1 class=" header-panel " style="font-weight: 900;  margin: auto;  font-size: auto;"> </h1>
-
             </div>
             <br><br>
             <div class="row text-center padding w-75 " style="margin: auto;">
-
                 <div class="col-lg-4">
                     <i class="fas fa-street-view img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
@@ -378,10 +371,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <br>
 
 
-   
+
     <div class="container">
         <div class="row text-dark">
-          
+
             <div class="col-lg-12">
 
                 <section id="FAQ" style=" ">
@@ -405,7 +398,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                         <?php
                         else :
                         ?>
-                            <h4 class=" font-weight-bold text-center my-2 title-contact-us">nie wysłano wiadomości!<br> Email nieprawidłowy</h4>
+                            <h4 class=" font-weight-bold text-center my-2 title-contact-us">nie wysłano wiadomości!<br> Niepoprawna CAPTCHA</h4>
                         <?php
                         endif;
                         ?>
@@ -462,13 +455,29 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                                         </div>
                                     </div>
 
-                                    <h6 style="font-weight:bold;">
-                                        <div class="text-justify  text-center">
-                                            <div class="md-form form-field text-justify  text-center">
-                                                <input class="btn-send  text-center text-dark" onclick="return checkform()" type="submit" value="Wyślij">
-                                            </div>
+                                    <div class="row">
+                                        <div class="col-md-3 text-justify  text-center">
+                                            <h6 style="font-weight:bold; ">
+
+
+                                                <div class="g-recaptcha  " style="transform: scale(0.75); -webkit-transform: scale(0.72); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6LdpmNsaAAAAAGuFRbe1HO4vfrRdZDeACzMz2Dy1"></div>
+
+
+
+                                            </h6>
                                         </div>
-                                    </h6>
+                                        <div class="col-md-9 text-justify  text-center">
+                                            <h6 style="font-weight:bold;">
+
+                                                <input class="btn-send  text-center text-dark" onclick="return checkform()" type="submit" name="submit" value="Wyślij">
+
+
+                                            </h6>
+                                        </div>
+
+                                    </div>
+
+
                                 </form>
 
                                 <div class="status"></div>

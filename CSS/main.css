@@ -294,6 +294,8 @@ figure {
   transform: translateZ(0);
   will-change: transform;
 }
+
+
 .left-line {
   border-left: 5px solid rgb(231, 208, 0);
 
@@ -348,31 +350,36 @@ figure {
   
   .bookmarks {
     font-size: 1em !important;
-   
-    
   }
+
   .bookmarks:hover {
 
     color: #ffa600 !important;
     text-shadow: 0px 1px 1px #000;
     transition: 0.5s;
   }
+
   .cytat {
     display: none;
   }
+    
   .display-4 {
     font-size: 160%;
   }
+
   .social a {
     font-size: 2em;
     padding: 0.7rem;
   }
+
   .text-logo {
     font-size: 1.2em !important;
   }
+
   .card {
     min-width: 200px;
   }
+  
 }
 
 @media only screen and (max-width: 400px) {
