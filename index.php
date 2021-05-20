@@ -13,19 +13,16 @@ if (isset($_POST['submit'])) {
         $email = $_POST['email'];
         $message = $_POST['message'];
 
-
         $to = "kowalski121.al@gmail.com";
-        $from = "kowalski121.al@gmail.com";
 
-
-
-        $headers = "Wiadomość od:   $name   $surname .\n" .
+        $headers = "Wiadomość ze strony Akademii od:   $name   $surname .\n" .
             "Email:  $email.";
 
         $secretKey = "6LdpmNsaAAAAACh7-O3ML742LM26QSDUAtteNca0";
         $responseKey = $_POST['g-recaptcha-response'];
         $UserIP = $_SERVER['REMOTE_ADDR'];
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
+        
         $response = file_get_contents($url);
         $response = json_decode($response);
 
