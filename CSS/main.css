@@ -41,7 +41,12 @@ body {
 }
 
 
-
+#Zajęcia{
+  position: relative;
+  top: -45px;
+  right: 0;
+  height: 0px;
+}
 
 [class*="col-"] {
   padding: 1rem;
