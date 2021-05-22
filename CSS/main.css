@@ -62,7 +62,7 @@ body {
 /*  AKADEMIA SECTION  */
 #Akademia {
   position: relative;
-  top: -90px;
+  top: -80px;
   right: 0;
   height: 0px;
 }
@@ -201,6 +201,13 @@ body {
   transform: translate(-50%, -50%);
   font-size: 300%;
   font-weight: 600;
+}
+
+#Treningi-personalne{
+  position: relative;
+  top: -85px;
+  right: 0;
+  height: 0px;
 }
 
 .card-body h6 {

@@ -41,7 +41,7 @@
 
 
 
-    <section id="treningi" style="padding-top: 107px;;">
+    <section id="treningi" style="padding-top: 88px;;">
         <div class="container-fluid padding justify-content-center">
             <div class="col">
                 <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Zapisz swoje dziecko do akademii wojowników</h2>
@@ -63,30 +63,19 @@
 
             </div>
             <div class="col">
-
-                <h2 class="header-info" style="font-weight: 900; font-size: 110%;"><i class="fas fa-map-marker"></i>&nbsp;<b>Bydgoskie Centrum Finansowe "Drukarnia" poziom -1 ul. Jagielonska 1</b></h2>
-
+                <h2 class="header-info" style="font-weight: 400; font-size: 110%;"><i class="fas fa-map-marker"></i>&nbsp;<b>Bydgoskie Centrum Finansowe "Drukarnia" poziom -1 ul. Jagielonska 1</b></h2>
             </div>
         </div>
     </section>
     <br>
+    <section id="Treningi-personalne" ></section>
     <div id="club-back">
-        <div class="container-fluid ">
+        <div class="container-fluid " >
 
 
             <div class="row justify-content-center ">
 
-                <div class="col-lg-3 col-md-4  " style=" margin:auto">
-                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                    <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" >Treningi personalne</h2><hr style="background:#ffe600;">
-                    <p></p>
-                    <h5 style="font-size: 111%;" class="text-center text-dark">
-                        <label class="desc" style="text-align: center!important;">
-                            Informacja o treningach personalnych
-                        </label>
-                    </h5>
-                    <hr style="background:#ffe600;">
-                </div>
+               
                 <div class="col-lg-4 col-md-4  " style=" margin:auto">
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                     <h2 class="header-info text-dark " style="font-weight: 900; font-size: 170%;">Dołącz do nas!</h2><hr  style="background:#ffe600;">
@@ -97,6 +86,18 @@
                         Dołącz do Akademii Wojowników i bądź częścią naszego Teamu! Oferta kierowana jest do nauczycieli wf-u, pedagogów i osób pracujących z dziećmi.
                     Przeszkolimy Cię w zakresie naszej metodyki prowadzenia zajęć.
                     Razem zadbamy o zdrowie, kondycję i dobre samopoczucie naszych podopiecznych.
+                        </label>
+                    </h5>
+                    <hr style="background:#ffe600;">
+                </div> 
+                <div     class="col-lg-5 col-md-4  " style=" margin:auto">
+                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
+                    <h2 class="header-info text-dark" style="font-weight: 900; font-size: 170%;" >Treningi personalne</h2><hr style="background:#ffe600;">
+                    <p></p>
+                    <h5 style="font-size: 111%;" class="text-center text-dark">
+                        <label class="desc" style="text-align: center!important;">
+                        Akademia Wojowników oprócz zajęć grupowych oferuje także treningi personalne dla dzieci. 
+Jeżeli Tobie i Twojemu dziecku zależy na indywidualnym podejściu, wzmożonej uwadze trenera i wyższej skuteczności treningów, to zapraszamy do zapisów. Zachęcamy także rodziców do czynnego uczestnictwa w zajęciach, co z pewnością zaowocuje większym zaangażowaniem dziecka.
                         </label>
                     </h5>
                     <hr style="background:#ffe600;">

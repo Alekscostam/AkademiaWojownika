@@ -56,7 +56,6 @@ if (isset($_POST['submit'])) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
     <link href="CSS/style.css" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="./js/main.js"></script>
@@ -139,7 +138,6 @@ if (isset($_POST['submit'])) {
                         </video>
                         <br><br>
                         <div class="left-line">
-
                             <span class="moreText ">
                                 <B>Obalamy mity</B>
                                 - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
