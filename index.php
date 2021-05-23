@@ -77,21 +77,13 @@ if (isset($_POST['submit'])) {
     </header>
     <!--- Image Slider -->
 
-    <div class="jumbotron text-center  container-fluid ">
-
-        <div style=" padding-top: 330px;">
-            <div class="container">
-                <div class="row d-flex flex-row justify-content-center">
-
-                    <div class="col-18">
-
-                        <!-- <a href="https://activenow.io/funkcje/?fbclid=IwAR0VqhMvxcQ8c7lcW0gDD1iSzkA5JrYeAjj9Y-otVEjuzJgTFa7m-RM_jS0" class="btn btn-primary ">ZAPISY <br> </a> -->
-                    </div>
-                </div>
-            </div>
-
-        </div>
+   
+    <div class="col-lg-12 text-dark" style="height:85%;">
+    <video  controls autoplay loop muted="muted"  id="myVideo" controls poster="./img/miniatura.png">
+                            <source preload="auto"  src="./Video/AkademiaWojowników.mp4" type="video/mp4">
+                        </video>
     </div>
+    <br> <br>
 
     <section id="Akademia"></section>
     <div id="club-back">
@@ -133,10 +125,8 @@ if (isset($_POST['submit'])) {
                             kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób.
                             <p></p>
                         </div>
-                        <video class="video-styler" controls poster="./img/miniatura.png">
-                            <source preload="auto" autoplay loop muted="muted" src="./Video/AkademiaWojowników.mp4" type="video/mp4">
-                        </video>
-                        <br><br>
+                        
+                        <br>
                         <div class="left-line">
                             <span class="moreText ">
                                 <B>Obalamy mity</B>
@@ -166,7 +156,7 @@ if (isset($_POST['submit'])) {
     </div>
     <p></p>
     <section id="Zajęcia"></section>
-
+    
     <section id="Zajecia no-gutters">
         <div class="row no-gutters">
             <div class="col-lg-5">
@@ -211,7 +201,7 @@ if (isset($_POST['submit'])) {
         </div>
 
     </section>
-
+    
     <div class="back-card">
         <div class="card-deck  justify-content-center" style="margin:auto;">
             <div class="card col-lg-3 ">
@@ -364,9 +354,6 @@ if (isset($_POST['submit'])) {
     </section>
     <section id="Kontakt"></section>
     <br>
-
-
-
     <div class="container">
         <div class="row text-dark">
 
