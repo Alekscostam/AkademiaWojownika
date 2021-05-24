@@ -10,12 +10,12 @@
 <style>
   
 .navbar-fixed-top.scrolled {
-  transition: 0.6s;
+ 
   background-color: #fff !important;
-  transition: background-color 200ms linear;
   opacity: 1;
-
-  color: white!important;
+  
+  text-shadow: 0px 0px 0px #000!important;
+  color: #cab80e!important;
   /* padding: 5px 10px; */
 }
 /* NAVBAR */
@@ -25,7 +25,8 @@
     box-shadow: inset 0 2px 4px -2px rgba(0, 0, 0, 0.5);
   
 }
-.navbar {
+.navbar { 
+ 
   justify-content: center;
   width: 100%;
   top: 0;
@@ -34,20 +35,23 @@
   position: fixed;
   padding: 7px 7px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+  color: #cab80e!important;
+  background-color: #fff;
+  
 }
 
 .bookmarks {
   font-size: 0.9rem;
   letter-spacing: 1.2px;
   padding-left: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   padding-top: 0.2rem;
-  color: #cab80e!important;
+  color: #000!important;
   text-transform: uppercase;
   justify-content: center;
   display: inline-block;
-  min-height: 3.2vh;
-  max-height: 3vh;
+  min-height: 3.4vh;
+  max-height: 3.4vh;
 }
 
 .navbar-toggler:focus,
@@ -78,7 +82,7 @@
 
 .bookmarks:hover {
   color: #ffe600;
-  text-shadow: 0px 1px 1px #000;
+  text-shadow: 0px 0px 0px #000;
   transition: 0.5s;
 }
 header{
@@ -126,31 +130,32 @@ header.sticky ul li a{
 <body>
 <script>
        
-    window.addEventListener("scroll",function(){
-      var header = document.querySelector("header");
-      header.classList.toggle("sticky",window.scrollY>0)
-    })
-    $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
+//     window.addEventListener("scroll",function(){
+//       var header = document.querySelector("header");
+//       header.classList.toggle("sticky",window.scrollY>0)
+//     })
+//     $('.navbar-nav>li>a').on('click', function(){
+//     $('.navbar-collapse').collapse('hide');
+// });
 
    </script>
    <header>
     <nav class="navbar navbar-light  navbar-expand-lg scrolling-navbar navbar-fixed-top ">
    
-        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%; color: #cab80e;" >AKADEMIA WOJOWNIKÓW</span></a>
+        <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/" ><span style="font-size:90%; color: rgb(231, 208, 0);
+  text-shadow: 0px 1px 1px #000;;" >AKADEMIA WOJOWNIKÓW</span></a>
         <button class="navbar-toggler mx-auto" type="button" style="margin:15px" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
             <span  class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1.1rem; "></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navbarNav">
         <hr id="hr-navbar"></hr>
-            <ul class="navbar-nav ml-auto " >
-    
+            <ul class="navbar-nav ml-auto " style="">
+           
 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">AKADEMIA&nbsp;</span></a> </li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks " href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;ZAJĘCIA&nbsp;</a></li> 
-                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;Trener&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks "   href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;ZAJĘCIA&nbsp;</a></li> 
+                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"   href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;Trener&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="Zapisy.php">&nbsp;Dołącz do nas&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks"  href="Zapisy.php#Treningi-personalne">&nbsp;TRENING PERSONALNY&nbsp;</a></li> 
                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ">&nbsp;YouTube&nbsp;</a></li> 

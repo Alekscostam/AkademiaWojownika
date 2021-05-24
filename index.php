@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
     </header>
     <!--- Image Slider -->
 
-   
+    <div style="padding-top: 52px;;"></div>
     <div class="col-lg-12 text-dark" style="height:85%;">
     <video  controls autoplay loop muted="muted"  id="myVideo" controls poster="./img/miniatura.png">
                             <source preload="auto"  src="./Video/AkademiaWojowników.mp4" type="video/mp4">
@@ -86,25 +86,26 @@ if (isset($_POST['submit'])) {
     <br> <br>
 
     <section id="Akademia"></section>
+    <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
+                        <a class="sport" style="color:red;">SPORT</a>&nbsp;
+                        <a class="zabawa" style="color:black;">ZABAWA</a>&nbsp;
+                        <a class="integracja" style="color:rgb(255, 200, 0);">INTEGRACJA</a>&nbsp;
+                    </h1>
     <div id="club-back">
         <div class="container-fluid">
 
             <div class="row justify-content-center ">
 
-                <div class="col-lg-7 text-dark">
-                    <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
-                        <a class="sport" style="color:red;">SPORT</a>&nbsp;
-                        <a class="zabawa" style="color:black;">ZABAWA</a>&nbsp;
-                        <a class="integracja" style="color:rgb(255, 200, 0);">INTEGRACJA</a>&nbsp;
-                    </h1>
+                <div class="col-lg-5 text-dark">
+                    
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
-                        <div class="left-line">
-                            <div style="font-size: 110%; text-align: justify; ">
+                        <div class="div-changer" >
+                            
                                 Założycielem Akademii jest trener
                                 <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B>
-                                z wieloletnim doświadczeniem w pracy z dziećmi.<br><br>
-                            </div>
+                                z wieloletnim doświadczeniem w pracy z dziećmi.<br>
+                               <p></p>
                             <B> Akademia Wojowników</B>
                             powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka,
                             uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie
@@ -126,9 +127,16 @@ if (isset($_POST['submit'])) {
                             <p></p>
                         </div>
                         
-                        <br>
-                        <div class="left-line">
-                            <span class="moreText ">
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5 text-dark">
+                    
+                    <div class="text-spacing">
+                        <!-- text-align: justify; -->
+                        <div class="div-changer" id="right-div-hidden">
+                            <span class="">
                                 <B>Obalamy mity</B>
                                 - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
                                 Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń.
@@ -148,11 +156,10 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-
     </div>
 
-    <div id="btn-div" style="text-align:center;  ">
-        <button class="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
+    <div id="btn-div" style="text-align:center; display:none ">
+        <button id="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
     </div>
     <p></p>
     <section id="Zajęcia"></section>
