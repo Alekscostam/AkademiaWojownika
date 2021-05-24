@@ -138,11 +138,8 @@ if (isset($_POST['submit'])) {
                     
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
-<<<<<<< HEAD
                         <div class="div-changer" id="right-div-hidden">
-=======
-                        <div class=" my-3" id="right-div-hidden">
->>>>>>> 17e32a397ffb1ab4bd1fb4a59b7117c139a77664
+
                             <span class="">
                                 <B>Obalamy mity</B>
                                 - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
