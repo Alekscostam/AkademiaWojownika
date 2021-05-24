@@ -34,20 +34,16 @@ function checkform() {
 }
 
 
-      
-
 function ShowOrHideTxt() {
-    var elements = document.getElementsByClassName('moreText');
-    for (var i = 0; i < elements.length; i++) {
-        if (elements[i].style.display == 'none' || elements[i].style.display == '') {
-            var x = document.getElementById("btn-div");
-            elements[i].style.display = 'inline';
-            x.style.display = "none";
-        }
-        else {
-            elements[i].style.display = 'none';
-        }
-    }
+ 
+    var x = document.getElementById("right-div-hidden");
+  
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+   
 }
 
 //  var one =   document.getElementById('moreText');
