@@ -46,7 +46,6 @@ function ShowOrHideTxt() {
   var y = document.getElementById("read-more-btn");
   y.style.display = "none";
 
- 
 
   document.getElementsByClassName("div-changer");
 

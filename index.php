@@ -100,12 +100,15 @@ if (isset($_POST['submit'])) {
                     
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
+
                         <div class="div-changer" >
                             
                                 Założycielem Akademii jest trener
                                 <B><a href="https://akademiawojownika.herokuapp.com/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B>
                                 z wieloletnim doświadczeniem w pracy z dziećmi.<br>
                                <p></p>
+
+                        
                             <B> Akademia Wojowników</B>
                             powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka,
                             uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie
@@ -135,7 +138,11 @@ if (isset($_POST['submit'])) {
                     
                     <div class="text-spacing">
                         <!-- text-align: justify; -->
+<<<<<<< HEAD
                         <div class="div-changer" id="right-div-hidden">
+=======
+                        <div class=" my-3" id="right-div-hidden">
+>>>>>>> 17e32a397ffb1ab4bd1fb4a59b7117c139a77664
                             <span class="">
                                 <B>Obalamy mity</B>
                                 - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
@@ -159,7 +166,11 @@ if (isset($_POST['submit'])) {
     </div>
 
     <div id="btn-div" style="text-align:center; display:none ">
+<<<<<<< HEAD
         <button id="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
+=======
+        <button class="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
+>>>>>>> 17e32a397ffb1ab4bd1fb4a59b7117c139a77664
     </div>
     <p></p>
     <section id="Zajęcia"></section>
