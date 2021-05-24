@@ -78,7 +78,7 @@ if (isset($_POST['submit'])) {
     <!--- Image Slider -->
 
     <div style="padding-top: 52px;;"></div>
-    <div class="col-lg-12 text-dark" style="height:90%;">
+    <div class="col-lg-12 text-dark" style="height:85%;">
     <video  controls autoplay loop muted="muted"  id="myVideo" controls poster="./img/miniatura.png">
                             <source preload="auto"  src="./Video/AkademiaWojowników.mp4" type="video/mp4">
                         </video>
