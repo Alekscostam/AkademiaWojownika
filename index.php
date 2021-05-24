@@ -163,11 +163,7 @@ if (isset($_POST['submit'])) {
     </div>
 
     <div id="btn-div" style="text-align:center; display:none ">
-<<<<<<< HEAD
         <button id="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
-=======
-        <button class="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
->>>>>>> 17e32a397ffb1ab4bd1fb4a59b7117c139a77664
     </div>
     <p></p>
     <section id="Zajęcia"></section>
