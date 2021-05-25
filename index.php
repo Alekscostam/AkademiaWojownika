@@ -22,7 +22,6 @@ if (isset($_POST['submit'])) {
         $responseKey = $_POST['g-recaptcha-response'];
         $UserIP = $_SERVER['REMOTE_ADDR'];
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
-
         $response = file_get_contents($url);
         $response = json_decode($response);
 

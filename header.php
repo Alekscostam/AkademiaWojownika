@@ -6,7 +6,10 @@
 <head>
 <link href="CSS/main.css" rel="stylesheet">
 <link src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
 <link rel="icon" type="image/png" href="./img/Loga/logo4.png">
+=======
+>>>>>>> a1fb82448b3b870461e959666f22a44e09407618
 <style><?php include './CSS/main.css'; ?></style>
 <style>
   
