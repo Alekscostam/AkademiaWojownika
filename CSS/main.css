@@ -1,0 +1,491 @@
+/*--- Fixed Background Image --*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  scroll-behavior: smooth;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.top-text {
+  font-size: 220%;
+  font-family: "Black Han Sans", sans-serif;
+}
+.intro {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+#AK {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+#AK:hover {
+  color: #ffe600;
+  border: none;
+}
+
+
+#Zajęcia{
+  position: relative;
+  top: -45px;
+  right: 0;
+  height: 0px;
+}
+
+[class*="col-"] {
+  padding: 1rem;
+}
+.header-info {
+  font-size: 250%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 750;
+}
+.header-content {
+  letter-spacing: 0.8;
+  font-size: 100%;
+  font-weight: 450;
+}
+/*  AKADEMIA SECTION  */
+#Akademia {
+  position: relative;
+  top: -80px;
+  right: 0;
+  height: 0px;
+}
+#club-back {
+  margin-top: -20px;
+}
+.sport {
+  text-decoration: none;
+  color: red;
+  outline: none;
+  border-bottom: none;
+}
+.zabawa {
+  text-decoration: none;
+  /* color:#005b9c; */
+  color: black;
+  outline: none;
+  border-bottom: none;
+}
+.integracja {
+  text-decoration: none;
+  color: rgb(255, 200, 0);
+  outline: none;
+  border-bottom: none;
+}
+#DołączDoNas {
+  position: relative;
+  top: -60px;
+  right: 0;
+  height: 0px;
+}
+
+/* END AKADEMIA SECTION */
+
+/* LOGO TEXT */
+.text-logo {
+  color: #cab80e;
+  cursor: pointer;
+  margin: auto;
+  vertical-align: middle;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+/* END LOGO TEXT */
+
+/* BTN DESIGN */
+
+.btn-sm {
+  font-weight: 900;
+  /* text-shadow: 0px 1px 1px #fff; */
+}
+.btn {
+  text-decoration: none;
+  
+  overflow: hidden;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 5px 5px rgba(255, 255, 255, 0.4);
+}
+
+.btn:before {
+  content: "";
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(248, 246, 146, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+/* END BTN  */
+
+/* BTN SOCIAL */
+
+.btn-social {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+  background: #343a40;
+  font-weight: 900;
+  color: #cfcfcf;
+  transition: 0.5s;
+}
+
+.btn-social:hover {
+  color: #ffe600;
+  background: #343a40;
+  transition: 0.5s;
+}
+
+/* END BTN SOCIAL */
+
+/* CARDS DESIGN */
+.card {
+  min-height: 300px;
+  margin: 0 auto;
+  float: none;
+  color: #000;
+  text-align: center;
+  max-width: 710px;
+}
+
+.card-body h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 105%;
+  text-align: center;
+}
+.card-body h7 {
+  font-size: 13px;
+  text-justify: inter-word;
+  text-align: justify;
+}
+.card-title {
+  font-family: "Black Han Sans", sans-serif;
+  color: rgb(70, 69, 69);
+}
+.centering-text {
+  font-family: "Black Han Sans", sans-serif;
+  position: relative;
+  float: left;
+  top: 50%;
+  letter-spacing: 1px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  font-weight: 600;
+}
+
+#Treningi-personalne{
+  position: relative;
+  top: -85px;
+  right: 0;
+  height: 0px;
+}
+
+.card-body h6 {
+  font-size: 11px;
+}
+.card img {
+}
+/* END CARDS DESIGN */
+
+/* HEADER PANEL */
+.header-panel {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 190%;
+  letter-spacing: 2px;
+  color: #292b2c;
+  margin: 0 auto;
+  font-weight: 700;
+}
+/* END HEADER PANEL */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: silver;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(150, 136, 11);
+  border-radius: 5px;
+}
+
+/* END SCROLL BAR */
+
+/* CONTACT */
+#Kontakt {
+  position: relative;
+  top: -50px;
+  right: 0;
+  height: 0px;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png); */
+}
+/* END CONTACT */
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+/*---Firefox Bug Fix --*/
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Fixed Background Image --*/
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed {
+  background-image: url("img/mac.png");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+
+.left-line {
+  border-left: 5px solid rgb(231, 208, 0);
+
+  padding-left: 10px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+/*--- Bootstrap Padding Fix --*/
+
+/* @MEDIA QUERIES */
+
+@media (min-width: 1200px) {
+  .text-logo {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 991px) {
+  .text-logo {
+    margin-left: 30px;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .hide-this {
+    display: none;
+  }
+  #elementis {
+    width: 100%;
+  }
+  .card {
+    min-width: 400px;
+  }
+  .rightside {
+    width: 100%;
+  }
+  .rightside-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .leftside {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  * {
+    font-size: 100%;
+  }
+  
+  .bookmarks {
+    font-size: 1em !important;
+  }
+
+  .bookmarks:hover {
+
+    text-shadow: 0px 1px 1px #000;
+    transition: 0.5s;
+  }
+
+  .cytat {
+    display: none;
+  }
+    
+  .display-4 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: 0.7rem;
+  }
+
+  .text-logo {
+    font-size: 1.2em !important;
+  }
+
+  .card {
+    min-width: 200px;
+  }
+  
+}
+
+@media only screen and (max-width: 400px) {
+ 
+}
+
+@media only screen and (max-width: 768px) {
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+  .text-logo {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 332px) {
+  * {
+    font-size: 92%;
+  }
+}
+@media only screen and (max-width: 1172px) {
+  .bookmarks {
+    font-size: 0.7em;
+  }
+  .text-logo {
+    font-size: 1.1em;
+  }
+}
+@media only screen and (max-width: 991px) {
+
+.div-changer{
+  border-left: 5px solid rgb(231, 208, 0);
+  padding-left: 10px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+
+  #right-div-hidden{
+    display: none; 
+  }
+  #bottom-div-hidden{
+    display: none; 
+  }
+  #btn-div{
+    display: block!important; 
+  }
+  .img-start {
+    display: none;
+  }
+  .rightside {
+    /* height: 10vh; */
+    margin-top: -33px;
+  }
+  .author {
+    text-align: center !important;
+  }
+  .back-card {
+    margin-top: -20px;
+  }
+  .leftside {
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    margin-top: -12px !important;
+  }
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #d8e5eb;
+   height: min-content;
+  }
+  .bookmarks {
+    text-align: center;
+    justify-content: center;
+    font: size 0.7em;
+    width: 100%;
+    color: #292b2c !important;
+    border-bottom: 1px solid #e9eff1;
+    margin-top: 10px;;
+    padding-bottom: 32px !important;
+  }
+  .bookmarks:hover {
+    justify-content: center;
+    font: size 0.7em;
+    width: 100%;
+  }
+  .text-logo {
+    font-size: 1.4em;
+  }
+}
+/* END MEDIA */
