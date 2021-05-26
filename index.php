@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-
+    <link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo4.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Akademia Wojowników</title>
@@ -79,17 +79,20 @@ if (isset($_POST['submit'])) {
     <div style="padding-top: 52px;;"></div>
     <div class="col-lg-12 text-dark" style="height:85%;">
         <video controls autoplay loop muted="muted" id="myVideo" controls poster="./img/miniatura.png">
-            <source preload="auto" src="./Video/AkademiaWojowników.mp4" type="video/mp4">
+            <source preload="auto" src="./Video/AK.mp4" type="video/mp4">
         </video>
     </div>
-    <br>
+    
 
     <section id="Akademia"></section>
-    <h1 class="text-dark pb-4 text-center  h2-responsive top-text">
-        <a class="sport" style="color:red;">SPORT</a>&nbsp;
-        <a class="zabawa" style="color:black;">ZABAWA</a>&nbsp;
-        <a class="integracja" style="color:rgb(255, 200, 0);">INTEGRACJA</a>&nbsp;
-    </h1>
+    <div class="text-dark pb-4 text-center  h2-responsive top-text" id="header-styler">
+    <div style="padding-top: 30px;"></div>
+        <a class="sport " style="color:red; text-shadow: 0px 1px 1px #000!important;">SPORT</a>&nbsp;
+        <a class="zabawa" style="color:black;  text-shadow: 0px 1px 1px #000!important;">ZABAWA</a>&nbsp;
+        <a class="integracja" style="color:rgb(255, 200, 0);  text-shadow: 0px 1px 1px #000!important;">INTEGRACJA</a>&nbsp;
+    
+    </div>
+    <br>
     <div id="club-back">
         <div class="container">
 
@@ -128,9 +131,6 @@ if (isset($_POST['submit'])) {
                             kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób.
                             <p></p>
                         </div>
-
-
-
                     </div>
                 </div>
                 <div class="col-lg-6 text-dark">
@@ -208,19 +208,19 @@ if (isset($_POST['submit'])) {
 
                             Na treningach w Akademii nie zabraknie:<p></p>
                             <ul class="list-unstyled" style="margin-left:1rem; font-size: 93%;">
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> treningów formie light-contaktu, </li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> ćwiczeń ogólnorozwojowych całego ciała,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> ćwiczeń rozciągających i koordynacyjnych,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> pracy na refleksem i pamięcią,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> gier i zabaw ruchowych,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> gimnastyki korekcyjnej,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> ćwiczeń ogólnorozwojowych, rozciągających i koordynacyjnych,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> gier i zabaw ruchowych z elementami gimnastyki korekcyjnej,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> nauki pokonywania własnych słabości,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> testów sprawnościowych,</li>
-                                <li class="my-1"><i class="fas fa-arrow-right"></i> współpracy z rówieśnikami.</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size:55%;"></i> &nbsp;bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;treningów formie light-contaktu, </li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;ćwiczeń ogólnorozwojowych całego ciała,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;ćwiczeń rozciągających i koordynacyjnych,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;pracy na refleksem i pamięcią,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;gier i zabaw ruchowych,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;gimnastyki korekcyjnej,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;ćwiczeń ogólnorozwojowych, rozciągających i koordynacyjnych,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;gier i zabaw ruchowych z elementami gimnastyki korekcyjnej,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;nauki pokonywania własnych słabości,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;testów sprawnościowych,</li>
+                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;współpracy z rówieśnikami.</li>
                             </ul>
                             <p></p>
                             Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów.
