@@ -107,7 +107,7 @@ hr.light-100 {
                     Akademia&nbsp;wojowników, </h7>&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;</small>
                 <small><br>
                     <a href="https://www.instagram.com/aleksanderr_kowalski/" id="AK">
-                        <h7>Author&nbsp;<i class="fab fa-instagram"></i>&nbsp;Aleksander&nbsp;Kowalski&nbsp;</h7>
+                        <h7>Author&nbsp;Aleksander&nbsp;Kowalski&nbsp;</h7>
                     </a></small>
             </p>
         </div>
