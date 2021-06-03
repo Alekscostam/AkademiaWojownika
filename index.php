@@ -28,6 +28,11 @@ if (isset($_POST['submit'])) {
         if ($response->success) {
             $message_sent == '1';
             mail($to, $subject, $message, $headers);
+            ?>
+            <script language="javascript" type="text/javascript">
+            window.location.href = 'http://www.awzlotysmok.pl/?success';
+            </script>
+            <?php
         } else {
             $message_sent =  '2';
         }
@@ -482,7 +487,7 @@ if (isset($_POST['submit'])) {
                                             <h6 style="font-weight:bold; ">
 
 
-                                                <div class="g-recaptcha  " style="transform: scale(0.75); -webkit-transform: scale(0.72); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6LdpmNsaAAAAAGuFRbe1HO4vfrRdZDeACzMz2Dy1"></div>
+                                                <div class="g-recaptcha" style="transform: scale(0.75); -webkit-transform: scale(0.72); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6LdpmNsaAAAAAGuFRbe1HO4vfrRdZDeACzMz2Dy1"></div>
 
 
 

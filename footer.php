@@ -90,7 +90,7 @@ hr.light-100 {
                         <ul class="list-unstyled my-4">
                             <li class="my-2"><i class="fas fa-home "></i>&nbsp;Akademia Wojowników Złoty Smok</li>
                             <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; Bydgoskie Centrum Finansowe "Drukarnia" poziom -1 ul. Jagielonska 1</li>
-                            <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;Akademiawojownikow@o2.pl</li>
+                            <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;akademiawojownikowzs@gmail.com</li>
                             <li class="my-2"><i class="fas fa-phone-square"></i>&nbsp;+48 796 751 818</li>
                         </ul>
                     </h7>
