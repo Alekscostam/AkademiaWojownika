@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
 
         $to = "awzlotysmok@awzlotysmok.pl";
 
-        $headers = "Wiadomość ze strony Akademii od:\n$name $surname.\n" .
+        $headers = "Wiadomość ze strony Akademii od:\n $name $surname.\n" .
             "Email: $email.";
 
         $secretKey = "6LdpmNsaAAAAACh7-O3ML742LM26QSDUAtteNca0";
