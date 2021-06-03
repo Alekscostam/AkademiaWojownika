@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
         $email = $_POST['email'];
         $message = $_POST['message'];
 
-        $to = "kowalski121.al@gmail.com";
+        $to = "testmailakowalski@gmail.com";
 
         $headers = "Wiadomość ze strony Akademii od:   $name   $surname .\n" .
             "Email:  $email.";
@@ -167,20 +167,20 @@ if (isset($_POST['submit'])) {
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg" class="w-100 shadow-1-strong rounded " alt="" />
+                        <img src="./img/złoty smoczek/1.png" class="w-100 shadow-1-strong rounded " alt="" />
 
                     </div>
                 </div>
 
                 <div class="col-lg-4  mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg" class="w-100 shadow-1-strong rounded " alt="" />
+                        <img src="./img/złoty smoczek/2.png" class="w-100 shadow-1-strong rounded " alt="" />
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg" class="w-100 shadow-1-strong rounded " alt="" />
+                        <img src="./img/złoty smoczek/3.png" class="w-100 shadow-1-strong rounded " alt="" />
                     </div>
                 </div>
             </div>

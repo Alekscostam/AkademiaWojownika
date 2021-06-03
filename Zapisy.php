@@ -52,12 +52,12 @@
             <div class="row text-center padding w-75 " style="margin: auto;">
 
                 <div class="col-lg-12">
-                    <a href="#" style="font-size:100%;  padding: 0.8rem 2rem;  color: #f4f4f4;  text-transform: uppercase; border: 1px; border-style: solid; border-color: #ffe600;" class="btn">Zapisy</a>
+                     <a href="#" style="font-size:100%;  padding: 0.8rem 2rem;  color: #f4f4f4;  text-transform: uppercase; border: 1px; border-style: solid; border-color: #ffe600;" class="btn">Zapisy</a> 
 
                     <br><br>
                     <div>
                         <h5 class="header-content">
-                            Tutaj będzie isntrukcja dla uzytkownika, dotycząca systemu służącego do zapisów
+                            Aktualnie zapisy nastepują drogą telefoniczną: 796 751 818
                         </h5>
                     </div>
                 </div>
