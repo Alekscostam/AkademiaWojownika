@@ -12,14 +12,16 @@
 <link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo4.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Akademia Wojowników</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-    <link href="CSS/style.css" rel="stylesheet">
+    <meta name="description" content="Akademia Wojowników powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie wolnego czasu, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.">
+    <title>Akademia Wojowników Bydgoszcz: Sport Zabawa Integracja - Treningi dla dzieci</title>
+  <link href="CSS/style.css" rel="stylesheet">
 
     <script type="text/javascript" src="./js/main.js"></script>
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
