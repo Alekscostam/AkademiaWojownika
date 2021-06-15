@@ -92,13 +92,13 @@ if (isset($_POST['submit'])) {
     
 
     <section id="Akademia"></section>
-    <div class="text-dark pb-4 text-center  h2-responsive top-text" id="header-styler">
+    <h1 class="text-dark pb-4 text-center  top-text" id="header-styler">
     <div style="padding-top: 30px;"></div>
         <a class="sport " style="color:red; text-shadow: 0px 1px 1px #000!important;">SPORT</a>&nbsp;
         <a class="zabawa" style="color:black;  text-shadow: 0px 1px 1px #000!important;">ZABAWA</a>&nbsp;
         <a class="integracja" style="color:rgb(255, 200, 0);  text-shadow: 0px 1px 1px #000!important;">INTEGRACJA</a>&nbsp;
     
-    </div>
+    </h1>
     <br>
     <div id="club-back">
         <div class="container">
@@ -314,9 +314,7 @@ if (isset($_POST['submit'])) {
     <br>
     <section id="treningi">
         <div class="container-fluid padding justify-content-center">
-            <div class="col">
-                <h1 class=" header-panel " style="font-weight: 900;  margin: auto;  font-size: auto;"> </h1>
-            </div>
+            
             <br><br>
             <div class="row text-center padding w-75 " style="margin: auto;">
                 <div class="col-lg-4">
