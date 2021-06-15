@@ -54,7 +54,8 @@ if (isset($_POST['submit'])) {
     <link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo4.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Akademia Wojowników</title>
+
+    <title>Akademia Wojowników Bydgoszcz: Sport Zabawa Integracja - Treningi dla dzieci</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -429,7 +430,7 @@ if (isset($_POST['submit'])) {
                         <?php
                         endif;
                         ?>
-                        <div class="row"> formularz tymaczasowo nie działa :( Przepraszamy za utrudnienia i prosimy wysylać pytania na maila: Akademiawojownikow@o2.pl
+                        <div class="row"> 
                             <div class="w-100 mb-md-0 mb-5">
                                 <form id="contact-form" name="contact-form" action="" method="POST">
                                     <div class="row">
