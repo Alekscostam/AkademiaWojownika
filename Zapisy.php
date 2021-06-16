@@ -41,7 +41,27 @@
     </header>
     <!--- Image Slider -->
 
-   
+    <section style="padding-top: 75px;background: #fefefe;" >
+    <div class="container" > 
+
+            <div class="row justify-content-center ">
+                <div class="col-lg-12 " style=" margin:auto">
+                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
+                    <h2 class="header-info text-dark " style="font-weight: 900; font-size: 150%; ">Zapisy do grup</h2>
+                    <hr style="background:#ffe600;">
+                    <p></p>
+                    <h5 style="font-size: 111%;" class="text-center text-dark">
+                        <div class='activenow-table-container'>
+                            <center><img src='https://www.activenow.io/assets/ripple.gif' width='100px' /></center>
+                            <script async src='https://app.activenow.io/external/signup_table/load_by_js?code=bJFIh6bBT9ypuza9&school_id=4300'></script>
+                        </div>
+
+                    </h5>
+                </div>
+            </div>
+    </div>
+    
+    </section>
 
     <section id="treningi" >
         <div class="container ">
@@ -62,27 +82,7 @@
     <br>
 
 
-    <section style="padding-top: 175px;background: #fefefe;" >
-    <div class="container-fluid" > 
 
-            <div class="row justify-content-center ">
-                <div class="col-lg-12 " style=" margin:auto">
-                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                    <h2 class="header-info text-dark " style="font-weight: 900; font-size: 150%; ">Zapisy do grup</h2>
-                    <hr style="background:#ffe600;">
-                    <p></p>
-                    <h5 style="font-size: 111%;" class="text-center text-dark">
-                        <div class='activenow-table-container'>
-                            <center><img src='https://www.activenow.io/assets/ripple.gif' width='100px' /></center>
-                            <script async src='https://app.activenow.io/external/signup_table/load_by_js?code=bJFIh6bBT9ypuza9&school_id=4300'></script>
-                        </div>
-
-                    </h5>
-                </div>
-            </div>
-    </div>
-    
-    </section>
 
 
     <section id="Treningi-personalne"></section>
