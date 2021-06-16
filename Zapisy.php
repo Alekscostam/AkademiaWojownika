@@ -9,7 +9,7 @@
 
 <head>
 
-<link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo4.png">
+<link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo-smok.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -59,7 +59,7 @@
                     <br><br>
                     <div>
                         <h5 class="header-content">
-                            Aktualnie zapisy nastepują drogą telefoniczną: 796 751 818
+                            Zapisy następują poprzez stronę ActiveNow.io
                         </h5>
                     </div>
                 </div>

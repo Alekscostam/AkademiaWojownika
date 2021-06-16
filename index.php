@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-    <link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo4.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo-smok.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Akademia Wojowników powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie wolnego czasu, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.">
