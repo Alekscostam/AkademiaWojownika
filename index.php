@@ -84,7 +84,7 @@ if (isset($_POST['submit'])) {
 
     <div style="padding-top: 52px;;"></div>
     <div class="col-lg-12 text-dark" style="height:85%;">
-        <video controls autoplay loop muted="muted" id="myVideo" controls poster="./img/miniatura.png">
+        <video controls autoplay loop muted="muted" id="myVideo" controls poster="./img/miniatura.png" title="Sport Zabawa Integracja">
              <source preload="auto" src="./Video/AK.mp4" type="video/mp4"> 
             <source preload="auto" src="./Video/AK.mp4" type="video/mp4">
         </video>
@@ -92,7 +92,7 @@ if (isset($_POST['submit'])) {
     
 
     <section id="Akademia"></section>
-    <h1 class="text-dark pb-4 text-center  top-text" id="header-styler">
+    <h1 title="Sport Zabawa Integracja" class="text-dark pb-4 text-center  top-text" id="header-styler" >
     <div style="padding-top: 30px;"></div>
         <a class="sport " style="color:red; text-shadow: 0px 1px 1px #000!important;">SPORT</a>&nbsp;
         <a class="zabawa" style="color:black;  text-shadow: 0px 1px 1px #000!important;">ZABAWA</a>&nbsp;
@@ -174,20 +174,20 @@ if (isset($_POST['submit'])) {
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img src="./img/złoty smoczek/1.png" class="w-100 shadow-1-strong rounded " alt="" />
+                        <img title="zajęcia sportowe" src="./img/złoty smoczek/zajęcia-sportowe.png" class="w-100 shadow-1-strong rounded " alt="zajęcia sportowe" />
 
                     </div>
                 </div>
 
                 <div class="col-lg-4  mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img src="./img/złoty smoczek/2.png" class="w-100 shadow-1-strong rounded " alt="" />
+                        <img title="ćwiczenia rozciagające" src="./img/złoty smoczek/ćwiczenia-rozciągające.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia rozciagające" />
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img src="./img/złoty smoczek/3.png" class="w-100 shadow-1-strong rounded " alt="" />
+                        <img title="ćwiczenia koordynacyjne"  src="./img/złoty smoczek/ćwiczenia-koordynacyjne.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia koordynacyjne" />
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@ if (isset($_POST['submit'])) {
     <div class="back-card">
         <div class="card-deck  justify-content-center" style="margin:auto;">
             <div class="card col-lg-3 ">
-                <img class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Card image cap">
+                <img title="Zabawa, imprezy integracyjne" class="card-img-top" src="./img/site/Impreza-integracyjana.jpg" alt="Zabawa, imprezy integracyjne">
                 <div class="card-body ">
                     <h4 class="card-title" style="font-size: 145%;"><span class="">ZABAWA</span></h4>
                     <div style="color: rgb(70, 70, 70);  " class="card-text">
@@ -262,7 +262,7 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
             <div class="card col-lg-3">
-                <img class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Card image cap">
+                <img title="Sport, kolonie sportowe" class="card-img-top" src="./img/site/kolonie-sportowe.jpg" alt="Sport, kolonie sportowe">
                 <div class="card-body">
                     <h4 class="card-title " style="font-size: 145%;"><span class="">INTEGRACJA</span></h4>
 
@@ -295,7 +295,7 @@ if (isset($_POST['submit'])) {
             <div class="container ">
                 <div class="row justify-content-center ">
                     <div class="col-lg-3 col-md-6  " style=" margin:auto">
-                        <img src="img/Profil/MG.JPG" class="img-fluid  border border-secondary  ">
+                        <img title="Trener sportów walki" src="img/Profil/Trener-Michał-Grabarek.JPG" class="img-fluid  border border-secondary  " alt="Trener sportów walki">
                     </div>
                     <div class="col-lg-9" style=" margin-top:-5px">
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->

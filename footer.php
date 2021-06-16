@@ -52,20 +52,7 @@ hr.light-100 {
 }
 </style>
 <body></b>
-    <!-- <div class="footer-sponsors text-center">
-        <div class="container">
-            <div class="row  d-flex align-items-center ">
-                <div class="col  text-center">
-                    <img src="./img/Loga/zanit.png" width="80px" class="img-fluid">
-                    <img src="./img/Loga/takeaway.png" width="90px" class="img-fluid">
-                    <img src="./img/Loga/sport lab.png" width="100px" class="img-fluid">
-                    <img src="./img/Loga/octa.png" width="70px" class="img-fluid">
-                    <img src="./img/Loga/glad.png" width="70px" class="img-fluid">
-                    <img src="./img/Loga/athleticomed_lowgo-1.png" width="150px" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </div> -->
+    
     <footer class="page-footer bg-dark">
         <div class="container text-center text-md-left mt-2">
             <div class="row">
@@ -90,14 +77,14 @@ hr.light-100 {
                         <ul class="list-unstyled my-4">
                             <li class="my-2"><i class="fas fa-home "></i>&nbsp;Akademia Wojowników Złoty Smok</li>
                             <li class="my-2"><i class="fas fa-map-marker"></i>&nbsp; Bydgoskie Centrum Finansowe "Drukarnia" poziom -1 ul. Jagielonska 1</li>
-                            <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;akademiawojownikowzs@gmail.com</li>
+                            <li class="my-2"><i class="fas fa-envelope"></i>&nbsp;zlotysmokaw@gmail.com</li>
                             <li class="my-2"><i class="fas fa-phone-square"></i>&nbsp;+48 796 751 818</li>
                         </ul>
                     </h7>
                 </div>
                 <div class="col-md-3 mx-auto mb-4 ">
                     
-                    <img src="./img/Loga/logo-smok.png" width="200px" class="img-fluid">
+                    <img title="Akademia Wojowników Złoty Smok - Treningi dla dzieci" src="./img/Loga/logo-smok.png" width="200px" class="img-fluid" alt="Akademia Wojowników Złoty Smok - Treningi dla dzieci"">
                     
                 </div>
             </div>

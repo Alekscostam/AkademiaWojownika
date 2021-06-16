@@ -183,7 +183,7 @@
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="http://www.awzlotysmok.pl/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">&nbsp;AKADEMIA&nbsp;</span></a> </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks " href="http://www.awzlotysmok.pl/#Zajęcia">&nbsp;ZAJĘCIA&nbsp;</a></li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="http://www.awzlotysmok.pl/#Trener">&nbsp;Trener&nbsp;</a></li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="Zapisy.php">&nbsp;Dołącz do nas&nbsp;</a></li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="Zapisy.php">&nbsp;Zapisy&nbsp;</a></li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="Zapisy.php#Treningi-personalne">&nbsp;TRENING PERSONALNY&nbsp;</a></li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ">&nbsp;YouTube&nbsp;</a></li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="http://www.awzlotysmok.pl/#Kontakt">&nbsp;Kontakt&nbsp;</a></li>
