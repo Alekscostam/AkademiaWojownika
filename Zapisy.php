@@ -40,18 +40,18 @@
         <?php include('./header.php'); ?>
     </header>
     <!--- Image Slider -->
+    <div class="navbar-zapisy" style="  padding-top: 65px; ">
 
-    <section id="" style="padding-top: 60px;background: #fefefe;">
+        <h2 class="header-info text-white " style="font-weight: 900; font-size: 150%;  ">ZAPISY DO GRUP</h2>
+        <hr style="background:#ffe600;height:1px">
+    </div>
+    <section id="" style="background: #fefefe;">
         <div class="container-fluid">
 
             <div class="row justify-content-center ">
-                <div class="col-lg-8" style=" margin:auto">
+                <div class="col-lg-7" style=" margin:auto">
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                   <div style=" background-image: linear-gradient(#2c3135e6, rgba(24, 23, 23, 0.9)), url(../img/site/sport.jpg); padding-top:7px" >
-                  
-                        <h2 class="header-info text-white " style="font-weight: 900; font-size: 150%;  ">ZAPISY DO GRUP</h2>
-                        <hr style="background:#ffe600;height:2px">
-                    </div>
+
 
                     <p></p>
                     <h5 style="font-size: 111%;" class="text-center text-dark">
@@ -61,14 +61,14 @@
                         </div>
                     </h5>
                 </div>
-                
+
 
             </div>
         </div>
 
     </section>
 
-  
+
 
     <section id="treningi">
         <div class="container ">
@@ -77,13 +77,11 @@
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
                     <h2 class="header-info text-dark" style="font-weight: 900; font-size: 150%;">KALENDARZ ZAJĘĆ
                         <hr style="background:#ffe600;">
-                        <p></p>
-                        <h5 style="font-size: 111%;" class="text-center text-dark">
-                            <iframe src='https://app.activenow.io/external/calendar/4300?code=bJFIh6bBT9ypuza9' width='100%' height='600px'></iframe>
-
-                        </h5>
+                       
                 </div>
+                <iframe src='https://app.activenow.io/external/calendar/4300?code=bJFIh6bBT9ypuza9' width='100%' height='600px'></iframe>
             </div>
+            <br>
         </div>
     </section>
     <br>
