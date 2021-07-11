@@ -188,18 +188,18 @@ if (isset($_POST['submit'])) {
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img title="zajęcia sportowe" src="./img/złoty smoczek/zajęcia-sportowe.png" class="w-100 shadow-1-strong rounded " alt="zajęcia sportowe" />
+                        <img title="zajęcia sportowe" src="./img/złotySmoczek/zajęcia-sportowe.png" class="w-100 shadow-1-strong rounded " alt="zajęcia sportowe" />
 
                     </div>
                 </div>
                 <div class="col-lg-4  mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img title="ćwiczenia rozciagające" src="./img/złoty smoczek/ćwiczenia-rozciągające.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia rozciagające" />
+                        <img title="ćwiczenia rozciagające" src="./img/złotySmoczek/ćwiczenia-rozciągające.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia rozciagające" />
                     </div>
                 </div>
                 <div class="col-lg-4 mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img title="ćwiczenia koordynacyjne"  src="./img/złoty smoczek/ćwiczenia-koordynacyjne.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia koordynacyjne" />
+                        <img title="ćwiczenia koordynacyjne"  src="./img/złotySmoczek/ćwiczenia-koordynacyjne.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia koordynacyjne" />
                     </div>
                 </div>
             </div>
@@ -213,7 +213,7 @@ if (isset($_POST['submit'])) {
    
     <section id="Zajęcia"></section>
 
-    <section id="Zajecia no-gutters">
+    <section id="Zajecia">
         <div class="row no-gutters">
             <div class="col-lg-5">
                 <div class="leftside no-gutters "><span class="centering-text ">SPORT</span></div>
