@@ -308,24 +308,24 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-        <div id="club-back">
-            <div class="container ">
-                <div class="row justify-content-center ">
-                    <div class="col-lg-3 col-md-6  " style=" margin:auto">
-                        <img src="img/Profil/Trener-Michał-Grabarek.JPG" class="img-fluid  border border-secondary" alt="Trener sportów walki">
-                    </div>
-                    <div class="col-lg-9" style=" margin-top:-5px">
-                        <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                        <h3 class="author-desc" style="font-size: 115%; ">Moje doświadczenie i lata praktyki pozwoliły mi na wypracowanie skutecznej oraz efektywnej metodyki prowadzenia zajęć dla dzieci.</h3>
-                        <p></p>
-                        <h5 style="font-size: 111%;" class="desc">
-                            <label class="desc left-line">
-                                Przez 12 lat trenował karate SHOTOKAN, zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski. W 2003 roku zaczął trenować nowy styl Muay Thai, dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Posiada państwową licencję instruktora kick-boxingu wydaną przez Polski Związek Kick-boxingu oraz licencje instruktora boksu.
-                            </label>
-                        </h5>
-                    </div>
+
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="col-lg-3 col-md-6  " style=" margin:auto">
+                    <img src="img/Profil/Trener-Michał-Grabarek.JPG" class="img-fluid  border border-secondary" alt="Trener sportów walki">
+                </div>
+                <div class="col-lg-9" style=" margin-top:-5px">
+                    <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
+                    <h3 class="author-desc" style="font-size: 115%; ">Moje doświadczenie i lata praktyki pozwoliły mi na wypracowanie skutecznej oraz efektywnej metodyki prowadzenia zajęć dla dzieci.</h3>
+                    <p></p>
+                    <h5 style="font-size: 111%;" class="desc">
+                        <label class="desc left-line">
+                            Przez 12 lat trenował karate SHOTOKAN, zdobywając w tej dyscyplinie kilkanaście medali Mistrzostw i Pucharu Polski. W 2003 roku zaczął trenować nowy styl Muay Thai, dwukrotnie sięgnął po tytuł Mistrza i Puchar Polski oraz Puchar Europy Muay Thai i K-1 rules. Jest medalistą wielu międzynarodowych i ogólnopolskich turniejów oraz uczestnikiem gal zawodowych i amatorskich. Od 2009 roku prowadzi treningi z zakresu Muay Thai, i Kick-boxingu. Prowadzenia zajęć uczył się m.in. na obozach we Francji, Tajlandii i Holandii od najlepszych zawodników na świecie. Posiada państwową licencję instruktora kick-boxingu wydaną przez Polski Związek Kick-boxingu oraz licencje instruktora boksu.
+                        </label>
+                    </h5>
                 </div>
             </div>
+
         </div>
     </div>
     <br>
@@ -411,6 +411,7 @@ if (isset($_POST['submit'])) {
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <section id="Kontakt"></section>
     <br>
@@ -419,35 +420,29 @@ if (isset($_POST['submit'])) {
 
             <div class="col-lg-12">
 
-                <section id="FAQ" style=" ">
+                <section id="FAQ">
                     <h2 class="header-info text-dark w-100 text-justify text-center " style="font-weight: 900; font-size: 170%;">Skontaktuj się z nami</h2><br>
 
-
                     <section class="text-dark contact-us-section">
-
-                        <!--Section heading-->
-                        <!-- <h4 class=" font-weight-bold text-center my-2 title-contact-us">Skontaktuj się z nami</h4> -->
-                        <!--Section description-->
-                        <!-- <p class="text-center  mx-auto mb-4">Twojego pytania nie ma na liście? Wyślij wiadomość!</p> -->
 
                         <?php
                         if ($message_sent == '1') :
                         ?>
-                            <h4 class=" font-weight-bold text-center my-2 title-contact-us">wysłano</h4>
+                            <h4 class="font-weight-bold text-center my-2 title-contact-us">wysłano</h4>
                         <?php
                         elseif ($message_sent == '0') :
                         ?>
-                            <h4 class=" font-weight-bold text-center my-2 title-contact-us" id="errorMessage"></h4>
+                            <h4 class="font-weight-bold text-center my-2 title-contact-us" id="errorMessage"></h4>
                         <?php
                         else :
                         ?>
-                            <h4 class=" font-weight-bold text-center my-2 title-contact-us">nie wysłano wiadomości!<br> Niepoprawna CAPTCHA</h4>
+                            <h4 class="font-weight-bold text-center my-2 title-contact-us">nie wysłano wiadomości!<br> Niepoprawna CAPTCHA</h4>
                         <?php
                         endif;
                         ?>
                         <div class="row">
                             <div class="w-100 mb-md-0 mb-5">
-                                <form id="contact-form" name="contact-form" action="" method="POST">
+                                <form id="contact-form" name="contact-form" method="POST">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="md-form mb-0 form-field">
@@ -484,7 +479,7 @@ if (isset($_POST['submit'])) {
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="md-form form-field">
-                                                <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
+                                                <textarea id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
                                                 <label for="message" style="font-weight:bold;">Wiadomość</label>
                                             </div>
 

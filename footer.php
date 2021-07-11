@@ -88,21 +88,19 @@
           </h7>
         </div>
         <div class="col-md-3 mx-auto mb-4 ">
-
-          <img title="Akademia Wojowników Złoty Smok - Treningi dla dzieci" src="./img/Loga/logo-smok.png" width="200px" class="img-fluid" alt="Akademia Wojowników Złoty Smok - Treningi dla dzieci"">
-                    
-                </div>
-            </div>
+          <img title="Akademia Wojowników Złoty Smok - Treningi dla dzieci" src="./img/Loga/logo-smok.png" width="200" class="img-fluid" alt="Akademia Wojowników Złoty Smok - Treningi dla dzieci">
         </div>
-        <div class=" footer-copyright text-center py-1 bg-dark ">
-            <p><small> &copy; <span id=" currentYear"></span>
-          Akademia&nbsp;wojowników, </h7>&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;</small>
-          <small><br>
-            <a href="https://www.instagram.com/aleksanderr_kowalski/" id="AK">
-              <h7>Author&nbsp;Aleksander&nbsp;Kowalski&nbsp;</h7>
-            </a></small>
-          </p>
-        </div>
+      </div>
+    </div>
+    <div class=" footer-copyright text-center py-1 bg-dark ">
+      <p><small> &copy; <span id="currentYear"></span>
+          Akademia&nbsp;wojowników, &nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;</small>
+        <small><br>
+          <a href="https://www.instagram.com/aleksanderr_kowalski/" id="AK">
+            <h7>Author&nbsp;Aleksander&nbsp;Kowalski&nbsp;</h7>
+          </a></small>
+      </p>
+    </div>
   </footer>
 
   <script>
