@@ -437,72 +437,63 @@ if (isset($_POST['submit'])) {
                                 <form id="contact-form" name="contact-form" action="" method="POST">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <h6 style="font-weight:bold;">
                                                 <div class="md-form mb-0 form-field">
                                                     <input type="text" id="name" name="name" class="form-control">
-                                                    <label for="name" class="">Imie</label>
+                                                    <label for="name" style="font-weight:bold;">Imie</label>
                                                 </div>
 
-                                            </h6>
                                         </div>
                                         <div class="col-md-4">
-                                            <h6 style="font-weight:bold;">
                                                 <div class="md-form mb-0 form-field">
 
                                                     <input type="text" id="surname" name="surname" class="form-control">
-                                                    <label for="surname" class="">Nazwisko</label>
+                                                    <label for="surname" style="font-weight:bold;">Nazwisko</label>
 
                                                 </div>
-                                            </h6>
                                         </div>
                                         <div class="col-md-4">
-                                            <h6 style="font-weight:bold;">
                                                 <div class="md-form mb-0 form-field">
                                                     <input type="text" id="email" name="email" class="form-control">
-                                                    <label for="email" class="">Twój email</label>
+                                                    <label for="email" style="font-weight:bold;">Twój email</label>
                                                 </div>
-                                            </h6>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <h6 style="font-weight:bold;">
+                                          
                                                 <div class="md-form mb-0 form-field">
                                                     <input type="text" id="subject" name="subject" class="form-control">
-                                                    <label for="subject" class="">Temat wiadomości</label>
+                                                    <label for="subject" style="font-weight:bold;">Temat wiadomości</label>
                                                 </div>
-                                            </h6>
+                                            
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <h6 style="font-weight:bold;">
                                                 <div class="md-form form-field">
                                                     <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
-                                                    <label for="message">Wiadomość</label>
+                                                    <label for="message" style="font-weight:bold;">Wiadomość</label>
                                                 </div>
-                                            </h6>
+                                            
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-3 text-justify  text-center">
-                                            <h6 style="font-weight:bold; ">
+                                            
 
 
                                                 <div class="g-recaptcha" style="transform: scale(0.75); -webkit-transform: scale(0.72); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6LdpmNsaAAAAAGuFRbe1HO4vfrRdZDeACzMz2Dy1"></div>
 
-
-
-                                            </h6>
+                                          
                                         </div>
                                         <div class="col-md-9 text-justify  text-center">
-                                            <h6 style="font-weight:bold;">
+                                           
 
                                                 <input class="btn-send  text-center text-dark" onclick="return checkform()" type="submit" name="submit" value="Wyślij">
 
 
-                                            </h6>
+                                           
                                         </div>
 
                                     </div>
