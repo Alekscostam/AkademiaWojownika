@@ -8,8 +8,6 @@ accordingItemHeaders.forEach(accordingItemHeaders => {
     });
 });
 
-
-
 function checkform() {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var name = document.getElementById('name').value;
@@ -30,9 +28,7 @@ function checkform() {
         document.getElementById('errorMessage').textContent = "Uzupełnij prawidłowo wszytskie informacje!";
         return false;
     }
-
 }
-
 
 function ShowOrHideTxt() {
  
@@ -50,22 +46,12 @@ function ShowOrHideTxt() {
     z.style.display = "block";
   }
  
-
-
   var y = document.getElementById("read-more-btn");
   y.style.display = "none";
 
-
   document.getElementsByClassName("div-changer");
 
-
 }
-
-//  var one =   document.getElementById('moreText');
-//     if(document.getElementById('moreText').style.display=="none")
-//     {
-//         document.getElementById('moreText').style.display="inline";
-//     }
 
 
 

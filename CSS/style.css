@@ -65,7 +65,7 @@
   border-radius: 10%;
   font-weight: bold;
   text-transform: uppercase;
-  width: auto 200px;
+  width: auto;
   cursor: pointer;
 }
 
@@ -322,7 +322,7 @@
     url(../img/back.png);
   color: #343a40 !important;
   border-bottom: 1px solid rgb(214, 214, 214);
-  background-attachment: 50px;
+  background-attachment: fixed;
   
 }
 #treningi2 h1 {
@@ -444,11 +444,11 @@ color: #1a1919;
 line-height: 1.5;
 }
 .desc{
-  letter-spacing: 1.1;
+  letter-spacing: 0.1rem;
   font-size: 85%;
   line-height: 1.5;
 color: #3a4046;
-font-weight: 450;
+font-weight: 400;
 }
 
 #trener{
