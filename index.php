@@ -89,13 +89,11 @@ if (isset($_POST['submit'])) {
     <div style="padding-top: 52px;;"></div>
     <div class="col-lg-12 text-dark" style="height:85%;">
         <video controls autoplay loop muted="muted" id="myVideo" controls poster="./img/miniatura.png" title="Sport Zabawa Integracja">
-             <source preload="auto" src="./Video/AK.mp4" type="video/mp4"> 
-            <source preload="auto" src="./Video/AK.mp4" type="video/mp4">
+             <source src="./Video/AK.mp4" type="video/mp4"> 
         </video>
     </div>
     
-
-    <section id="Akademia"></section>
+    <section id="Akademia">
     <h1 title="Sport Zabawa Integracja" class="text-dark pb-4 text-center top-text " id="header-styler" >
     <div style="padding-top: 30px;" >
         <a class="sport " style="color:red; text-shadow: 0px 1px 1px #000!important;">SPORT</a>&nbsp;
@@ -103,6 +101,7 @@ if (isset($_POST['submit'])) {
         <a class="integracja" style="color:rgb(255, 200, 0);  text-shadow: 0px 1px 1px #000!important;">INTEGRACJA</a>&nbsp;
         </div>
     </h1>
+    </section>
     <br>
     <div id="club-back">
         <div class="container">
