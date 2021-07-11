@@ -193,35 +193,6 @@
     </nav>
 
 
-    <!-- <nav class="navbar navbar-light  navbar-expand-lg scrolling-navbar navbar-fixed-top ">
-
-      <a class="text-logo navbar-brand" href="https://akademiawojownika.herokuapp.com/"><span style="font-size:90%; color: rgb(231, 208, 0);
-text-shadow: 0px 1px 1px #000;;">AKADEMIA WOJOWNIKÓW</span></a>
-      <button class="navbar-toggler mx-auto" type="button" style="margin:15px" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="fas fa-bars mx-auto" style="color:#cab80e; font-size:1.1rem; "></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <hr id="hr-navbar">
-        </hr>
-        <ul class="navbar-nav ml-auto " style="">
-
-
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Akademia"><span data-toggle="collapse" data-target="#navbarNav">&nbsp;AKADEMIA&nbsp;</span></a> </li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks " href="https://akademiawojownika.herokuapp.com/#Zajęcia">&nbsp;ZAJĘCIA&nbsp;</a></li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Trener">&nbsp;Trener&nbsp;</a></li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="Zapisy.php">&nbsp;Dołącz do nas&nbsp;</a></li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="Zapisy.php#Treningi-personalne">&nbsp;TRENING PERSONALNY&nbsp;</a></li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ">&nbsp;YouTube&nbsp;</a></li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> <a class="nav-link bookmarks" href="https://akademiawojownika.herokuapp.com/#Kontakt">&nbsp;Kontakt&nbsp;</a></li>
-
-        </ul>
-      </div>
-    </nav> -->
-
-
-
-
   </header>
 </body>
 

@@ -33,8 +33,6 @@
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -138,13 +136,13 @@
     </div>
 
 
-
+    </body>
 
 
 
 
     <?php include('./footer.php'); ?>
 
-</body>
+
 
 </html>

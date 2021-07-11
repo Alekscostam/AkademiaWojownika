@@ -77,8 +77,6 @@ if (isset($_POST['submit'])) {
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -326,7 +324,7 @@ if (isset($_POST['submit'])) {
                 <div class="col-lg-4">
                     <i class="fas fa-street-view img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Treningi dla każdego </h2>
+                    <h2 class="header-info" style=" font-size: 170%;">Treningi dla każdego </h2>
                     <p></p>
                     <div>
                         <h5 class="header-content">
@@ -338,7 +336,7 @@ if (isset($_POST['submit'])) {
                     <i class="fa fa-balance-scale img-fluid " style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
                     <p></p>
-                    <h2 class="header-info " style="font-weight: 900;   font-size: 170%;">Kontrola emocji i cierpliwość</h2>
+                    <h2 class="header-info " style="   font-size: 170%;">Kontrola emocji i cierpliwość</h2>
                     <p></p>
                     <div>
                         <h5 class="header-content">
@@ -349,7 +347,7 @@ if (isset($_POST['submit'])) {
                 <div class="col-lg-4">
                     <i class="fas fa-lightbulb img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Logiczne myślenie</h2>
+                    <h2 class="header-info" style=" font-size: 170%;">Logiczne myślenie</h2>
                     <p></p>
                     <div>
                         <h5 class="header-content">
@@ -370,7 +368,7 @@ if (isset($_POST['submit'])) {
                 <div class="col-lg-4">
                     <i class="fas fa-star img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Świadomość siły fizycznej</h2>
+                    <h2 class="header-info" style=" font-size: 170%;">Świadomość siły fizycznej</h2>
                     <p></p>
                     <div>
                         <h5 class="header-content">
@@ -381,7 +379,7 @@ if (isset($_POST['submit'])) {
                 <div class="col-lg-4">
                     <i class="fas fa-users img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Integracja z grupą</h2>
+                    <h2 class="header-info" style=" font-size: 170%;">Integracja z grupą</h2>
                     <p></p>
                     <div>
                         <h5 class="header-content">
@@ -391,7 +389,7 @@ if (isset($_POST['submit'])) {
                 <div class="col-lg-4">
                     <i class="fas fa-child img-fluid my-2" style="font-size: 400%; color: #cab80e;"></i>
                     <p></p>
-                    <h2 class="header-info" style="font-weight: 900; font-size: 170%;">Pewność siebie </h2>
+                    <h2 class="header-info" style=" font-size: 170%;">Pewność siebie </h2>
                     <p></p>
                     <div>
                         <h5 class="header-content">
@@ -520,9 +518,9 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
-
+    </body>
     <?php include('./footer.php'); ?>
 
-</body>
+
 
 </html>
