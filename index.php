@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
 
 $message_sent = '0';
@@ -42,20 +44,25 @@ if (isset($_POST['submit'])) {
 }
 
 ?>
-<style>
-    <?php include './CSS/style.css'; ?><?php include './js/main.js'; ?>
-</style>
 
-<!DOCTYPE html>
 
-<html lang="en">
+
+
+<html lang="pl">
 
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="./img/Loga/logo-smok.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Akademia Wojowników powstała z pasji do sportu oraz chęci zarażenia nią najmłodszych, to miejsce, w którym zadbamy o prawidłowy rozwój Twojego dziecka, uczymy pokonywania własnych słabości i współpracy z rówieśnikami. Zajęcia sportowe z elementami sportów walki są idealnym sposobem na wypełnienie wolnego czasu, a także budowanie sprawności fizycznej i pewności siebie u dzieci. Zajęcia prowadzone są w oparciu o najnowsze metody treningowe przez doświadczonych trenerów.">
+    <meta name="keywords" content="SPORT, ZABAWA, INTEGRACJA" />
+
+    <style>
+        <?php include './CSS/style.css'; ?><?php include './js/main.js'; ?>
+    </style>
+    
     <title>Akademia Wojowników Bydgoszcz: Sport Zabawa Integracja - Treningi dla dzieci</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -67,7 +74,6 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -295,7 +301,7 @@ if (isset($_POST['submit'])) {
             <div class="container ">
                 <div class="row justify-content-center ">
                     <div class="col-lg-3 col-md-6  " style=" margin:auto">
-                        <img title="Trener sportów walki" src="img/Profil/Trener-Michał-Grabarek.JPG" class="img-fluid  border border-secondary  " alt="Trener sportów walki">
+                        <img  src="img/Profil/Trener-Michał-Grabarek.JPG" class="img-fluid  border border-secondary" alt="Trener sportów walki">
                     </div>
                     <div class="col-lg-9" style=" margin-top:-5px">
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
