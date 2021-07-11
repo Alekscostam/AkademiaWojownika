@@ -117,10 +117,13 @@ if (isset($_POST['submit'])) {
 
                         <div class="div-changer">
 
-                            Założycielem Akademii jest trener
-                            <B><a href="http://www.awzlotysmok.pl/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B>
-                            z wieloletnim doświadczeniem w pracy z dziećmi.<br>
-                            <p></p>
+                           
+                                
+                            <p> Założycielem Akademii jest trener
+                            <B> 
+                                <a href="http://www.awzlotysmok.pl/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> 
+                                z wieloletnim doświadczeniem w pracy z dziećmi.<br>
+                           </p>
 
 
                             <B> Akademia Wojowników</B>
@@ -137,11 +140,12 @@ if (isset($_POST['submit'])) {
                                 zachęca dzieci do większego skupienia i wysiłku na treningach.
                             </div>
 
+                            <p>
                             Jeżeli Twoje dziecko jest
                             <B>nadpobudliwe</B>
                             i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji,
                             kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób.
-                            <p></p>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -152,18 +156,23 @@ if (isset($_POST['submit'])) {
                         <div class="div-changer" id="right-div-hidden">
 
                             <span class="">
+                                <p>
                                 <B>Obalamy mity</B>
                                 - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
                                 Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń.
-                                <p></p>
-                                Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości,
+                                </p>
+
+                                <p> Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości,
                                 zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.
-                                <p></p>
-                                W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca,
+                                </p>
+
+                                <p>W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca,
                                 w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
-                                <p></p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika.
+                                </p>
+
+                                <p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika.
                                 Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
-                                <p></p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem,
+                                </p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem,
                                 ale także szansą na obserwowanie postępów swojej pociechy.
                             </span>
                         </div>
@@ -183,13 +192,11 @@ if (isset($_POST['submit'])) {
 
                     </div>
                 </div>
-
                 <div class="col-lg-4  mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                         <img title="ćwiczenia rozciagające" src="./img/złoty smoczek/ćwiczenia-rozciągające.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia rozciagające" />
                     </div>
                 </div>
-
                 <div class="col-lg-4 mb-lg-0">
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                         <img title="ćwiczenia koordynacyjne"  src="./img/złoty smoczek/ćwiczenia-koordynacyjne.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia koordynacyjne" />
@@ -203,7 +210,7 @@ if (isset($_POST['submit'])) {
     <div id="btn-div" style="text-align:center; display:none ">
         <button id="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
     </div>
-   <p></p>
+   
     <section id="Zajęcia"></section>
 
     <section id="Zajecia no-gutters">
@@ -218,7 +225,7 @@ if (isset($_POST['submit'])) {
                         <h6 class=" text-dark pb-2 h4-responsive my-py-2 desc" style="font-size: 100%; ">
                             <b>Zajęcia ogólnorozwojowe</b> z elementami boksu i kickboxingu prowadzimy w trzech grupach wiekowych 4-6 lat, 7-9 lat i +9 lat.<p></p>
 
-                            Na treningach w Akademii nie zabraknie:<p></p>
+                            Na treningach w Akademii nie zabraknie:<p>
                             <ul class="list-unstyled" style="margin-left:1rem; font-size: 93%;">
                                 <li class="my-1"><i class="fas fa-circle" style="font-size:55%;"></i> &nbsp;bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
                                 <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;treningów formie light-contaktu, </li>
@@ -234,13 +241,18 @@ if (isset($_POST['submit'])) {
                                 <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;testów sprawnościowych,</li>
                                 <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;współpracy z rówieśnikami.</li>
                             </ul>
-                            <p></p>
+                            </p>
+                            <p>
                             Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów.
-                            <p></p>
+                            </p>
+                            <p>
                             <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.
-                            Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. <p></p>
+                            Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. 
+                            </p>
+                            <p>
                             <b>Kick-boxing light </b> - połączenie boksu i kopnięć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej,
-                            podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.<p></p>
+                            podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.
+                            </p>
 
                         </h6>
                     </div>
