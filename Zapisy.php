@@ -26,11 +26,11 @@
  
     <link href="CSS/style.css" rel="stylesheet">
 
-    <script type="text/javascript" src="./js/main.js"></script>
+    <script  src="./js/main.js"></script>
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <script  src="js/lightbox-plus-jquery.min.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 

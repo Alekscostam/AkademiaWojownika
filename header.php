@@ -4,8 +4,6 @@
 
 <head>
   <link href="CSS/main.css" rel="stylesheet">
-  <link src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" rel="stylesheet">
-
   <style>
     <?php include './CSS/main.css'; ?>
   </style>
