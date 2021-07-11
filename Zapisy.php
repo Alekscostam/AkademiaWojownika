@@ -23,14 +23,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
- 
+
     <link href="CSS/style.css" rel="stylesheet">
 
-    <script  src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script  src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -45,7 +45,7 @@
         <h2 class="header-info text-white " style="font-weight: 900; font-size: 120%;  ">ZAPISY DO GRUP</h2>
         <hr style="background:#ffe600;height:1px">
     </div>
-    
+
 
     <section id="" style="background: #fefefe;">
         <div class="container-fluid">
@@ -53,7 +53,7 @@
             <div class="row justify-content-center ">
                 <div class="col-lg-7" style=" margin:auto">
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
-                 <p></p>
+                    <p></p>
                     <h5 style="font-size: 111%;" class="text-center text-dark">
                         <div class='activenow-form-container'>
                             <center><img src='https://www.activenow.io/assets/ripple.gif' width='100px' /></center>
@@ -70,8 +70,8 @@
         <hr style="background:#ffe600;height:1px">
     </div>
 
-  
-  
+
+
 
 
 
@@ -136,12 +136,12 @@
     </div>
 
 
-    </body>
+</body>
 
 
 
 
-    <?php include('./footer.php'); ?>
+<?php include('./footer.php'); ?>
 
 
 

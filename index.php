@@ -30,11 +30,11 @@ if (isset($_POST['submit'])) {
         if ($response->success) {
             $message_sent == '1';
             mail($to, $subject, $message, $headers);
-            ?>
+?>
             <script language="javascript" type="text/javascript">
-            window.location.href = 'http://www.awzlotysmok.pl/?success';
+                window.location.href = 'http://www.awzlotysmok.pl/?success';
             </script>
-            <?php
+<?php
         } else {
             $message_sent =  '2';
         }
@@ -60,7 +60,7 @@ if (isset($_POST['submit'])) {
     <style>
         <?php include './CSS/style.css'; ?><?php include './js/main.js'; ?>
     </style>
-    
+
     <title>Akademia Wojowników Bydgoszcz: Sport Zabawa Integracja - Treningi dla dzieci</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -70,11 +70,11 @@ if (isset($_POST['submit'])) {
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="CSS/style.css" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script  src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
     <link rel="stylesheet" type="text/css" href="./lightbox.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script  src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <link href='https://css.gg/add.css' rel='stylesheet'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -89,21 +89,21 @@ if (isset($_POST['submit'])) {
     <div style="padding-top: 52px;;"></div>
     <div class="col-lg-12 text-dark" style="height:85%;">
         <video controls autoplay loop muted="muted" id="myVideo" controls poster="./img/miniatura.png" title="Sport Zabawa Integracja">
-             <source src="./Video/AK.mp4" type="video/mp4"> 
+            <source src="./Video/AK.mp4" type="video/mp4">
         </video>
     </div>
-    
+
     <section id="Akademia"></section>
-   
-    <div style="padding-top: 35px;" class="text-dark pb-4 text-center top-text " id="header-styler" >
-    <h1>
-        <a class="sport " style="color:red; text-shadow: 0px 1px 1px #000!important;">SPORT</a>&nbsp;
-        <a class="zabawa" style="color:black;  text-shadow: 0px 1px 1px #000!important;">ZABAWA</a>&nbsp;
-        <a class="integracja" style="color:rgb(255, 200, 0);  text-shadow: 0px 1px 1px #000!important;">INTEGRACJA</a>&nbsp;
-    </h1>
+
+    <div style="padding-top: 35px;" class="text-dark pb-4 text-center top-text " id="header-styler">
+        <h1>
+            <a class="sport " style="color:red; text-shadow: 0px 1px 1px #000!important;">SPORT</a>&nbsp;
+            <a class="zabawa" style="color:black;  text-shadow: 0px 1px 1px #000!important;">ZABAWA</a>&nbsp;
+            <a class="integracja" style="color:rgb(255, 200, 0);  text-shadow: 0px 1px 1px #000!important;">INTEGRACJA</a>&nbsp;
+        </h1>
     </div>
-    
-    
+
+
     <br>
     <div id="club-back">
         <div class="container">
@@ -117,13 +117,13 @@ if (isset($_POST['submit'])) {
 
                         <div class="div-changer">
 
-                           
-                                
+
+
                             <p> Założycielem Akademii jest trener
-                            <B> 
-                                <a href="http://www.awzlotysmok.pl/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B> 
+                                <B>
+                                    <a href="http://www.awzlotysmok.pl/#Trener" style="text-decoration: none; color:#3d3a3b;">Michał&nbsp;Grabarek</a></B>
                                 z wieloletnim doświadczeniem w pracy z dziećmi.<br>
-                           </p>
+                            </p>
 
 
                             <B> Akademia Wojowników</B>
@@ -141,10 +141,10 @@ if (isset($_POST['submit'])) {
                             </div>
 
                             <p>
-                            Jeżeli Twoje dziecko jest
-                            <B>nadpobudliwe</B>
-                            i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji,
-                            kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób.
+                                Jeżeli Twoje dziecko jest
+                                <B>nadpobudliwe</B>
+                                i ma ciągłą potrzebę ruchu w akademii nauczy się koncentracji,
+                                kontrolowania ruchów i samodyscypliny. Będzie miało możliwości rozładowania swoich emocji w pozytywny sposób.
                             </p>
                         </div>
                     </div>
@@ -157,21 +157,21 @@ if (isset($_POST['submit'])) {
 
                             <span class="">
                                 <p>
-                                <B>Obalamy mity</B>
-                                - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
-                                Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń.
+                                    <B>Obalamy mity</B>
+                                    - sztuki walki mogą być i są bezpieczne dzięki specjalnej formule bezkontaktowej (4-6 lat) oraz formule light-contact (+7 lat).
+                                    Formuły te pozwalają podopiecznym na bezpieczny trening przy zachowaniu szeregu korzyści z ćwiczeń.
                                 </p>
 
                                 <p> Od dawna wiadomo, że sztuki walki to wyjątkowa forma aktywności ucząca wytrwałości,
-                                zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.
+                                    zwinności i radzenia sobie ze stresem, a także pomagająca korygować wady postawy.
                                 </p>
 
                                 <p>W obecnej sytuacji epidemicznej w kraju i spadku aktywności wśród dzieci naszym celem jest stworzenie bezpiecznego miejsca,
-                                w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
+                                    w którym podopieczni poprawią koordynację, zrzucą zbędne kilogramy, a także nauczą się cierpliwości i kontrolowania swoich emocji.
                                 </p>
 
                                 <p>Dodatkowym atutem są niewielkie grupy(max 16 os.), dzięki czemu podchodzimy indywidualnie do każdego Wojownika.
-                                Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
+                                    Ponadto stale obserwujemy rozwój naszych podopiecznych poprzez cykliczne testy sprawnościowe, które obrazują ich rozwój.
                                 </p>Zachęcamy także rodziców do czynnego udziału w naszych treningach, co jest nie tylko świetną formą spędzania czasu z dzieckiem,
                                 ale także szansą na obserwowanie postępów swojej pociechy.
                             </span>
@@ -181,36 +181,36 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
-        <!-- Gallery -->
+    <!-- Gallery -->
 
-        <!-- Section: Images -->
-        <div class= "container" id="bottom-div-hidden">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
-                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img title="zajęcia sportowe" src="./img/złotySmoczek/zajęcia-sportowe.png" class="w-100 shadow-1-strong rounded " alt="zajęcia sportowe" />
+    <!-- Section: Images -->
+    <div class="container" id="bottom-div-hidden">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
+                <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                    <img title="zajęcia sportowe" src="./img/złotySmoczek/zajęcia-sportowe.png" class="w-100 shadow-1-strong rounded " alt="zajęcia sportowe" />
 
-                    </div>
-                </div>
-                <div class="col-lg-4  mb-lg-0">
-                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img title="ćwiczenia rozciagające" src="./img/złotySmoczek/ćwiczenia-rozciągające.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia rozciagające" />
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-lg-0">
-                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                        <img title="ćwiczenia koordynacyjne"  src="./img/złotySmoczek/ćwiczenia-koordynacyjne.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia koordynacyjne" />
-                    </div>
                 </div>
             </div>
-
+            <div class="col-lg-4  mb-lg-0">
+                <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                    <img title="ćwiczenia rozciagające" src="./img/złotySmoczek/ćwiczenia-rozciągające.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia rozciagające" />
+                </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+                <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                    <img title="ćwiczenia koordynacyjne" src="./img/złotySmoczek/ćwiczenia-koordynacyjne.png" class="w-100 shadow-1-strong rounded " alt="ćwiczenia koordynacyjne" />
+                </div>
+            </div>
         </div>
+
+    </div>
 
     <!-- Gallery -->
     <div id="btn-div" style="text-align:center; display:none ">
         <button id="read-more-btn" onclick="ShowOrHideTxt();"><i class="fas fa-chevron-down"></i></button>
     </div>
-   
+
     <section id="Zajęcia"></section>
 
     <section id="Zajecia">
@@ -228,30 +228,30 @@ if (isset($_POST['submit'])) {
                             Na treningach w Akademii nie zabraknie:<p>
                             <ul class="list-unstyled" style="margin-left:1rem; font-size: 93%;">
                                 <li class="my-1"><i class="fas fa-circle" style="font-size:55%;"></i> &nbsp;bezkontaktowej nauki technik bokserskich i kick-bokserskich,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;treningów formie light-contaktu, </li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;ćwiczeń ogólnorozwojowych całego ciała,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;ćwiczeń rozciągających i koordynacyjnych,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;pracy na refleksem i pamięcią,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;gier i zabaw ruchowych,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;gimnastyki korekcyjnej,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;ćwiczeń ogólnorozwojowych, rozciągających i koordynacyjnych,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;gier i zabaw ruchowych z elementami gimnastyki korekcyjnej,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;nauki pokonywania własnych słabości,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;testów sprawnościowych,</li>
-                                <li class="my-1"><i class="fas fa-circle"style="font-size: 55%;"></i> &nbsp;współpracy z rówieśnikami.</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;treningów formie light-contaktu, </li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;ćwiczeń ogólnorozwojowych całego ciała,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;ćwiczeń rozciągających i koordynacyjnych,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;pracy na refleksem i pamięcią,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;gier i zabaw ruchowych,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;gimnastyki korekcyjnej,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;ćwiczeń ogólnorozwojowych, rozciągających i koordynacyjnych,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;gier i zabaw ruchowych z elementami gimnastyki korekcyjnej,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;nauki koncentracji, kontrolowania ruchów i samodyscypliny,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;nauki pokonywania własnych słabości,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;testów sprawnościowych,</li>
+                                <li class="my-1"><i class="fas fa-circle" style="font-size: 55%;"></i> &nbsp;współpracy z rówieśnikami.</li>
                             </ul>
                             </p>
                             <p>
-                            Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów.
+                                Stosujemy najnowsze metody treningowe, a odpowiednie podejście do dzieci skutkuje przyjazną atmosferą i zauważalnymi efektami treningów.
                             </p>
                             <p>
-                            <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.
-                            Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł. 
+                                <b>Boks olimpijski</b> - wymaga bardzo dobrej techniki, cierpliwości, a także uczy szacunku do przeciwnika i czystej, zdrowej rywalizacji.
+                                Zawodnik musi być szybki i pewnie wymierzać ciosy z zachowaniem reguł.
                             </p>
                             <p>
-                            <b>Kick-boxing light </b> - połączenie boksu i kopnięć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej,
-                            podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.
+                                <b>Kick-boxing light </b> - połączenie boksu i kopnięć, dyscyplina wpływająca na wszechstronny rozwój. Zajęcia prowadzone są w formie bezkontaktowej,
+                                podobnie jak karate, zapewnione jest więc bezpieczeństwo podopiecznych.
                             </p>
 
                         </h6>
@@ -312,7 +312,7 @@ if (isset($_POST['submit'])) {
             <div class="container ">
                 <div class="row justify-content-center ">
                     <div class="col-lg-3 col-md-6  " style=" margin:auto">
-                        <img  src="img/Profil/Trener-Michał-Grabarek.JPG" class="img-fluid  border border-secondary" alt="Trener sportów walki">
+                        <img src="img/Profil/Trener-Michał-Grabarek.JPG" class="img-fluid  border border-secondary" alt="Trener sportów walki">
                     </div>
                     <div class="col-lg-9" style=" margin-top:-5px">
                         <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
@@ -331,7 +331,7 @@ if (isset($_POST['submit'])) {
     <br>
     <section id="treningi">
         <div class="container-fluid padding justify-content-center">
-            
+
             <br><br>
             <div class="row text-center padding w-75 " style="margin: auto;">
                 <div class="col-lg-4">
@@ -421,7 +421,7 @@ if (isset($_POST['submit'])) {
 
                 <section id="FAQ" style=" ">
                     <h2 class="header-info text-dark w-100 text-justify text-center " style="font-weight: 900; font-size: 170%;">Skontaktuj się z nami</h2><br>
-                   
+
 
                     <section class="text-dark contact-us-section">
 
@@ -445,68 +445,68 @@ if (isset($_POST['submit'])) {
                         <?php
                         endif;
                         ?>
-                        <div class="row"> 
+                        <div class="row">
                             <div class="w-100 mb-md-0 mb-5">
                                 <form id="contact-form" name="contact-form" action="" method="POST">
                                     <div class="row">
                                         <div class="col-md-4">
-                                                <div class="md-form mb-0 form-field">
-                                                    <input type="text" id="name" name="name" class="form-control">
-                                                    <label for="name" style="font-weight:bold;">Imie</label>
-                                                </div>
+                                            <div class="md-form mb-0 form-field">
+                                                <input type="text" id="name" name="name" class="form-control">
+                                                <label for="name" style="font-weight:bold;">Imie</label>
+                                            </div>
 
                                         </div>
                                         <div class="col-md-4">
-                                                <div class="md-form mb-0 form-field">
+                                            <div class="md-form mb-0 form-field">
 
-                                                    <input type="text" id="surname" name="surname" class="form-control">
-                                                    <label for="surname" style="font-weight:bold;">Nazwisko</label>
+                                                <input type="text" id="surname" name="surname" class="form-control">
+                                                <label for="surname" style="font-weight:bold;">Nazwisko</label>
 
-                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-md-4">
-                                                <div class="md-form mb-0 form-field">
-                                                    <input type="text" id="email" name="email" class="form-control">
-                                                    <label for="email" style="font-weight:bold;">Twój email</label>
-                                                </div>
+                                            <div class="md-form mb-0 form-field">
+                                                <input type="text" id="email" name="email" class="form-control">
+                                                <label for="email" style="font-weight:bold;">Twój email</label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                          
-                                                <div class="md-form mb-0 form-field">
-                                                    <input type="text" id="subject" name="subject" class="form-control">
-                                                    <label for="subject" style="font-weight:bold;">Temat wiadomości</label>
-                                                </div>
-                                            
+
+                                            <div class="md-form mb-0 form-field">
+                                                <input type="text" id="subject" name="subject" class="form-control">
+                                                <label for="subject" style="font-weight:bold;">Temat wiadomości</label>
+                                            </div>
+
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                                <div class="md-form form-field">
-                                                    <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
-                                                    <label for="message" style="font-weight:bold;">Wiadomość</label>
-                                                </div>
-                                            
+                                            <div class="md-form form-field">
+                                                <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
+                                                <label for="message" style="font-weight:bold;">Wiadomość</label>
+                                            </div>
+
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-3 text-justify  text-center">
-                                            
 
 
-                                                <div class="g-recaptcha" style="transform: scale(0.75); -webkit-transform: scale(0.72); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6LdpmNsaAAAAAGuFRbe1HO4vfrRdZDeACzMz2Dy1"></div>
 
-                                          
+                                            <div class="g-recaptcha" style="transform: scale(0.75); -webkit-transform: scale(0.72); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6LdpmNsaAAAAAGuFRbe1HO4vfrRdZDeACzMz2Dy1"></div>
+
+
                                         </div>
                                         <div class="col-md-9 text-justify  text-center">
-                                           
-
-                                                <input class="btn-send  text-center text-dark" onclick="return checkform()" type="submit" name="submit" value="Wyślij">
 
 
-                                           
+                                            <input class="btn-send  text-center text-dark" onclick="return checkform()" type="submit" name="submit" value="Wyślij">
+
+
+
                                         </div>
 
                                     </div>
@@ -522,8 +522,8 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
-    </body>
-    <?php include('./footer.php'); ?>
+</body>
+<?php include('./footer.php'); ?>
 
 
 
