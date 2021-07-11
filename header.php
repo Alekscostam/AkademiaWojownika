@@ -13,7 +13,7 @@
     .navbar-fixed-top.scrolled {
 
       background-color: #fff !important;
-      opacity: 1;
+      opacity: 1;;
 
       text-shadow: 0px 0px 0px #000 !important;
       color: #cab80e !important;
