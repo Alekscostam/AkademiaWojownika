@@ -46,10 +46,8 @@
         <hr style="background:#ffe600;height:1px">
     </div>
 
-
     <section id="" style="background: #fefefe;">
         <div class="container-fluid">
-
             <div class="row justify-content-center ">
                 <div class="col-lg-7" style=" margin:auto">
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
@@ -63,34 +61,22 @@
                 </div>
             </div>
             <div class="row justify-content-center ">
-                <a href="./regulamin.txt" class="btn btn-light" download="Regulamin">Pobierz regulamin</a>
+                <a href="./Regulamin.pdf" class="btn btn-light" download="Regulamin">Pobierz regulamin</a>
             </div>
         </div>
     </section>
-    <div class="" style="color: #000;
+    <div style="color: #000;
   background-image: linear-gradient(#2c3135e6, rgba(24, 23, 23, 0.9)), url(../img/site/sport.jpg);height:30px">
         <h2 class="header-info text-dark " style="font-weight: 900; font-size: 110%;  "></h2>
         <hr style="background:#ffe600;height:1px">
     </div>
 
-
-
-
-
-
-
     <section id="Treningi-personalne"></section>
-
-
-    <!--  style="background: url(./img/back.png);" -->
-
 
     <div id="club-back" style="padding-top:20px">
         <div class="container-fluid ">
 
-
             <div class="row justify-content-center ">
-
 
                 <div class="col-lg-4 col-md-4  " style=" margin:auto">
                     <!-- <h2 id="data" style=" font-size: 140%;">01.04.2020</h2> -->
@@ -137,15 +123,8 @@
             </div>
         </div>
     </div>
-
-
 </body>
 
-
-
-
 <?php include('./footer.php'); ?>
-
-
 
 </html>
