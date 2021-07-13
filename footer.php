@@ -66,7 +66,6 @@
         <div class="col-md-3 mx-auto mb-4 ">
           <h6 class="text-uppercase  foot-header " style="font-size: 110%"> Media społecznościowe </h6>
           <div class="my-4 ">
-            <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;"> -->
             <a class="btn-social" style="font-size: 190%" href="https://www.facebook.com/awzlotysmok"> <i class="fab fa-facebook-square"></i></a>
             <a class="btn-social" style="font-size: 190%" href="https://www.instagram.com/fight_club_golden_dragon_/"><i class="fab fa-instagram "></i></a>
             <a class="btn-social" style="font-size: 190%" href="https://www.youtube.com/channel/UCUVy3lb-YnbOMu4leinyQcQ"><i class="fab fa-youtube  "></i></a>
@@ -76,7 +75,6 @@
 
         <div class="col-md-6 mx-auto mb-4">
           <h6 class="text-uppercase  foot-header" style="font-size: 110%"> Kontakt</h6>
-          <!-- <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width:310px; height:2px;"> -->
 
           <h7 style="font-size: 90%">
             <ul class="list-unstyled my-4">

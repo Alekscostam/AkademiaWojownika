@@ -59,9 +59,9 @@ body {
 }
 
 .header-content {
-  letter-spacing: 0.8;
+  letter-spacing: 0.1rem;
   font-size: 100%;
-  font-weight: 450;
+  font-weight: normal;
 }
 /*  AKADEMIA SECTION  */
 #Akademia {
@@ -424,7 +424,7 @@ figure {
     margin: 0 auto;
   }
   .navbar-zapisy {
-    padding-top: 85px !important;
+    padding-top: 95px !important;
   }
 
   #right-div-hidden {
@@ -467,7 +467,7 @@ figure {
   .bookmarks {
     text-align: center;
     justify-content: center;
-    font: size 0.7em;
+    font: 0.7em;
     width: 100%;
     color: #292b2c !important;
     border-bottom: 1px solid #e9eff1;
@@ -476,7 +476,7 @@ figure {
   }
   .bookmarks:hover {
     justify-content: center;
-    font: size 0.7em;
+    font:  0.7em;
     width: 100%;
   }
   .text-logo {

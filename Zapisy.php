@@ -41,7 +41,7 @@
         <?php include('./header.php'); ?>
     </header>
     <!--- Image Slider -->
-    <div class="navbar-zapisy" style="  padding-top: 65px; ">
+    <div class="navbar-zapisy" style="  padding-top: 75px; ">
         <h2 class="header-info text-white " style="font-weight: 900; font-size: 120%;  ">ZAPISY DO GRUP</h2>
         <hr style="background:#ffe600;height:1px">
     </div>
@@ -61,6 +61,9 @@
                         </div>
                     </h5>
                 </div>
+            </div>
+            <div class="row justify-content-center ">
+                <a href="./regulamin.txt" class="btn btn-light" download="Regulamin">Pobierz regulamin</a>
             </div>
         </div>
     </section>

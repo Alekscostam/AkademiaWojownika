@@ -74,7 +74,7 @@
       content: "";
       height: 2px;
       max-width: 200px;
-      width: 1.5s;
+     
     }
 
     .bookmarks:hover::after {
